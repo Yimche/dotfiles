@@ -22,6 +22,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'ptzz/lf.vim'
 Plugin 'neovimhaskell/haskell-vim'
 Plugin 'voldikss/vim-floaterm'
+Plugin 'valloric/YouCompleteMe'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -130,6 +131,7 @@ vnoremap <F1> :set invfullscreen<CR>
 
 " Formatting
 map <leader>q gqip
+map <leader>c :execute "set colorcolumn=" . (&colorcolumn == "" ? "80" : "")<CR>
 
 " ino " ""<left>
 " ino ' ''<left>
@@ -178,9 +180,11 @@ map <leader>t :FloatermNew<CR>
 "autocmd VimEnter * NERDTree
 autocmd BufEnter * set number relativenumber
 
+autocmd
+
 " Haskellvim
 " let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
-" let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
+" LET G:HASKELL_ENABLE_RECURSIVEDO = 1      " TO ENABLE HIGHLIGHTING OF `MDO` AND `REC`
 " let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
 " let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
 " let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
@@ -189,3 +193,8 @@ autocmd BufEnter * set number relativenumber
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+" map F2 to set pastetoggle
+set pastetoggle=<F2>
+
+
