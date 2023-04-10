@@ -1,0 +1,195 @@
+#!/bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+export PATH="/home/julian/code_Master/scripts:$PATH"
+
+INTERNAL_MONITOR="eDP-1"
+EXTERNAL_MONITOR="HDMI-1"
+EXT_MON_HEIGHT="1280"
+#EXT_MON_WIDTH="1024"
+EXT_MON_WIDTH="720"
+
+# monitor_select() { # Doesn't work because fall back is HDMI=1
+#   if [[ $(xrandr -q | grep "^DP-1 connected" | wc -l) == 1 || $(xrandr -q | grep "^DP-1 disconnected [0-9]" | wc -l) == 1 ]]; then
+#     EXTERNAL_MONITOR="DP-1"
+#     EXT_MON_HEIGHT="1680"
+#     EXT_MON_WIDTH="1050"
+#   else
+#     EXTERNAL_MONITOR="HDMI-1"
+#     EXT_MON_HEIGHT="1280"
+#     #EXT_MON_WIDTH="1024"
+#     EXT_MON_WIDTH="720"
+#   fi
+# }
+# 
+# monitor_select
+
+# on first load setup default workspaces
+if [[ "$1" == 0 ]]; then
+  if [[ $(xrandr -q | grep "^${EXTERNAL_MONITOR} connected" | wc -l) == 1 ]]; then
+    bspc monitor "$INTERNAL_MONITOR" -d 1 2 3 4
+    bspc monitor "$EXTERNAL_MONITOR" -d 5 6 7 8
+    bspc wm -O "$INTERNAL_MONITOR" "$EXTERNAL_MONITOR"
+	else  
+		bspc monitor "$INTERNAL_MONITOR" -d 1 2 3 4 5 6 7 8
+  fi
+fi
+
+monitor_add() {
+  # Move last 4 desktops to external monitor
+  for desktop in $(bspc query -D --names -m "$INTERNAL_MONITOR"); do
+    if [[ $(expr $desktop - 4) -gt 0 ]]; then
+      bspc desktop "$desktop" --to-monitor "$EXTERNAL_MONITOR"
+    else
+      bspc desktop "$desktop" --to-monitor "$INTERNAL_MONITOR"
+    fi
+  done
+  
+  # Remove temp desktop
+  while [[ $(bspc query -D --names -m "$EXTERNAL_MONITOR" | grep -o "Desktop" | wc -l) != 0 ]]; do
+    bspc desktop Desktop --remove
+  done
+}
+
+# monitor_add() {
+#   # Move last 4 desktops to external monitor
+#   desktops=$(bspc query -D -m "$INTERNAL_MONITOR" | sort -n -k2)
+#   num_desktops=$(echo "$desktops" | wc -l)
+# 
+#   for desktop in $(echo "$desktops" | tail -n 4); do
+#     index=$(echo "$desktop" | cut -d':' -f1)
+#     if [[ $index -gt $(($num_desktops - 4)) ]]; then
+#       bspc desktop "$index" --to-monitor "$EXTERNAL_MONITOR"
+#     else
+#       bspc desktop "$index" --to-monitor "$INTERNAL_MONITOR"
+#     fi
+#   done
+#   # Remove temp desktop
+#   while [[ $(bspc query -D --names -m "$EXTERNAL_MONITOR" | grep -o "Desktop" | wc -l) != 0 ]]; do
+#     bspc desktop Desktop --remove
+#   done
+# }
+
+# monitor_add() {
+#   # Get list of desktops on internal monitor, sorted by ID
+#   desktops=$(bspc query -D --names -m "$INTERNAL_MONITOR" | sort -n)
+# 
+#   # Filter list to desktops with names greater than 4
+#   filtered_desktops=""
+#   for desktop in $desktops; do
+#     if [ "$desktop" -gt 4 ]; then
+#       filtered_desktops="$filtered_desktops $desktop"
+#     fi
+#   done
+# 
+#   # Move filtered desktops to external monitor
+#   for desktop in $filtered_desktops; do
+#     bspc desktop "$desktop" --to-monitor "$EXTERNAL_MONITOR"
+#   done
+#   
+#   # Remove temporary desktops from external monitor
+#   temp_desktops=$(bspc query -D --names -m "$EXTERNAL_MONITOR" | grep -o "Desktop")
+#   for desktop in $temp_desktops; do
+#     bspc desktop "$desktop" --remove
+#   done
+# }
+
+monitor_remove() {
+  # Add default temp desktop because a minimum of one desktop is required per monitor
+  bspc monitor "$EXTERNAL_MONITOR" -a Desktop
+
+  # Move all desktops except the last default desktop to internal monitor
+  while [[ $(bspc query -D -m "$EXTERNAL_MONITOR" | wc -l) != 0 ]]; do
+    for desktop in $(bspc query -D --names -m "$EXTERNAL_MONITOR"); do
+      if [[ $(expr $desktop - 4) -gt 0 ]]; then
+        bspc desktop "$desktop" --to-monitor "$INTERNAL_MONITOR"
+      else
+        bspc desktop "$desktop" --remove
+      fi
+    done
+  done
+
+  # delete default desktops
+  while [[ $(bspc query -D --names -m "$INTERNAL_MONITOR" | grep -o "Desktop" | wc -l) != 0 ]]; do
+    for desktop in $(bspc query -D --names -m "$INTERNAL_MONITOR" | grep -o "Desktop"); do
+      bspc desktop "$desktop" --to-monitor "$INTERNAL_MONITOR"
+    done
+  done
+
+  # delete default desktops
+  while [[ $(bspc query -D --names -m "$INTERNAL_MONITOR" | grep -o "Desktop" | wc -l) != 0 ]]; do
+    for desktop in $(bspc query -D --names -m "$INTERNAL_MONITOR" | grep -o "Desktop"); do
+      bspc desktop "$desktop" --remove
+    done
+  done
+
+  # reorder desktops
+  bspc monitor "$INTERNAL_MONITOR" -o 1 2 3 4 5 6 7 8
+}
+
+# check every time update
+if [[ $(xrandr -q | grep "^${EXTERNAL_MONITOR} connected" | wc -l) == 1 ]]; then
+#  monitor_select
+  xrandr --output "$INTERNAL_MONITOR" --primary --mode 1920x1080 --pos 0x0 --rotate normal --output "$EXTERNAL_MONITOR" --mode "$EXT_MON_HEIGHT"x"$EXT_MON_WIDTH" --pos 1920x0 --rotate normal 
+  monitor_add
+else
+#  monitor_select
+  bspc monitor "$INTERNAL_MONITOR" -o 1 2 3 4 5 6 7 8
+  xrandr --output "$INTERNAL_MONITOR" --primary --mode 1920x1080 --pos 0x0 --rotate normal --output "$EXTERNAL_MONITOR" --off 
+  monitor_remove
+fi
+
+# startup programs
+~/.local/bin/startup 
+
+# bspwm config
+bspc config normal_border_color "#4c566a"
+bspc config active_border_color "#1e1e1e"
+bspc config focused_border_color "#fffaf6"
+bspc config presel_feedback_color "#5e81ac"
+bspc config urgent_border_color "#dd2727"
+
+bspc config automatic_scheme alternate
+bspc config initial_polarity second_child
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+bspc config click_to_focus none
+
+bspc config focus_follows_pointer true
+bspc config history_aware_focus true
+bspc config remove_disabled_monitors true
+bspc config remove_unplugged_monitors true
+bspc config merge_overlapping_monitors true
+
+bspc config top_padding 27
+bspc config bottom_padding 0
+bspc config left_padding 0
+bspc config right_padding 0
+bspc config border_width 3
+bspc config window_gap 7.5
+
+bspc config split_ratio          0.5
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Chromium desktop='^2'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
+bspc rule -a Yad state=floating
+bspc rule -a blueberry state=floating
+bspc rule -a gufw state=floating
+bspc rule -a Zathura state=tiled
+bspc rule -a copyq state=floating
+bspc rule -a scrcpy state=floating
+bspc rule -a firetools state=floating
+bspc rule -a "wine" state=floating
+bspc rule -a "discord" state=floating
+
+#: FCITX
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
