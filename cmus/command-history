@@ -1,0 +1,97 @@
+pl-create Conventional Weapons
+clear
+q
+regresh
+reload
+filter R
+add ~/Music/kohina.m3u
+add "https://kohina.duckdns.org:8000/stream.ogg.m3u"
+add https://kohina.duckdns.org:8000/stream.ogg.m3u
+add https://rainwave.cc/tune_in/1.mp3.m3u
+add ~/Music/rainwave_game_mp3.m3u
+add 
+pluginClean
+PluginClean
+del
+filter 
+pl-clear
+pl-create my ice
+pl-create warm ice
+pl-create allfivenights
+pl-create ytsong
+pl-create soulsbourne
+filter False
+filter none
+live-filter 
+filter duration>=3600
+filter albumduration>=3600
+fil
+live-filter duration>=3600
+live-filter albumduration<=3600
+live-filter
+live-filter q
+pl-create hsm
+md hsm
+w
+set notification
+set
+set status_display_priority=1
+set lib_sort=albumartist album discnumber tracknumber title date filename
+set lib_sort=albumartist album discnumber trackunmber date title filename
+pl-create nc
+set pl_sort=albumartist date album tracknumber title filename
+pl-c
+pl-create ParaLive
+live-filter ck
+pl-d
+pl-create Soft and Sweet
+pl
+pl-delete
+pl-create 'Soft and Sweet'
+pl-create fancy
+pl-create facy
+set format_playlist_va= %-21%A %t (%a)%= | %d 
+set format_playlist= %-21%a %t%= | %d 
+set format_playlist= %-21%a %3n. %t%= | %d 
+set format_playlist= %-21%a %3n. %= | %d 
+pl-create Old School Cool
+delete
+remove
+c
+pl-create For Heartbreaks and Heartaches
+pl-create Liked Singles
+set pl_sort=albumartist album
+set pl_sort=album
+set format_playlist_va= %-21%A %3n. %t (%a)%= | %d 
+set format_playlist_va= %-21%A %3n. %t (%a)%= | %d
+set format_playlist= %-21%a %3n. %t%= | %d
+pl-create jpop
+h
+wq
+pl-create Lofi
+pl-create VGM
+exit
+set status_display_program=/home/julian/code_Master/scripts/status_display_program.sh
+set status_display_program=~/code_Master/scripts/status_display_program.sh
+set status_display_program=~/code_Master/scripts/cmus_notify.sh
+set status_display_program=cmusfm
+set status_display_program=/usr/local/bin/cmus-notify
+set pl_sort=tracknumber
+pl-create Rainimator
+pl-create Jap-Eng
+set follow=true
+set format_current= %a - %l%! - %n. %t%= %y 
+set format_playlist_va= %-21%A %3n. %t (%a)%= |%d
+set format_playlist= %-21%a %3n. %t%= |%d
+set format_playlist= %-21%a %3n. %t%= %y|%d
+set format_playlist_va= %-21%A %3n. %t (%a)%= %d
+set format_playlist= %-21%a %3n. %t%= %d
+set format_playlist= %-21%a %3n. %t%= %y %d
+set format_playlist_va= %-21%A %3n. %t (%a)%= %y %d
+pl-create Another Omega Playlist
+pl-remove
+pl-create Ai Yai Yai
+playlist
+new-playlist
+new
+cmusfm
