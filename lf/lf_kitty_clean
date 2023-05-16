@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-kitty +icat --clear --silent --tranfer-mode file
