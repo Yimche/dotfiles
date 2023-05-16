@@ -1,0 +1,120 @@
+#!/bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+export PATH="/home/julian/code_Master/scripts:$PATH"
+
+INTERNAL_MONITOR="eDP-1"
+#EXTERNAL_MONITOR="HDMI-1"
+#EXT_MON_HEIGHT="1280"
+#EXT_MON_WIDTH="1024"
+#EXT_MON_WIDTH="720"
+EXTERNAL_MONITOR="DP-1"
+EXT_MON_HEIGHT="1680"
+EXT_MON_WIDTH="1050"
+
+
+if [[ "$1" == 0 ]]; then
+	if [[ $(xrandr -q | grep "^${EXTERNAL_MONITOR} connected" | wc -l) == 1 ]]; then
+	  bspc monitor "$INTERNAL_MONITOR" -d "dev" "www" "chat" "ext1"
+	  bspc monitor "$EXTERNAL_MONITOR" -d "doc" "game" "mus" "vid"
+	else
+		bspc monitor "$INTERNAL_MONITOR" -d "dev" "www" "doc" "chat" "mus" "vid" "game" "ext1"
+	fi
+else
+	if [[ $(xrandr -q | grep "^${EXTERNAL_MONITOR} connected" | wc -l) == 1 ]]; then
+	  bspc monitor "$INTERNAL_MONITOR" -d "dev" "www" "chat" "ext1"
+	  bspc monitor "$EXTERNAL_MONITOR" -d "doc" "game" "mus" "vid"
+	  bspc wm -O "$INTERNAL_MONITOR" "$EXTERNAL_MONITOR"
+	else
+		bspc monitor "$INTERNAL_MONITOR" -o "dev" "www" "doc" "chat" "mus" "vid" "game" "ext1"
+	fi
+fi
+
+# check every time update
+if [[ $(xrandr -q | grep "^${EXTERNAL_MONITOR} connected" | wc -l) == 1 ]]; then
+  xrandr --output "$INTERNAL_MONITOR" --primary --mode 1920x1080 --pos 0x0 --rotate normal --output "$EXTERNAL_MONITOR" --mode "$EXT_MON_HEIGHT"x"$EXT_MON_WIDTH" --pos 1920x0 --rotate normal 
+else
+	bspc monitor "$INTERNAL_MONITOR" -o "dev" "www" "doc" "chat" "mus" "vid" "game" "ext1"
+  xrandr --output "$INTERNAL_MONITOR" --primary --mode 1920x1080 --pos 0x0 --rotate normal --output "$EXTERNAL_MONITOR" --off
+fi
+
+# startup programs
+~/.local/bin/startup
+
+# colors
+color0=$(xrdb -query | grep "color0" | cut -f 2)
+color1=$(xrdb -query | grep "color1" | cut -f 2)
+color2=$(xrdb -query | grep "color2" | cut -f 2)
+color3=$(xrdb -query | grep "color3" | cut -f 2)
+color4=$(xrdb -query | grep "color4" | cut -f 2)
+color5=$(xrdb -query | grep "color5" | cut -f 2)
+color6=$(xrdb -query | grep "color6" | cut -f 2)
+color7=$(xrdb -query | grep "color7" | cut -f 2)
+color8=$(xrdb -query | grep "color8" | cut -f 2)
+color9=$(xrdb -query | grep "color9" | cut -f 2)
+color10=$(xrdb -query | grep "color10" | cut -f 2)
+color12=$(xrdb -query | grep "color12" | cut -f 2)
+color13=$(xrdb -query | grep "color13" | cut -f 2)
+color14=$(xrdb -query | grep "color14" | cut -f 2)
+color15=$(xrdb -query | grep "color15" | cut -f 2)
+color16=$(xrdb -query | grep "color16" | cut -f 2)
+
+# bspwm config
+bspc config normal_border_color "#4c566a"
+bspc config active_border_color "#1e1e1e"
+bspc config focused_border_color "#fffaf6"
+bspc config presel_feedback_color "#5e81ac"
+bspc config urgent_border_color "#dd2727"
+
+bspc config automatic_scheme alternate
+bspc config initial_polarity second_child
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+bspc config click_to_focus none
+
+bspc config focus_follows_pointer true
+bspc config history_aware_focus true
+bspc config remove_disabled_monitors true
+bspc config remove_unplugged_monitors true
+bspc config merge_overlapping_monitors true
+
+bspc config top_padding 30
+bspc config bottom_padding 0
+bspc config left_padding 0
+bspc config right_padding 0
+bspc config border_width 3
+bspc config window_gap 7.5
+
+bspc config split_ratio          0.5
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Chromium desktop='^2'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
+bspc rule -a Yad state=floating
+bspc rule -a blueberry state=floating
+bspc rule -a gufw state=floating
+bspc rule -a copyq state=floating
+bspc rule -a scrcpy state=floating
+bspc rule -a firetools state=floating
+
+bspc rule -a Emacs state=tiled desktop='dev' follow=on
+bspc rule -a code-oss state=tiled desktop='dev'
+
+bspc rule -a firefoxdeveloperedition desktop='www' follow=off
+bspc rule -a Zathura state=tiled desktop ='doc'
+
+bspc rule -a qutebrowser desktop='www' follow=on
+
+bspc rule -a Wine state=floating desktop='chat' follow=off
+bspc rule -a 'discord' state=tiled desktop='chat' follow=off
+
+#: FCITX
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
