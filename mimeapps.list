@@ -1,0 +1,11 @@
+[Default Applications]
+video/mp4=mpv.desktop
+application/pdf=org.pwmt.zathura.desktop
+image/jpeg=sxiv.desktop
+image/jpg=sxiv.desktop
+image/png=sxiv.desktop
+image/svg=sxiv.desktop
+audio/x-wav=mpv.desktop
+
+[Added Associations]
+application/vnd.adobe.flash.movie=firefoxdeveloperedition.desktop;
