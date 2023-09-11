@@ -1,0 +1,32 @@
+Config { font             = "JetBrains Mono Bold 10"
+        , additionalFonts = [ "xft:HackNerdFontMono:pixelsize=14:antialias=true:hinting=true"
+                            , "xft:Mononoki Nerd Font:pixelsize=14:antialias=true:hinting=true"
+                            ]
+        --, borderColor     = "#88c0d0"
+        --, border          = TopB
+        , bgColor         = "#263238"
+        , fgColor         = "#eeffff"
+        --, position        = Static {xpos = 15, ypos = 7, width = 1890, height = 29}
+        , position        = TopHM 29 15 15 7 0
+        , lowerOnStart    = True
+        , persistent      = True
+        , sepChar         = "%"
+        , alignSep        = "}{"
+        --, template        = "%UnsafeXMonadLog% }{%music% %sep% %disku% %sep% %pulse:Master% %sep% %memory% %sep% %cpu% %sep% %wlan0% %sep% %battery% %sep% %date% %_XMONAD_TRAYPAD%"
+        , template        = "%UnsafeXMonadLog%}<fc=#88c0d0>%music%</fc>{<fc=#ebbf83> %disku% </fc><fc=#f07178>%sep% %cpu% </fc><fc=#89ddff>%sep% %memory% </fc><fc=#dfdfdf>%sep% %wlan0% </fc><fc=#f78c6c>%sep% %battery%</fc> <fc=#bd93f9>%sep% %date% </fc>"
+
+        , commands        = [ Run BatteryP ["BAT0"] [ "-t", "<fn=2>\xf241</fn> <left>%"] 10
+                            , Run Com "/bin/bash" ["-c", "~/.config/xmobar/playerctl.sh '#ffffff'"] "music" 20
+                            , Run Com "/bin/bash" ["-c", "~/.config/xmobar/ip.sh"] "ip" 30000
+                            , Run Cpu ["-t"," <total>%"] 10
+                            , Run Date "<fn=2>\xf017</fn> %H:%M:%S" "date" 10
+                            --, Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+                            , Run Com "echo" ["<fn=2>\xf053</fn>"] "sep" 10000
+                            , Run DiskU [("/","/: <usedp>%")] [] 20
+                            , Run Memory ["-t"," <usedratio>%"] 10
+                            , Run Network "wlan0" ["-t","<fn=2>\xf1eb</fn> <rx> <fn=2>\xf063</fn><fn=2>\xf062</fn> <tx>"] 10
+                            , Run Volume "pulse" "Master" ["-t","<volume>%"] 1
+                            , Run XPropertyLog "_XMONAD_TRAYPAD"
+                            , Run UnsafeXMonadLog
+                            ]
+        }
