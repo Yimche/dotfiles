@@ -21,7 +21,7 @@ bold_italic_font auto
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 10
+font_size 12.0
 
 #: Font size (in pts)
 
@@ -401,7 +401,7 @@ tab_bar_margin_width 0.0
 
 #: The margin to the left and right of the tab bar (in pts)
 
-tab_bar_style slant
+tab_bar_style fade
 
 #: The tab bar style, can be one of: fade, separator, powerline, or
 #: hidden. In the fade style, each tab's edges fade into the
@@ -1060,6 +1060,6 @@ listen_on unix:/tmp/kitty.sock
 confirm_os_window_close 0
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Snazzy
 include current-theme.conf
 # END_KITTY_THEME
