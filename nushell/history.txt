@@ -1,0 +1,8536 @@
+clear
+fastfetch
+clear
+fastfetch
+config
+config nu
+lf
+config nu
+exit
+clear
+ls
+cd 
+ls
+ls -a
+cal
+clear
+ls
+ls -a
+intellij
+clear
+cd /usr/share/licenses
+cd java17-openjfx/
+ls
+cd
+lf
+exit
+cd /usr/lib/jvm
+ls
+cd javafx-sdk-17.0.8/
+ls
+cd lib/
+ls
+pwd
+exit
+clear
+cd /usr/lib/jvm
+ls
+cd ja
+cd javafx-sdk-17.0.8/
+;s
+ls
+clear
+ls
+cd lib/
+cd
+cd /usr/lib/jvm/
+ls
+vim .zshrc
+exit
+config nu
+$nu.config-path
+vim .config/nushell/config.nu
+config nu
+vim .config/nushell/config.nu
+config nu
+vim .config/nushell/config.nu
+config nu
+exit
+config nu
+pacman -S helix
+sudo pacman -S helix
+helix
+helix test.hs
+ls
+clear
+config nu
+cd .config/nushell
+ls
+vim env.nu
+echo $PATH
+echo $env.PATH
+ghci
+config nu
+vim .config/nushell/
+exit
+vim .config/nushell/config.nu
+exit
+vim .config/nushell/config.nu
+locate -i "In the court of the dragon"
+vim .config/nushell/config.nu
+locate -i "In the court of the dragon"
+vim .config/nushell/config.nu
+locate -i "In the court of the dragon"
+vim .config/nushell/config.nu
+locate -i "In the court of the dragon"
+locate "In the court of the dragon"
+vim .config/nushell/config.nu
+locate "In the court of the dragon"
+locate "test.gs"
+ls
+ls -a
+locate "test.hs"
+vim .config/nushell/config.nu
+locate "test.hs"
+vim .config/nushell/config.nu
+locate "test.hs"
+vim .config/nushell/config.nu
+locate "test.hs"
+vim .config/nushell/config.nu
+ls
+clear
+mpv 'https://www.youtube.com/watch?v=d-CJILu3fd4'
+mpv 'https://www.youtube.com/watch?v=iMaN6dmTkBc'
+ls
+clear
+ls
+clear
+lf
+clear
+zsh
+clear
+sudo locate "death by a thousand cuts"
+locate "death by a thousand cuts"
+ls
+ls -a
+clear
+locate "death by a thousand cuts"
+ls
+ping 1.1.1.1
+pavucontrol
+locate -i "In the court of the dragon"
+locate --help
+exit
+config nu
+config nu 
+vim .config/nushell/config.nu
+locate -i "In the court of the dragon"
+config nu
+locate "In the court of the dragon"
+ls
+cmus
+paru -Qi rime
+paru -Qi fcitx-rime
+lf
+helix
+lf
+vo,
+vim
+android-file-transfer
+cmus
+lf
+clear
+t a Check Youth Fare & Book Flight Home
+t pri 1 B
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh) -ch
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh) -ceh
+vim .config/nushell/config.nu
+vim .config/nushell/config.nu
+clear
+nu -v
+vim .config/nushell/env.nu
+nu
+vim .config/nushell/env.nu
+vim .config/nushell/starship.nu
+lf
+config nu
+vim .config/nushell/starship.nu
+vim .config/nushell/config.nu
+paru helix
+hx .config/nushell/config.nu
+helix .config/nushell/config.nu
+exixt
+exit
+echo $env.HOME
+cd ~
+pwd
+ls -a
+helix .config/nushell/config.nu
+;s
+ip -a
+ip a
+python -m http.server 80
+sudo python -m http.server 80
+helix .config/nushell/config.nu
+ip a a
+ip a
+nc
+sudo gufw
+vim .config/helix/
+helix
+btop
+netstat 6881
+netstat | grep 6881
+exit
+devour gufw
+devour sudo gufw
+su
+exit
+helix .config/nushell/config.nuix
+zsh
+lf
+vim .config/helix/config.toml
+helix
+config nu
+hx
+lf
+hx
+vim .config/helix/config.toml
+pacman -Qi discord-canary
+vim .config/nushell/config.nu
+pacman -Qi llvm
+cat /etc/fstab
+arp-scan 
+arp-scan --localnet
+ip a
+arp-scan -I wlan0 --rtt --format='|${ip;-15}|${max}|${rtt;8}|' 10.28.46.188
+arp-scan -I eth0 --rtt --format='|${ip;-15}|${max}|${rtt;8}|' 10.28.46.188
+arp-scan -I wlan0 --rtt --format='|${ip;-15}|${max}|${rtt;8}|' 10.28.46.188
+echo $PATH
+echo $env.PATH
+pacman -Qi perl
+inxi
+inxi -A
+inxi -AB
+inxi -ABCD
+inxi -G
+paru glxinfo
+inxi -G
+inxi -w
+inxi -SsR
+acpi
+inxi -
+inxi -h
+stress
+stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M --timeout 10s
+autocpu-freq --statu
+auto-cpufreq
+inxi -s
+stress --cpu 8 --io 4 --vm 2 --vm-bytes 128M --timeout 10s
+inxi -w
+inxi -xxxw
+inxi -h
+inxi -N
+inxi -U
+sudo inxi -U
+inxi
+ls
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+clear
+su inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+sudo
+sudo inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+pacman -Qi reflector
+find -f "pacman.conf"
+find -r pacman.conf
+zsh
+vim /etc/pacman.conf
+time
+date
+date now
+exit
+ifconfig
+vim .config/bspwm/bspwmrc
+lf
+ls
+cd code_Master/
+ls
+cd dmscripts/scripts/
+ls
+cd dm-conf
+hostname -A
+hostname -a
+hostname -l
+hostname -i
+hostname -I
+hostname -
+hostname -i
+ip a
+hx /etc/networkManager/
+cd /etc/
+ls
+:q
+zsh
+lfcd
+LFCD
+config nu
+hx .config/nushell/config.nu
+helix .config/nushell/config.nu
+lfcd
+chsh $(which zsh)
+lf
+lfcd
+lf
+vim .config/lf/lfcd.nu
+hx
+lfcd
+ls
+open download_log.txt
+:q
+lf
+lfcd
+ls
+open ANU.txt
+open Lab1.pdf
+xdg-open Lab1.pdf
+hx .config/lf/lfcd.nu
+lfcd
+cd
+clera
+clear
+helix .config/nushell/config.nu
+config nu
+hx .config/nushell/starship.nu
+lfcd
+exit
+lfcd
+lf
+lfcd
+find 
+find "config.nu"
+find -r "config.nu"
+search -r "config.nu"
+help
+help --find
+help find
+find -r "config.nu" -i
+ls
+find -r "20-intel.conf" -i
+pwd
+pwd | find -r "20-intel.conf" -i
+ls | find -r "20-intel.conf" -i
+ls -r
+ls -l
+clear
+ls
+clear
+ls -l
+clear
+ls -h
+find -r -d "/" "config.nu"
+tree
+cd /
+ls *config.nu
+ls *.md
+cd
+ls *.md
+ls *
+ls "*.md"
+find **/*.toml
+ls **/*.toml
+cd /
+ls **/*.toml
+config nu
+exit
+nu
+clear
+find -i **/*in the court of the dragon
+ls "**/*in the court of the dragon"
+locate
+hx .config/nushell/default.nu
+lfcd
+fetch
+^open
+^ls
+lfcd
+lf
+lfcd
+aliases
+help aliases
+`ls`
+lfcd
+which ls
+which open
+`ls`
+`open`
+start
+`open --raw $tmp`
+open --raw $tmp
+mktemp
+let target_dir = (`open --raw $tmp`)
+rm -f $tmp
+rm -rf /tmp/tmp.uY3uwVzZGl
+lfcd
+;fcd
+lfcd
+hx .config/lf/lfcd.nu
+config nu
+lfcd
+clear
+cd
+clear
+config nu
+locate -i "In the court of the dragon"
+triangulate 
+triangulate -i "In the court of the dragon"
+triangulate "In the court of the dragon"
+config nu
+loc "Hazbin Hotel"
+lf
+lfcd
+exit
+env nu
+nu env
+ls -g
+ls | grid -c
+ls -c
+ls -d
+vim .config/nushell/env.nu
+hx zshenv
+hx .config/nushell/env.nu
+lf
+hx .config/nushell/env.nu
+lf
+hx .config/nushell/env.nu
+hx .zshenv
+lf
+ls
+clear
+mpv 'https://www.youtube.com/watch?v=gH2eVIT4RxA'
+kitty +kitten themes
+lf
+ls
+clear
+loc "Helluva Boss"
+find -i 
+ls
+clear
+lf
+echo $env.PATH
+lf
+hx
+hx .config/helix/config.toml
+hx
+kitty +kitten themes
+clear
+lf
+ls
+hx .config/helix/config.toml
+hx
+hx .config/helix/config.toml
+picom
+killall -q picom
+picom
+loc picom.conf
+vim /home/julian/.vim/view/picom.conf.swp
+vim /home/julian/.vim/view/picom.conf.swo
+cp /usr/share/doc/picom/picom.conf.example .config/picom/
+cp /usr/share/doc/picom/picom.conf.example ~/.config/picom/
+cp /usr/share/doc/picom/picom.conf.example $env.HOME/.config/picom/
+cp /usr/share/doc/picom/picom.conf.example HOME/.config/picom/
+cp /usr/share/doc/picom/picom.conf.example ~/.config/picom/
+cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+sudo cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+chsh -s $(which zsh)
+zsh
+sudo cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+cmus
+sudo pacman -Syu
+pacman.conf
+loc pacman.conf
+lf
+trash
+trash help
+trash -h
+mv > ~/.trash
+ls
+lf
+inxi
+lf
+kitty +kitten themes
+cd .config/kitty/
+ls
+hx current-theme.conf
+kitty +kitten themes
+lf
+cd Downloads/
+sudo pacman -U linux-6.3.9-arch1.tar.gz
+paru downgrade
+cd code_Master/Last.fm-Discord-Rich-Presence/
+ls
+open requirements.txt
+paru -S python-pypresence python-pylast python-pystray
+cmus
+paru simplescreenrecorder
+cmus
+hostname -I | awk '{print $1}'
+hostname -i | awk '{print $1}'
+lf
+cd Music/
+mpv 'https://www.youtube.com/watch?v=9NEodNGEx5g'
+loc mpv.conf
+cp /usr/share/doc/mpv/mpv.conf ~/.config/mpv/
+cd .config/mpv/
+ls
+vim mpv.conf
+mpv 'https://www.youtube.com/watch?v=3VB3hCpA85A'
+vim mpv.conf
+cd .config/mpv/
+vim mpv.conf
+mpv 'https://www.youtube.com/watch?v=3VB3hCpA85A'
+mpv 'https://www.youtube.com/watch?v=4px1OIW-ZmQ'
+lf
+paru -Syu
+cmus
+lf
+kitty +kitten themes
+lf
+cd .config/kitty/
+ls
+vim current-theme.conf
+kitty +kitten themes
+cmus
+trash -empty
+trash-empty
+flameshot
+flameshot -gui
+flameshot --help
+flameshot config
+lf
+loc .obsidian/
+cd `Documents/Everything Bucket/`
+ls
+ls -a
+cd .obsidian/
+ls
+l **/*cache
+ls **/*cache
+ls **/* cache
+ls **/*
+cd ~/.config/obsidian
+ls
+rm -rf Cache/
+config nu
+vim .config/helix/
+config nu
+paru zoxide
+zoxide
+zoxide init
+zoxide init nushell
+config nu
+config env
+zoxide init 
+zoxide init nushell
+config env
+vim .config/nushell/env.nu
+mkdir ~/.config/zoxide
+z
+ls
+z code_Master/
+ls
+cd my_repos/
+ls
+cd dotfiles/
+pwd
+z code_Master/
+z dotfiles/
+owd
+pwd
+z
+ls
+z yimche.github.io
+ls
+z css
+ls
+z
+z css
+zoxide
+zoxide query css
+z code_Master/
+z ..
+z code_Master/
+z ..
+z ~/code_Master/
+z
+z Music/
+z code_Master/
+zoxide query code_Master
+zoxide query code_Master/
+zoxide query code_Master
+zoxide 
+zoxide remove code_Master/
+zoxide remove ~/code_Master/
+z
+z code_Master/
+config nu
+zoxide edit
+cd ~/Documents/uni/comp1110-ass1/
+config nu
+cd ~/Documents/uni/comp1110-ass1/
+config nu
+cd ~/Documents/uni/comp1110-ass1/
+zoxide --help
+config nu
+cd ~/Documents/uni/comp1110-ass1/
+git add .
+git commit -m "fixed task 6 using provided methods"
+git push
+cmus
+paru -Syu
+cmus
+mpv 'https://www.youtube.com/watch?v=CpQMqTpM-Xg'
+t add revise comp1600 week3 lecture slides 
+t add revise comp1110 week 2 lecture slides
+t add revise INFS1001 week 1 lecture slides
+t add revise INFS1001 week 2 lecture slides
+t add revise INFS1001 week 3 lecture slides
+clear
+t pri 2 A 5 A 6 A
+t pri 1 A
+t ls
+t pri 4 B 3 B 7 B
+clear
+t ls
+lf
+lf
+revise comp1110 week 3 lecture slides
+t a revise comp1110 week 3 lecture slides
+t pri 8 C
+t ls
+t a INFS1001 Challenge 2
+t pri 9 A
+t pri 2 B
+t ls
+t a COMP1110 Assn 1
+t a COMP1110 Lab 3
+t pri 10 B 11 A
+t ls
+hotname -I
+hostname -i | awk '{print $1}'
+hostname -i
+ip a
+hostname -i | awk '{print $2}'
+lf
+cd .config/xmonad/
+ls
+cd ..
+cd xmobar
+ls
+cd .config/xmobar
+vim ip.sh
+chmod +x ip.sh
+vim playerctl.sh
+zoxide database
+zoxide --help
+zoxide query
+z
+zoxide edit
+z Music/
+z albums_flac/
+z ls
+ls
+z
+z .todo
+ls
+z config
+z todo
+ls
+color
+kitty +kitten themes
+hx config
+lsblk
+xmonad --recompile
+xmonad --reboot
+xmonad reboot
+xmonad --restart
+cd xmobar
+vim xmobarrc new
+xmobar -x 0 ~/.config/xmobar/xmobarrc
+vim xmobarrc2
+cd xmobar
+loc picom.conf
+cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+sudo cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+vim /etc/xdg/picom.conf
+sudo cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+sudo vim /etc/xdg/picom.conf
+htop
+sudo vim /etc/xdg/picom.conf
+xmonad --recompile
+btop
+xmonad --recompile
+alacritty -e btop
+kitty +kitten themes
+sudo vim /etc/xdg/picom.conf
+lf
+ls
+lf
+sudo vim /etc/xdg/picom.conf
+xmonad --recompile
+cd xmobar
+ls
+vim playerctl.sh
+cd xmobar
+ls
+rm -rf xmobarrc2
+vim xmobbarc1
+vim xmobarc1
+xmobar -x 1 ~/.config/xmobar/xmobarrc1
+xmobar -x 2 ~/.config/xmobar/xmobarrc1
+vim xmobarrc1
+xmobar -x 1 ~/.config/xmobar/xmobarrc1
+cd code_Master
+ls
+cd scripts/
+ls
+vim adb-monitor.sh
+cd config
+ls
+cd rofi
+ls
+cd themes
+ls
+lf
+vim contrast.rasi
+vim contrast_colors.rasi
+z ..
+ls
+lf
+copyq gui
+copyq
+xmonad --recompile
+cmus
+paru cue
+cue path "/home/julian/Music/"
+cue evolution korn
+cue korn evolution
+cue evolution
+cue Evolution
+clear
+cue Black Parade
+cue The Pyre
+paru -Rscnd cue
+paru -Rscnd cue-git
+lf
+cmus
+cd xmobar
+echo $(date)
+xmonad --recompile
+cmus
+paru -Rscnd picom
+yay picom-jonaburg
+paru picom-jonabur
+paru picom
+cd code_Master/
+ls
+git clone https://github.com/jonaburg/picom
+cd picom
+meson --buildtype=release . build
+paru uthash
+meson --buildtype=release . build
+ninja -C build
+picom
+sudo pacman -Rscnd picom
+picom
+sudo pacman -Syu picom
+ls
+picom
+cd
+meson uninstall
+ninja uninstall
+picom --experimental backends
+picom --experimental-backends
+paru -Rscnd picom
+loc picom
+cd code_Master/
+ls
+rm -rf picom/
+ls
+loc picom
+paru -S picom
+sudo vim /etc/xdg/picom.conf
+xprop
+sudo vim /etc/xdg/picom.conf
+cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+sudo cp /usr/share/doc/picom/picom.conf.example /etc/xdg/picom.conf
+xprop
+sudo vim /etc/xdg/picom.conf
+xmonad --recompile
+xmonad --restart
+xmonad --recompile
+lf
+nu .zshenv
+ls
+ls -a
+config nu
+lf
+hx .zshenv
+lf
+config env
+cd rofi
+vim config.rasi
+lf
+sudo vim /etc/xdg/picom.conf
+picom --experimental-backends
+cmus
+cd xmobar
+vim playerctl.sh
+mpv 'https://www.youtube.com/watch?v=IfIlcpEBxXE'
+mus
+copyq toggle
+copyq toggle false
+copq &
+copyq &
+copyq server
+systemctl --start copyq.service
+systemctl start copyq.service
+paru -Syu
+wechat
+t ls
+t do 2
+t do 10
+t ls
+cmus
+kitty +kitten themes
+ls
+lf
+cd ~/.cargo/bin
+ls
+:q
+loc ghc
+lf
+paru tealdeer
+ls -a
+loc cargo
+clear
+locate cmus-rpc-rs
+tldr
+paru rust
+pacman rust
+pacman -S rust
+sudo pacman -S rust
+pacman -Qi rustup
+rustup
+echo $env.PATH
+which cargo
+cargo
+ls
+rustc
+zsh
+echo $env.Path
+echo $env.PATH
+hx .zshenv
+loc env
+loc shenv
+clear
+hx .bashrc
+ls -a
+hx .vimrc
+config env
+echo $env.PATH
+config nu
+rg
+tldr rg
+paru ripgrep
+ripgrep
+rg $env.PATH
+rg $env.PATH | grep 'PATH='
+rg $env.PATH | grep 'PATH ='
+sudo rg $env.PATH | grep 'PATH ='
+sudo rg $env.PATH | grep 'PATH='
+config env
+lf
+lfcd
+cd
+loc confedit
+/home/julian/code_Master/dmscripts/scripts/dm-confedit
+hx /home/julian/code_Master/dmscripts/scripts/dm-confedit
+hx /home/julian/code_Master/dmscripts/scripts/dm-conf
+lf
+config nu
+clear
+lf
+webcam
+config nu
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+ghci
+clear
+lf
+loc u7679057.txt
+cd Downloads/
+paru inlyne
+cmus
+xmobar --recompile
+cmus
+config nu
+lf
+copyq toggle
+lf
+config nu
+lf
+;f
+lf
+:q
+config env
+lf
+config env
+config nu
+mpv 'https://www.youtube.com/watch?v=Mc9m8LRdGOI'
+mpv
+cmus
+cd xmobar
+cmus
+lf
+cmus
+mpv 'https://www.youtube.com/watch?v=zf2yTMBfEj8'
+lf
+lg
+lf
+t a SQL video 1
+t a SQL video 2
+t a SQL video 3
+t a SQL video 4
+t a SQL video 5
+t a SQL video 6
+t pri 10 A 11 A 12 A 13 A 14 A 15 A
+t ls
+t do 8
+t ls
+clear
+paru picom
+btop
+paru -Qi btop
+paru -R
+config env
+killall -q firefox
+lf
+;s
+cd Downloads/
+java OptiFine_1.20.1_HD_U_I5.jar
+cd Downloads/
+java jar OptiFine_1.20.1_HD_U_I5.jar
+cd Downloads/
+java -jar OptiFine_1.20.1_HD_U_I5.jar
+cmus
+t do 9
+t ls
+t do 9
+t do 3
+t undo 3
+t 0h
+t -h
+t a revise comp1110 week 2 lecture slides
+t ls
+t do 8 9
+t ls
+t pri 10 A
+t ls
+lf
+mpv 'https://www.youtube.com/watch?v=YldpowZ6w10'
+cd Downloads/
+scp ~/Downloads/employeeCreate.sql u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400
+scp ~/Downloads/employeeInsert.sql u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400
+scp ~/Downloads/employeeQueries.sql u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400
+ssh u7679057@partch.anu.edu.au
+ssh u7679057@partch.anu.edu.au
+btop
+paru -Rscnd kde
+pacman -Qi kworker
+pacman -Syu
+paru -Syu
+cd code_Master/
+git clone https://github.com/ronniedroid/Wall-d.git
+cd Wall-d/
+lf
+./install.sh
+wall-d 
+wall-d -R
+cd ~/Pictures/wallpapers/
+wall-d -Rbf ~/Pictures/wallpapers
+wall-d -R -b -f -d ~/Pictures/wallpapers
+cd code_Master/
+cd Wall-d/
+ls
+cd
+rm -rf code_Master/Wall-d/
+locate -i "wall-d"
+locate -i "walld"
+cd .local/bin/
+ls
+rm -rf wall-d
+lf
+t a move tv series to hard drive
+t pri 11 C
+netstat
+sudo gufw
+mpv 'https://www.youtube.com/watch?v=YldpowZ6w10'
+paru -Syu
+cmus
+lf
+cmus
+lf
+paru cava
+cava
+sudo modprobe snd_aloop
+cava
+ls
+aplay -l
+cd .config/cava/
+ls
+hx cava
+hx config
+cp config config1
+hx config1
+cava -p ~/.config/cava/config2
+cd .config/cava/
+ls
+cava -p ~/.config/cava/config1
+cava
+cava -p ~/.config/cava/config
+cava -p ~/.config/cava/config1
+cmus
+sudo hx /etc/xdg/picom.conf
+xprop
+sudo helix /etc/xdg/picom.conf
+lf
+cd Music/
+spotdl --format flac 'https://open.spotify.com/album/283DOGGsihCDOKbUku4TsX?si=446b7df89c744143'
+spotdl --format flac 'https://open.spotify.com/track/1YCo7DtyEXGLEjIhe3SN0A?si=cac252c68eac48a7'
+spotdl --format flac 'https://open.spotify.com/album/1dK86eMRKHfAeN92ZwFaCe?si=7b464cadffd64fc7'
+cmys
+adb
+adb devices
+adb tcpip 5555
+clear
+adb terminal
+adb
+adb-scan --push --show-progress Music/albums_flac/ /storage/0000-0000/Music/
+config nu
+adb-sync --push --show-progress Music/albums_flac/ /storage/0000-0000/Music/
+adb-sync --show-progress push Music/albums_flac/ /storage/0000-0000/Music/
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/
+adb shell
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/
+adb shell
+lf
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/
+cmus
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+android
+adb devices
+lf
+paru -Rscnd picom
+cd code_Master/
+git clone https://github.com/jonaburg/picom
+cd picom
+meson --buildtype=release . build
+paru libconfig
+meson --buildtype=release . build
+ninja -C build
+picom
+sudo ninja -C build install
+cd code_Master/picom/
+sudo ninja -C build install
+picom --experimental-backends
+loc picom.conf
+lfcd
+cd
+sudo cp ~/code_Master/picom/picom.sample.conf /etc/edg/picom.conf
+sudo cp ~/code_Master/picom/picom.sample.conf /etc/xdg/picom.conf
+vim /etc/xdg/picom.conf
+sudo hx /etc/xdg/picom.conf
+sudo helix /etc/xdg/picom.conf
+config nu
+sudo helix /etc/xdg/picom.conf
+adb shell
+adb-sync --show-progress push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+adb-sync --show-progress push Music/albums_flac/ /storage/0000-0000/Music/
+adb-sync --show-progress push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+cmus
+gpw
+lf
+cd ass1
+ls
+git pull upstream main
+git commit -m "works up to task 7, task 8 still needs work"
+git add .
+git commit -m "works up to task 7, task 8 still needs work"
+git push
+git push origin main
+git 
+git show
+git branch show
+git branch list
+git show branch
+git list branch
+git branch
+git branch show
+git revert
+git reset
+git remote get-url origin
+git commit -m "works up to task 7, task 8 still needs work"
+git add .
+git commit -m "works up to task 7, task 8 still needs work"
+git push
+git add .
+git commit -m "save"
+git push
+git add .
+git commit -m "quicksave"
+git push
+webcan
+webcam
+hx 
+lf
+cd Downlaods/ls
+cd Downloads
+ls
+ls -a
+rm -rf `.~lock.lecture1.ppt#`
+ls
+git add .
+git commit -m "save: error appears to be on top of boxes"
+git push
+adb devices
+git add .
+git commit -m "quicksave: revert here?"
+git puh
+git push
+git revert
+git revert a640edcc
+git stash
+git revert a640edcc
+cmus
+loc "six pills"
+git add .
+git commit -m "SAVE SAVE SAVE TASK 8"
+git add .
+git commit -m "DONE TASK 9"
+git push
+git add .
+git commit -m "Cleanup"
+git push
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlsits/fancy_flac
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlsits/fancy_flac
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlsits/fancy_flac
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlsits/fancy_flac
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlsits/fancy_flac
+adb devices
+adb-sync --show-progress push Music/Playlists/fancy_flac /storage/0000-0000/Music/Playlists/fancy_flac
+adb-sync --show-progress push Music/Playlists/liked_singles_flac /storage/0000-0000/Music/Playlists/liked_singles_flac
+adb-sync --show-progress push Music/Playlists/hell_is_empty/ /storage/0000-0000/Music/Playlists/hell_is_empty/
+adb-sync --show-progress push Music/Playlists/for_heartbreaks_and_heartaches_flac/ /storage/0000-0000/Music/Playlists/hell_is_empty/for_heartbreaks_and_heartaches_flac
+cmus
+git add .
+git commit -m "just in case"
+git push
+git revert 
+git revert 5265d8c3
+git push
+git commit .
+git add .
+git commit -m "J04?"
+git push
+git revert 5265d8c3
+cmys
+mpv 'https://www.youtube.com/watch?v=lf7HikUIevg'
+mpv 'https://www.youtube.com/watch?v=evTrx-2QjjA'
+mpv 'https://www.youtube.com/watch?v=FkKPsLxgpuY'
+mpv 'https://www.youtube.com/watch?v=i4OwdEFpYCc'
+lf
+cd Y1S2
+cd `Documents/Everything Bucket/`
+ls
+cd Uni/Y1S2/
+cd INFS1001/
+ls
+open `INFS1001 Deck Week 3.pptx`
+xdg-open `INFS1001 Deck Week 3.pptx`
+open `INFS1001 Deck Week 3.pdf`
+zoxide query
+zoxide 
+zoxide edit
+cd Y1S2
+ls
+cd
+lf
+mpv 'https://www.youtube.com/watch?v=nbafT2w0cCQ'
+playerctl play-pause
+playerctl
+playerctl play-pause
+playerctl pause
+playerctl next
+playerctl prev
+playerctl previous
+xev
+clear
+xev
+vim .config/xmonad/xmonad.hs
+xev
+git add .
+git commit -m "J06"
+git push
+lf
+clear
+fastfetch
+neofetch
+systemd-analyze
+picom --experimental-backends
+paru -Syu
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+lf
+lfcd
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-ass2.git
+git add remote upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2
+cd ass2
+cd Documents/uni/
+ls
+rm -rf comp1110-ass2/
+https://gitlab.cecs.anu.edu.au/u7679057/comp1110-ass2.git
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-ass2.git
+ls
+cd comp1110-ass2/
+ls
+lf
+git add .
+git commit -m "members and tasks"
+git push
+git add .
+git commit -m "members and tasks"
+git push
+lf
+clear
+lf
+zsh
+clear
+lf
+paru lf
+clear
+pacman -S lf
+sudo pacman -S lf
+lf
+config env
+lf
+curl https://raw.githubusercontent.com/gokcehan/lf/master/etc/icons.example -o ~/.config/lf/icons
+cd Downlaods/
+ls
+cd
+ls
+lf
+cd Downloads
+ls
+java -jar fabric-installer-0.11.2.jar
+cd Downloads
+ls
+lf
+lf
+vim .xinitrc
+ls -a
+pam
+cd .minecraft/
+ls
+lf
+chmod +x *
+ls
+lf
+cd .minecraft/
+chmod +x -R *
+lf
+ls
+clear
+cd Downloads/
+vimv
+lf
+cd lobotomy
+cd `~/Pictures/wallpapers/Lobotomy Corporation/`
+ls
+chmod -x *
+ls
+lf
+lf
+hx .config/fastfetch/config.conf
+paru -Rscnd birdtray
+cd Music/
+spotdl --format flac 'https://open.spotify.com/album/3DR0FThvw6I18Ntp3D6kxf?si=WDI0oHB6SfeViFJdnqNHsQ'
+lf
+cmus
+clear
+exit
+lf
+cmus
+cava
+t do 2 7 8 9
+clear
+t ls
+t pri 6 B
+t pri 4 A
+t ls
+lf
+mpv 'https://www.youtube.com/watch?v=ZPJXEzMuyz8'
+killall -q steam
+killall -q discord-canary
+btop
+killall -q steam
+pidof steam
+btop
+killall -q steam
+mpv 'https://www.youtube.com/watch?v=xlPJ-8CwV_Y'
+paru -Rscnd mpv
+paru mpv
+mpv 'https://www.youtube.com/watch?v=xlPJ-8CwV_Y'
+paru -Rscnd mpv
+paru -Rscnd mpv-git
+paur mpv
+paru mpv
+pacman -Syu
+paru -Syu
+ls
+cd Downloads/
+ls
+clear
+ls
+scp ~/Downloads/employeeCreate.sql u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400/lab3/
+ls
+rm -rf Lab3_exercises-1.pdf
+cd Downloads/
+ls
+open Lab3_exercises.pdf
+xdg-open Lab3_exercises.pdf
+cd Downloads/
+ls
+mimeapps --query 
+xdg-mime --query
+xdg-mime --help
+xdg-mime query filetype Lab3_exercises.pdf
+vim ~/.config/mimeapps.list
+xdg-open Lab3_exercises.pdf
+vim ~/.config/mimeapps.list
+xdg-open Lab3_exercises.pdf
+vim ~/.config/mimeapps.list
+xdg-open
+xdg-open --help
+cd Downloads/
+xdg-open Lab3_exercises.pdf
+sudo vim /usr/bin/xdg-open
+xdg-open Lab3_exercises.pdf
+ssh u7679057@partch.anu.edu.au
+scp u7679057@partch.anu.edu.au:/student/u7679057/Documents/comp2400/lab3/queries.sql ~/Downloads/
+scp u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400/lab3/queries.sql ~/Downloads/
+cd Downloads/
+vim queries.sql
+scp queries.sql u7679057@partch.anu.edu.au:/students/u7679057/Documents/comp2400/lab3/queries.sql
+cd Music/Playlists/
+lf
+cd liked_singles_flac/
+spotdl --format flac 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=b72383e1339d4f67'
+cd ..
+cd for_heartbreaks_and_heartaches_flac/
+spotdl --format flac 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=b72383e1339d4f67'
+cd
+adb-sync --show-progress --del push Music/Playlists/for_heartbreaks_and_heartaches_flac/ /storage/0000-0000/Music/Playlists/for_heartbreaks_and_heartaches_flac
+cmus
+lf
+cmus
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+lf
+cmus
+adb-sync --show-progress --del push Music/Playlists/liked_singles_flac/ /storage/0000-0000/Music/Playlists/liked_singles_flac/
+adb-sync --show-progress --del push Music/Playlists/for_heartbreaks_and_heartaches_flac/ /storage/0000-0000/Music/Playlists/for_heartbreaks_and_heartaches_flac
+cmus
+killall -q discord-canary
+btop
+ls
+clear
+pacman -Syu
+paru -Syu
+lf
+ls
+clear
+lfcd
+vim .zshenv
+cmus
+playerctl
+playerctl --status
+playerctl --metadata
+playerctl metadata
+playerctl daemon
+playerctld daemon
+lf
+virsh net-start default
+sudo virsh net-start defaul
+sudo virsh net-start default
+lf
+lfcd
+vim launcher_id
+lf
+wine FactoryGame.exe
+devour wine FactoryGame.exe
+lf
+loc "Start Game.bat"
+wine FactoryGame.exe
+lf
+lfcd
+ls
+lfcd
+wine Patch.exe
+lfcd
+wine Patch.exe
+f
+lf
+trash-empty
+lfcd
+wine Patch.exe
+lfcd
+wine FactoryGame.exe
+lf
+trash-empty
+lf
+cd
+lfcd
+killall -q discord-canary
+killall -q discordcanary
+killall -q discord
+killall -q steam
+lf
+trash-empty
+lf
+gnome-keyring
+paru gnome-keyring
+gnome-keyring
+mpv 'https://www.youtube.com/watch?v=DDZgDECOcKE&list=PL5Lgag0FDBLVAf5Y9j_oZGggJEqIwrQiE&index=18&pp=iAQB'
+acpi
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=DsIiU5aWcLk'
+hx egg.hs
+ghci -W egg.hs
+lf
+hx egg.hs
+ghci 
+ghci -W egg.hs
+hx egg.hs
+killall -q steam
+git pull
+git pull upstream main
+git remote 
+git remote get-url origin
+git remote get-url upstream
+git remote upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2.git
+git remoate add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2
+git remote add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2
+git pull upstream main
+lf
+python ~/Downloads/ende.py
+python ~/Downloads/ende.py -d
+python ~/Downloads/ende.py -e 
+python ~/Downloads/ende.py -d pw.txt
+python ~/Downloads/ende.py -d
+python ~/Downloads/ende.py -e
+python ~/Downloads/ende.py -d ~/Downloads/flag.txt.en
+lf
+nc mercury.picoctf.net 43239
+cd Downloads/
+ls
+lf
+vim enc
+t a comp2400 assn1
+t a comp1600 ass1
+t a comp1110 D2B
+t ls
+t pri 10 A 9 B 8 B
+t ls
+mpv 'https://www.youtube.com/watch?v=0NDTYIt-0tc'
+mpv 'https://www.youtube.com/watch?v=65pNThTy3tA'
+mpv 'https://www.youtube.com/watch?v=ZPJXEzMuyz8'
+paru -Syu
+lf
+ls
+lf
+chmod -x -R *
+cd ..
+ls
+cd `Limbus Company/`
+chmod -x -R *
+sudo chmod +x -R *
+cmus
+lf
+acpi
+fastfetch --help color
+paru -Syu
+git pull
+git pull upstream main
+btop
+cmus
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+sudo inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+git pull
+git 
+git config
+git config user.name "Julian Mo"
+git config user.name
+cd my_repos/
+ls
+cd code_Master/my_repos/
+ls
+cd u7679057.github.io/
+git config user.name
+git add .
+git commit -m "Die"
+git push
+vim .gitignore
+git reset
+git add .
+git commit -m "Die"
+git push
+git add .
+git commit -m "IntPair Skeleton"
+git rm ".$B-Design.svg-dtmp"
+git rm admin/.$B-Design.svg-dtmp
+git rm admin/.$B-Design.svg.dtmp
+git push
+git reset
+git rm admin/.$B-Design.svg-dtmp
+vim .gitignore
+git add .
+git commit -m "IntPair Skeleton"
+git push 
+git pull
+git add .
+git commit -m "Updated IntPair skeleton documentation"
+git push
+git commit -m "Tile skeleton"
+git push u7679057
+git push
+clear
+git switch 
+git switch main
+git pull 
+git pull
+git rm admin/.$B-Design.svg-dtmp
+git rm admin/.$B-Design.svg.bkp
+git rm -f admin/.$B-Design.svg.bkp
+git commit -m "remove b-design svg backup"
+git push
+ls -a
+cd admin/
+ls
+ls -a
+git pull
+git add .
+git reset
+git add src/comp1110/ass2/game/Assam.java
+cd ..
+git add src/comp1110/ass2/game/Assam.java
+git commit -m "Jason Assam"
+git push
+git add admin/B-contribution.yml
+git commit -m "Julian B-contribution signature"
+git push
+git pull
+git add src/comp1110/ass2/game/Cardinality.java src/comp1110/ass2/game/board/Bridge.java
+git commit -m "Bridge and Cardinality Skeleton"
+git push
+git push\
+git push
+git pull
+git config pull.rebase false
+git pull
+git push
+git pull
+paru -Syu
+git pull
+git stash
+git pull
+lf
+git stash
+git pull
+git add admin/B-Design.pdf
+git commit -m "B-Design"
+git push
+git pull
+git push
+git pull 
+git stash
+git pull
+git push
+git stash apply
+git restore src/comp1110/ass2/game/IntPair.java
+git restore src/comp1110/ass2/game/board/Tile.java
+git commit -m "stash restore"
+git commit -a
+git stash apply
+git stash
+git stash apply
+git restore src/comp1110/ass2/game/board/Tile.java
+git add src/comp1110/ass2/game/board/Tile.java
+git push
+git commit -m "stash restore"
+git rm -f admin/.$B-Design.svg.dtmp
+git pull
+shell
+clear
+git remote get-url upstream
+git rm -f admin/B-Design.svg
+git commit -m "remove svg"
+git push
+cd admin/
+ls
+ls -a
+rm -rf .$*
+ls
+git commit -m "remove svg"
+cd ..
+git add .gitignore
+git commit -m "update gitignore"
+git push
+cd ass2
+git pull
+ls
+cd src/
+ls
+cd comp1110/
+ls
+cd ass2/
+ls
+cd gittest/
+ls
+vim B.java
+git add src/comp1110/ass2/gittest/B.java
+git commit -m "Bob"
+git add src/comp1110/lab5/Dice.java
+git commit -m "Dice"
+git push
+git add .
+git commit -m "HeadsOrTails"
+git push
+lf
+paru typst
+typst
+lf
+paru -Syu
+paru bottom
+bottom
+ps | length
+btm
+sudo hx /etc/xdg/picom.conf
+sudo helix /etc/xdg/picom.conf
+kitty +kitten themes
+clear
+t ls
+t pri 9 A
+t do 10
+t ls
+t pri 2 B 3 B 4 B
+clear
+t ls
+t btm
+btm
+t ls
+clear
+lf
+btm
+cd code_Master/
+ls
+cd Last.fm-Discord-Rich-Presence/
+ls
+paru -Rscnd pypresence pylast pystray
+paru -Rscnd pythonp-ypresence python-pylast python-pystray
+paru -Rscnd python-pypresence python-pylast python-pystray
+paru -Rscnd discord-canary
+killall -q wine
+killall -q Wine
+btm
+lf
+ls
+clear
+ps 
+clear
+ps | memory | take 10
+ps | sort memory | take 10
+ps | sort | take 10
+ps | sort
+ls
+rm -rf egg.hs
+lf
+ls
+killall -q firefox
+adb devices
+paru Syu
+paru -Syu
+lf
+lf
+zathura
+lf
+loc "adobe-reader"
+loc "adobe"
+cd `~/Documents/Everything Bucket/Uni/Y1S2/INFS1001/<\n>`
+cd `~/Documents/Everything Bucket/Uni/Y1S2/INFS1001/`
+ls
+xdg-mime query filetype `INFS1001 Deck Week 4.pdf`
+xdg-open `INFS1001 Deck Week 4.pdf`
+hx .config/mimeapps.list
+cd `~/Documents/Everything Bucket/Uni/Y1S2/INFS1001/`
+ls
+xdg-open `INFS1001 Deck Week 4.pdf`
+lf
+cmus
+firefox
+killall -q firefox
+btm
+acpi
+mpv 'https://www.youtube.com/watch?v=EDMrgFTzL7Y'
+cd Music/
+spotdl --format flac 'https://open.spotify.com/album/0KxKNeKIuo4QUcsNVNge5M?si=KYvHLpdnQNun1jAdiMI8Vw'
+lf
+cmus
+blueberry
+lf
+ls
+cd Downloads/
+ls
+mv Lab4ERD `~/Documents/Everything Bucket/Uni/Y1S2/COMP2400/`
+ls
+cd comp2400/
+cd y1s2
+cd COMP2400/
+ls
+mv Lab4ERD Lab4ERD.svg
+lf
+cd 1600
+cd comp1600
+cd y1s2
+cd 1600
+cd COMP1600/
+ls
+ls | reverse
+cmus
+hx
+zathura !ass1-without-sol.pdf
+killall -q firefox
+paru -Syu
+lf
+loc "our song"
+cmus
+paru -Syu
+ls 
+rm -rf `INFS1001 Deck Week 5(1).pptx`
+sl
+ls
+lf
+ls
+clear
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+adb devices
+\/
+adb devices
+acpi
+curl https://raw.githubusercontent.com/dracula/rofi/master/theme/${mypref}.rasi -o ~/.config/rofi/dracula.rasi
+cd config4
+cd config
+cd rofi
+ls
+mv dracula.rasi themes/
+ls
+cd themes/
+ls
+cd ..
+vim config.rasi
+cd themes/
+vim dracula.rasi
+cd dracula.rasi
+rm -rf dracula.rasi
+cd ..
+lf
+cd rofi
+cd themes/
+vim longbox.rasi
+cd themes/
+cd rofi
+cd themes/
+ls
+cd y1s2
+ls
+cd INFS1001/
+pavu
+paru -Rscnd wine
+lf
+cd INFS1001/
+zoxide query
+zoxide edit
+cd INFS1001
+ls
+t do 2
+ls
+clear
+t ls
+btm
+cmus
+cmsu
+cd .obsidian/
+cd .obsidian
+lf
+cd `Documents/Everything Bucket/`
+ls
+ls -a
+cd .obsidian/
+ls
+ls -a
+cd .obsidian/
+cd .obsidian
+l
+ls -a
+cd Downloads/
+lf
+lf
+paru -Rscnd obsidian
+paru obsidian
+paru -Syu
+downgrade
+sudo downgrade
+sudo downgrade mesa
+loc "pacman.conf"
+vim /etc/pacman.conf
+sudo vim /etc/pacman.conf
+paru -Syu
+cmus
+cd themes
+ls
+cd themes
+vim contrast_colors.rasi
+vim longbox.rasi
+killall -q firefox
+killall obsidian
+paru -Syu
+cmus
+killall -q cmus
+cmus
+cd INFS1001
+ls
+xdg-open `INFS1001 Deck Week 3.pdf`
+killall -q steam
+cd ass2
+ls
+cd ..
+ls
+rm -rf comp1110-ass2/
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-ass2.git
+cd ass2
+ls
+cd ..
+rm -rf comp1110-ass2/
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-ass2.git
+cd comp1110-ass2/
+ls
+pwd
+cd
+cd ass2
+t do 8
+t ls
+t do 2 3
+t ls
+t config
+todo.config
+cd .todo
+ls
+lf
+t pri 5 A
+t ls
+lf
+clear
+t ls
+paru todotxt
+lf
+cd .todo
+t ls
+todo.config
+t ls
+touch ~/.config/obsidian/todo.todotxt
+t ls
+cd obsidian
+cd ~/.config/obsidian
+ls
+cd todo
+t ls
+t a Test
+t ls
+lf
+cp ~/.todo/todo.txt '~/Documents/Everything Bucket/todo.todotxt'
+t ls
+clear
+adb devices
+cmus
+cd infs
+ls
+btm
+cd Everything Bucket
+git remote add origin git@github.com:Yimche/vault.git
+git init
+git remote add origin git@github.com:Yimche/vault.git
+git push
+git commit -m "Init"
+git add .
+git reset
+ls -a
+cd Everything Bucket
+ls
+lf
+vim .gitignore
+git add .
+git commit -m "Init"
+git push
+git push --set-upstream origin master
+ssh-agent -s
+ssh-add -l -E sha256
+eval "S(ssh-agent -s)"
+ssh-keygen -t ed25519 -C "jcyinmo@gmail.com"
+eval "$(ssh-agent -s)"
+cd Everything Bucket
+git push --set-upstream origin master
+cd Everything Bucket
+git push --set-upstream origin master
+cmus
+pythom -m http.server
+hostname -i | awk '{print $2}'
+hostname -i | awk '{print $1}'
+python -m http.server
+python -m http.server 80
+ip a
+python -m http.server 8000
+lf
+cmus
+mpv 'https://www.youtube.com/watch?v=yLdCTnse9l0'
+mpv 'https://www.youtube.com/watch?v=DYBbPKfVgEg'
+lf
+cd Videos
+mimeapps --query 
+mimeapps --query draws-2023-08-28_23.04.39.mkv
+mimeapps --query filetype draws-2023-08-28_23.04.39.mkv
+xdg-mime query filetype draws-2023-08-28_23.04.39.mkv
+lf
+paru devour
+devour
+brave
+devour obsidian
+paru -Rscnd devour
+loc "devour"
+sudo rm -rf /usr/local/bin/devour
+paru devour
+lf
+cd code_Master/
+cd scripts
+ls
+vim launch.sh
+lf
+cd scripts
+chmod +x launch.sh
+firefox
+firefoxdeveloperedition
+firefox
+zsh
+firefox-developer-edition
+lf
+cmus
+cd code_Master/scripts/adb-monitor.sh
+cd scripts
+xrandr
+gtf
+gtf 1024 768
+gtf 1024 768 144
+vim adb-monitor.sh
+xrandr
+ls
+cd xmobar
+ls
+cd xmonad
+vim monitors.sh
+killall -q steam
+btm
+cd COMP2400
+ls
+cd Downloads/
+cd Downloads
+ls
+mv `Assignment 1 (SQL) for COMP2400-20230829.zip` `~/Documents/Everything Bucket/Uni/Y1S2/COMP2400/`
+ls
+cd 2400
+ls
+:extract `Assignment 1 (SQL) for COMP2400-20230829.zip`
+cd 2400
+cd assn1
+ls
+vim myqueries.sql
+paru discord-canary
+btm
+cd Eve
+git add .
+git commit -m "SQL"
+git push
+cd assn1
+ls
+sxiv A1_COMP2400.pdf & hx myqueries.sql
+zathura A1_COMP2400.pdf & hx myqueries.sql
+zathura A1_COMP2400.pdf; hx myqueries.sql
+lf
+kitty
+new
+cd assn1
+cd code_Master/
+ls
+cd Last.fm-Discord-Rich-Presence/
+ls
+cat requirements.txt
+bash
+zsh
+clear
+cat requirements.txt
+paur python-pypresence python-pylast python-pystray
+paru python-pypresence python-pylast python-pystray
+cmus
+paru -S python-pypresence python-pylast python-pystray
+ls
+cd 2400
+ls
+lf
+clear
+ssh u7679057@partch.anu.edu.au
+lf
+lf
+cmus
+mpv 'https://www.youtube.com/watch?v=pY-mZoX0tK0'
+cd assn1
+ls
+cd assn1
+l
+ls
+cd assn1
+ls
+hx
+SELECT m.title, m.production_year<\n>from movie;
+ls
+git add .
+lf
+h
+hx
+git commit -m "Part 2"
+git push
+acpi
+sudo inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+sudo
+su
+sudo inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+ls
+rm -rf eggs.java
+config nu
+ls | reverse
+lf
+lf
+vim myqueries.sql
+cmus
+killall -q cmus
+cmus
+cmuys
+blueb
+cmus
+ssh
+cd assn1
+l
+vim myqueries.sql
+btm
+lf
+cd assn1
+ls
+cd assn1
+ls
+vim myqueries.sql
+lf
+btm
+cd assn1
+vim myqueries.sql
+config nu
+config env
+cd code_Master/
+ls
+cd scripts/
+ls
+config nu
+cd assn1
+ls
+open A1_COMP2400.pdf
+config nu
+open A1_COMP2400.pdf
+open launch.sh
+vim launch.sh
+open
+cd assn1
+open A1_COMP2400.pdf
+ls
+open A1_COMP2400.pdf
+cd ..
+ls
+open WHERE.md
+exit
+ls
+cd Documents/
+ls
+lf
+lfcd
+ls
+cd assn1
+o A1_COMP2400.pdf
+config nu
+cd as
+ls
+o A1_COMP2400.pdf
+config nu
+xopen A1_COMP2400.pdf
+open A1_COMP2400.pdf
+clear
+xopen
+ls
+lf
+lfcd
+ls
+config nu
+launch A1_COMP2400.pdf
+ls
+lf
+cd assn1
+ls
+launch A1_COMP2400.pdf
+t
+t ls
+clear
+launch
+webcam
+launch
+ls
+cd nethackrc/
+ls
+launch myNethackRC
+launch
+q
+:exit
+cd ..
+launch
+cd nethackrc/
+launch myNethackRC
+cd scripts/
+cd ..
+ls
+pwd
+clear
+ls
+launch launch.sh
+adb-monitor
+./home/julian/code_Master/scripts/launch.sh
+echo $env.HOME
+launch launch.sh
+alias
+aliases
+help aliases
+webcam
+clear
+help aliases
+emacs
+help aliases
+cd assn1
+launch A1_COMP2400.pdf
+help aliases
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+launch
+cd
+launch
+config nu
+ls
+launch A1_COMP2400.pdf
+config nu
+lf
+f
+lf
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+ls
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+echo $env.HOME
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+:wq
+:q
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+$
+$"($env.HOME)"
+$"($env.HOME)"/code_Master/scripts/launch.sh
+.$"($env.HOME)"/code_Master/scripts/launch.sh
+.$"($env.HOME)/code_Master/scripts/launch.sh"
+.($env.HOME)/code_Master/scripts/launch.sh
+:q
+exit
+cd assn1
+exit
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+:q
+launch A1_COMP2400.pdf
+:q
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+z edit
+z query
+zoxide edit
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+:q
+exit
+cd assn1
+launch A1_COMP2400.pdf
+exit
+cd assn1
+launch A1_COMP2400.pdf
+cd assn1
+launch A1_COMP2400.pdf
+loc "devour:<\n>"
+loc "death by a thousand cuts"
+adb-sync
+cmus
+config nu
+kitty +kitten themes
+lf
+ls
+clear
+kitty +kitten themes
+ls
+kitty +kitten themes
+cmus
+mpv 'https://www.youtube.com/watch?v=mohMVyoWoDo'
+mpv 'https://www.youtube.com/watch?v=cGSd7zA_93g'
+webcam
+paru -Syu
+webcam
+killall -q steam
+paru cursor
+lf
+paru icoutils
+cd Downloads/
+ls
+cd `Limbus Company/`
+ls
+icotool -x -o . *.cur
+ls
+lf
+mkdir limbus
+mv *.png limbus/
+ls
+lf
+cd /usr/share/icons/
+ls
+lf
+lf
+su
+lf
+lfcd
+ls
+chown
+chown --help
+cd ..
+chown -R julian *
+sudo chown -R julian *
+ls
+lf
+paru -Rscnd icotools
+paru -Rscnd icotool
+cd
+paru icoutils
+paru -Rscnd icoutils
+lf
+lfcd
+paru xorg-xcursorgen
+xcursorgen *.png limbus
+lf
+cd .. 
+ls
+lf
+ls
+cd /usr/share/icons/
+ls
+rm -rf limbus
+sudo rm -rf limbus
+cd
+ls
+lf
+cd code_Master/
+git clone https://github.com/avaunit02/cursor-converter.git
+ls
+cd cursor-converter/
+ls
+cd ani2ico
+ls
+make
+cd ..
+ls
+lf
+./convert.sh
+lf
+ls
+vim convert.sh
+zsh
+lf
+./convert.sh
+lf
+./convert.sh
+lf
+pip install win2xcur
+pacman -S python-win2xcur
+cd
+pacman -S python-win2xcur
+sudo pacman -S python-win2xcur
+python pip install win2xcursor
+pip install win2xcur
+pipx install win2xcur
+pipx uninstall
+lf
+cd `Downloads/Limbus Company/`
+ls
+mkdir output/
+win2xcur *.cur output/
+win2xcur *.cur -o output/
+lf
+cd /usr/share/icons/
+ls
+cd default/
+cd ..
+mkdir limbus
+su
+lf
+cd /usr/share/icons/
+ls
+lf
+cd limbus/
+cd cursors/
+ln -s default `Normal Select`
+ln -s `Normal Select` default
+sudo ln -s `Normal Select` default
+ls
+ln -s `Alternate Select_ Link Select` link
+sudo ln -s `Alternate Select_ Link Select` link
+sudo ln -s `Precision Select_ Vertical Resize_ Horizontal Resize_ Move` crosshair
+lf
+cd /usr/share/icons/
+ls
+vim default/index.theme
+sudo vim default/index.theme
+mpv 'https://www.youtube.com/watch?v=g39AagVW0s0'
+lf
+cd Downloads/
+xdg-mime query filetype `INFS1001 Challenge Task 5.pptx`
+lf
+hostname -i | awk '{print $1}'
+hostname -i | awk '{print $2}'
+hostname -i | awk '{print $1}'
+cd code_Master/my_repos/
+cd u7679057.github.io/
+ls
+hostname -i | awk '{print $1}'
+python -m http.server 8000
+hostname -i | awk '{print $1}'
+cmus
+webcam
+mpv 'https://www.youtube.com/watch?v=H0VpaupINgQ'
+lf
+lf
+paru -Syu
+paru paru
+lf
+paru -Syu
+journalctl betterlockscreen
+journalctl betterlockscreen.service
+systemctl enable betterlockscreen.service
+cp betterlockscreen@.service /usr/lib/systemd/system/
+loc "betterlockscreen"
+paru -Rscnd betterlockscreen
+paru betterlockscreen
+betterlockscreen
+paru betterlockscreen
+systemctl enable betterlockscreen@julian
+systemctl disable betterlockscreen@julian
+cp betterlockscreen@.service /usr/lib/systemd/system/
+cd /usr/lib/systemd/system
+ls
+systemctl enable betterlockscreen@$USER<\n>
+ls | reverse
+cd /usr/local/bin
+ls
+loc "betterlockscreen"
+cp /usr/bin/betterlockscreen /usr/local/bin/
+sudo cp /usr/bin/betterlockscreen /usr/local/bin/
+ls
+lf
+sudo systemctl status betterlockscreen@julian
+systemctl restart betterlockscreen@julian
+systemctl suspend
+loc "betterlockscreen"
+ls | reverse
+cd systemd
+cd
+zoxide query
+zoxide edit
+cd systemd
+locate "betterlockscreen@.service"
+sudo vim /usr/lib/systemd/system/betterlockscreen@.service
+systemctl restart betterlockscreen@julian
+sudo vim /usr/lib/systemd/system/betterlockscreen@.service
+xhost +
+systemctl supend
+systemctl suspend
+t do 5
+clear
+t ls
+paru obsidian
+t a revise comp1110 week 4 lecture slides
+t a revise comp1110 week 5 lecture slides
+t a revise comp1110 week 6 lecture slides
+t ls
+t pri 2 B 3 A 5 B 6 B 7 C
+t ls
+t a revise comp1600 week 5
+t a revise comp1600 week 6
+t ls
+t pri 8 C 9 C
+t ls
+revise comp2400 week 5 lecture slides
+t a revise comp2400 week 5 lecture slides
+t a revise comp2400 week 6 lecture slides
+t ls
+kitty &
+nushell version
+nu -v
+webcam
+lf
+loc "user.js"
+lf
+lfcd
+ls
+vim user.js
+lf
+systemctl suspend; betterlockscreen -l
+cd obsidian
+ls
+ls -a
+lf
+webcam
+ls
+clear
+ls
+clear
+webcam
+cmus
+mpv 'https://www.youtube.com/watch?v=FVDhW_LM8oo'
+winetricks
+wine
+wine --help
+lf
+ls
+mv foobar2000-x64_v2.0.exe foobar2000-v1.4.exe
+ls
+mv foobar2000-v1.4.exe foobar2000_v1.4.exe
+lf
+QT creater
+lf
+cd Downloads/
+wine MusicLyricApp.exe
+wine
+winetricks
+winecfg
+cd Downloads/
+ls
+lf
+:wine MusicLyricApp.exe
+wine MusicLyricApp.exe
+lf
+cd Downloads/
+wine MusicLyricApp.exe
+pip uninstall win2xcur
+pipx uninstall win2xcur
+pipx install syncedlyrics
+paru syncedlyrics
+cd Music/
+ls
+lf
+vim lyrics.py
+ls
+python lyrics.py
+lfcd
+loc "Heaven-piercing giga drill"
+lf
+lf
+python lyrics.py
+ls
+lf
+loc "Heaven-piercing giga drill"
+loc "drill.txt"
+ls
+lf
+lf
+cd Downloads/
+syncedlyrics "Heaven-Piercing Giga Drill Area 11"
+ls
+rm -rf `Heaven-Piercing Giga Drill Area 11.lrc`
+syncedlyrics "Area 11 Heaven-Piercing Giga Drill"
+ls
+lf
+cd .wine/drive_c/users/julian/AppData/Roaming/foobar2000-v2/lyrics/
+ls
+xprop
+sudo vim /etc/xdg/picom.conf
+cd lyrics
+ls
+mpv 'https://www.youtube.com/watch?v=drADXYpSaAs'
+sudo vim /etc/xdg/picom.conf
+winecfg
+sudo virsh net-start default
+wine registry
+wine -v
+wine --version
+paru -Sty
+wine foobar2000
+wine
+wine foobar2000
+lf
+vim foobar2000.desktop
+loca foobar2000.desktop
+loc foobar2000.desktop
+kf
+vim .local/share/applications/wine/Programs/foobar2000.desktop
+xprop
+xpo
+xprop
+xprop WM_CLASS
+paru -Syu
+paru foobar2000
+foobar2000
+paru -Rscnd foobar2000
+WINEPREFIX="/home/user/.local/share/wineprefixes/foobar2000" /usr/bin/wine /home/user/foobar2000/foobar2000.exe /playpause
+WINEPREFIX="/home/julian/.wine/" /usr/bin/wine /home/user/foobar2000/foobar2000.exe /playpause
+WINEPREFIX="/home/julian/.wine/" wine /home/julian/foobar2000/foobar2000.exe /playpause
+lf
+WINEPREFIX="/home/julian/.wine/" wine /home/julian/desktop/foobar2000/foobar2000.exe /playpause
+WINEPREFIX="/home/julian/.wine/" wine /home/julian/Desktop/foobar2000/foobar2000.exe /playpause
+lf
+vim .local/share/applications/wine/Programs/foobar2000.desktop
+wineserver 0k
+wineserver -k
+cd scripts
+ls
+lf
+journalctl betterlockscreen.service
+journalctl betterlockscreen@.service
+journalctl betterlockscreen.service@
+journalctl betterlockscreen.service
+ls
+vim webscrape.py
+rm -rf webscrape.py
+ls
+paru -Qi betterlockscreen
+systemctl enable betterlockscreen@$USER<\n>
+systemctl enable --now betterlockscreen@$USER<\n>
+journalctu -xeu betterlockscreen@$USER.service
+xprop
+xrandr
+xprop
+pidof foobar2000.exe
+mpv 'https://youtube.com/shorts/7nBQK7LOng4?si=LafO-EmaWhbD0_cj'
+cd scripts
+ls
+cd scripts
+ls
+vim fb2k.sh
+chmod +x fb2k.sh
+./fb2k.sh
+vim fb2k.sh
+./fb2k.sh
+vim fb2k.sh
+./fb2k.sh
+vim fb2k.sh
+./fb2k.sh
+vim fb2k.sh
+./fb2k.sh
+pidof foobar2000.exe
+pidof "foobar2000.exe"
+xprop
+vim adb-monitor.sh
+pidof "foobar2000.exe"
+pidof foobar2000.exe
+pidof foobar2000
+pidof foobar2000*
+./fb2k.sh
+pidof foobar2000*
+pidof foobar2000
+pgrep
+pgrep foobar
+./fb2k.sh
+vim fb2k.sh
+pgrep foobar
+xpr
+xprop
+xdotool
+xdotool getwindowname
+xdotool search --name "Foobar2000" getwindowname<\n>
+cd xmobar
+bash
+zsh
+xdotool search
+xdotool search --name "Foobar2000" getwindowname
+clear
+exit
+zsh
+cd scripts
+ls
+pgrep foobar2000
+xdotool search --name "Foobar2000"
+wmctrl -l -x | grep "Foobar2000.Foobar2000" | awk '{print $1}'
+wmctrl -l -x | grep "Foobar2000" | awk '{print $1}'
+wmctrl -l -x | grep "Foobar2000"
+wmctrl -l -x | grep "[Foobar2000]"
+wmctrl -l -x | grep "Foobar2000"
+wmctrl -l -x | grep -i "Foobar2000"
+wmctrl -l -x | grep -i "Foobar2000" | grep -vi "firefox"
+wmctrl -l -x | grep "foobar2000.exe.foobar.exe"
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+zsh
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+fb2kid = wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+vim playerctl.sh
+vim test.sh
+./test.sh
+chmod +x test.sh
+./test.sh
+paru inotify
+vim test.sh
+./test.sh
+wmctrl -l -x | grep "Foobar2000.Foobar2000"
+wmctrl -l -x | grep "Foobar2000.Foobar2000" | awk '{print $1}'
+wmctrl -l -x | grep "Foobar2000.exe.Foobar2000.exe"
+vim test.sh
+clear
+wmctrl -l -x | grep "Foobar2000.exe.Foobar2000.exe"
+cd xmobar
+vim playerctl.sh
+cd
+wmctrl -l -x | grep "Foobar2000.exe.Foobar2000.exe"
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk `{print $1}`
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk `{print $3}`
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk `{print $4}`
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk `{print $5}`
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe"
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk -F 'jmopc | -' '{print $2}'
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk -F ' \\[|\\]' '{print $4}'
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk -F ' \\[|\\]' '{print $3}'
+notify-send
+notify-send "eggs" "benedict"
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+vim test.sh
+./test.sh
+mv test.sh code_Master/scripts/fb2k-notif.sh
+xmonad --recompile
+btm
+cd scripts
+ls
+cd scripts
+ls
+vim fb2k-notif.sh
+cd xmobar
+ls
+lf
+lfcd
+spotdl --format flac 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=210efe97bc3a4d35'
+lf
+cd Music/
+cd Playlists/liked_singles_flac/
+ls
+spotdl --format flac 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=210efe97bc3a4d35'
+cd ..
+spotdl --format flac 'https://open.spotify.com/track/2RVoxE5HKeIT4wZvOCevJR?si=5ee158f74ee447cd'
+spotdl --format flac 'https://open.spotify.com/album/4cZMnC7tAJ4WOAZz93WL1g?si=a8975c2d7d214b00'
+adb devices
+lf
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+cd Music/
+lf
+cd
+adb-sync --show-progress --del push Music/Playlists/for_heartbreaks_and_heartaches_flac/ /storage/0000-0000/Music/Playlists/for_heartbreaks_and_heartaches_flac
+adb-sync --show-progress --del push Music/Playlists/liked_singles_flac/ /storage/0000-0000/Music/Playlists/liked_singles_flac/
+webcam
+lf
+timedatectl
+LF
+lf
+pwd
+lf
+mpv 'https://www.youtube.com/watch?v=dM1sS5emIh4'
+paru -Syu
+lf
+cd `Videos/helluva boss/`
+vimv
+ls
+kf
+ls
+sudo btop
+lf
+wine regedit
+cd scripts
+vim adb-monitor.sh
+vim monitors.sh
+cd xmonad
+ls
+vim monitors.sh
+xrandr
+vim monitors.sh
+xrandr
+clear
+cd scripts
+vim adb-monitor.sh
+cd xmonad
+vim monitors.sh
+xrandr
+cd xmonad
+cd scripts
+xrandr
+lf
+lfcd
+sudo vim 01-dummy-monitor.conf
+vim adb-monitor.sh
+vim monitors.sh
+lf
+lfcd
+sudo mv `01-dummy-monitor.conf` `02-dummy-monitor.conf`
+lfcd
+sudo lf
+lfcd
+zh
+vim egg
+lfcd
+sudo vim 02-dummy-monitor.conf
+cd /etc/X11/xorg.conf.d/
+ls
+vim `02-dummy-monitor.conf`
+sudo vim 02-dummy-monitor.conf
+cd /etc/X11/xorg.conf.d/
+ls
+rm -rf `02-dummy-monitor.conf`
+sudo rm -rf `02-dummy-monitor.conf`
+cd /etc/X11/xorg.conf.d/
+ls
+vim `02-dummy-monitor.conf`
+xrandr
+sudo vim 02-dummy-monitor.conf
+cd /etc/X11/xorg.conf.d/
+sudo vim `02-dummy-monitor.conf`
+cd /etc/X11/xorg.conf.d/
+sudo vim `02-dummy-monitor.conf`
+ls
+cd /etc/X11/xorg.conf.d/
+vim `02-dummy-monitor.conf`
+sudo vim `02-dummy-monitor.conf`
+ls
+cd /etc/X11/xorg.conf.d/
+sudo mv `02-dummy-monitor.conf` $env.HOME/02-dummy-monitor.conf
+sudo mv `02-dummy-monitor.conf` ^'$env.HOME'/02-dummy-monitor.conf
+sudo mv `02-dummy-monitor.conf` ^"$env.HOME"/02-dummy-monitor.conf
+sudo mv `02-dummy-monitor.conf` /home/julian/02-dummy-monitor.conf
+lf
+sudo vim `02-dummy-monitor.conf`
+sudo cp `02-dummy-monitor.conf` /etc/X11/xorg.conf.d/
+rm -rf /etc/X11/xorg.conf.d/02-dummy-monitor.conf
+sudo rm -rf /etc/X11/xorg.conf.d/02-dummy-monitor.conf
+lf
+cd /etc/X11/xorg.conf.d/
+sudo vim `02-dummy-monitor.conf`
+xrandr
+cd /etc/X11/xorg.conf.d/
+sudo vim `02-dummy-monitor.conf`
+cd scripts
+ls
+cd /etc/X11/xorg.conf.d/
+ls
+vim adb-monitor.sh
+cd xmonad
+vim monitors.sh
+xrandr
+vim monitors.sh
+cd xmonad
+vim moni
+cd scripts
+xrandr
+cvt 1024 768
+xset -r
+cvt 1024 768 144
+xrandr
+cd /etc/X11/xorg.conf.d/
+ls
+vim `02-dummy-monitor.conf`
+cd scripts
+ls
+vim adb-monitor.sh
+cd xmonad
+vim monitors.sh
+adb devices
+xrandr
+claer
+xset
+xset r
+cd scripts
+vim adb-monitor.sh
+ls
+clear
+cd
+cd xorg.conf.d
+ls
+vim `02-dummy-monitor.conf`
+cd scripts
+vim adb-monitor.sh
+sudo vim `02-dummy-monitor.conf`
+xrandr
+lf
+cd xorg.conf.d
+ls
+xrandr -q
+startx --screen Dummy Screen
+sudo startx --screen Dummy Screen
+xterm -help
+sudo startx -- -screen Dummy Screen
+sudo startx -- -screen "Dummy Screen"
+sudo startx -- -screen "Dummy"
+sudo startx -- -screen Dummy
+sudo startx -- -screen Dummy Screen
+sudo startx -- -screen 'Dummy Screen'
+vim `02-dummy-monitor.conf`
+sudo vim `02-dummy-monitor.conf`
+xramdr -q
+xrandr
+sudo startx -- -screen DummyScreen
+sudo startx -- -screen DummyScreen :1
+ls
+sudo startx -- -screen DummyScreen :0
+sudo startx -- -screen DummyScreen :1
+sudo startx -- -screen DefaultScreen
+sudo startx -- -screen DefaultScreen :1
+sudo startx -- -screen Default :1
+xrandr
+cd xorg.conf.d
+ls
+sudo vim `02-dummy-monitor.conf`
+xrandr
+cd scripts
+cd xmonad
+ls
+xradr
+xrandr
+xrandr -q
+xrandr
+vim `02-dummy-monitor.conf`
+cd /etc/X11/xorg.conf.d/
+vim `02-dummy-monitor.conf`
+sudo vim `02-dummy-monitor.conf`
+xrandr
+cd scripts
+xrandr --addmode VIRT0 1024x768_144.00
+vim adb-monitor.sh
+cd xorg.conf.d
+ls
+sudo cp `02-dummy-monitor.conf` /home/julian/
+sudo rm -rf `02-dummy-monitor.conf`
+ls
+lf
+lf
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+sudo vim 21-intel.conf
+vim `20-intel.conf`
+ls
+cd xorg.conf.d
+sudo vim 21-intel.conf
+sudo rm -rf `21-intel.conf`
+ls
+vim `20-evdi.conf`
+xrandr
+cd xorg.conf.d
+vim `20-evdi.conf`
+cd xorg.conf.d
+sudo rm -rf `21-intel.conf`
+sudo vim 21-intel.conf
+cd xorg.conf.d
+sudo vim 21-intel.conf
+cd xorg.conf.d
+sudo vim 21-intel.conf
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+sudo vim 21-intel.conf
+mv `21-intel.conf` 19-intel.conf
+sudo mv `21-intel.conf` 19-intel.conf
+cd xorg.conf.d
+ls
+vim `19-intel.conf`
+sudo vim 21-intel.conf
+sudo vim `19-intel.conf`
+xrandr
+cd xorg.conf.d
+vim `19-intel.conf`
+sudo rm -rf `19-intel.conf`
+cd xmonad
+ls
+vim monitors.sh
+cd scripts
+ls
+vim adb-monitor.sh
+xrandr
+vim adb-monitor.sh
+cd scripts
+vim monitors.sh
+cd xmonad
+vim monitors.sh
+cd scripts
+ls
+vim adb-monitor.sh
+xrandr
+ls
+cd scripts
+xset r
+xrandr
+cd xmonad
+vim adb-monitor.sh
+adb devices
+xrandr
+gtf 1024 768 60
+xrandr -q
+cd xorg.conf.d
+ls
+vim 19-intel.conf
+sudo vim 19-intel.conf
+vim adb-monitor.sh
+vim monitors.sh
+cd xorg.conf.d
+sudo vim 19-intel.conf
+sudo mv 19-intel.conf 20-intel.conf
+cd xorg.conf.d
+sudo vim 20-intel.conf
+cd xorg.conf.d
+sudo vim 20-intel.conf
+lspci -vnn | grep '\''[030[02]\]'
+lspci -vnn
+sudo vim 20-intel.conf
+xrandr
+sudo vim 20-intel.conf
+cd xorg.conf.d
+vim `20-intel.conf`
+xrandr
+xrnadr --addmod VIRTUAL1 "1024x768_60.00"
+xrandr --addmod VIRTUAL1 "1024x768_60.00"
+xrandr --addmode VIRTUAL1 "1024x768_60.00"
+sudo mv `20-evdi.conf` $'($env.HOME)'
+ls
+xrandr
+sudo mv `20-evdi.conf` /etc/X11/xorg.conf.d/
+xrandr --listmonitors
+paru xorg-vide-dummy
+paru xorg-video-dummy
+paru video-dummy
+xrandr
+paru -rscnd xf86-video-dummy
+paru -Rscnd xf86-video-dummy
+loc "xorg.conf"
+modprobe evdi initial_device_count=2<\n>
+paru evdi
+paru displaylink
+modprobe evdi initial_device_count=2<\n>
+paru linux
+modprobe evdi initial_device_count=2<\n>
+paru displaylink
+modprobe evdi initial_device_count=2<\n>
+paru evdi
+modprobe evdi initial_device_count=2<\n>
+lf
+lfcd
+ls
+ls -a
+xrandr
+xrandr --listproviders
+cd scripts
+xrandr --listproviders
+xrandr 
+vim adb-monitor.sh
+cd xmonad
+vim monitors.sh
+xrandr
+vim adb-monitor.sh
+cd scripts
+ctf
+gtf 1024 768 144
+xrandr
+xrandr --delmode "DVI-I-1-1" "1024x768_144.00"<\n>
+ls
+xrandr
+xrandr --delmode "DVI-I-1-1" "1024x768_144.00"<\n>
+xrandr
+xrandr --delmode "DVI-I-1-1" "1024x768_144.00"<\n>
+xrandr --rmmode "1024x768_144.00"<\n>
+xrandr
+xrandr --rmmode "1024x768"
+xrandr --addmode "DVI-I-1-1" "1024x768"
+xrandr -q
+adb reverse tcp:5900 tcp:5900
+cd xmonad
+./monitors.sh
+xrandr --output "DVI-I-1-1" --mode 1024x768 --right-of eDP-1
+xrandr
+xrandr --output "DVI-I-1-1" --mode 1024x768 --right-of eDP-1
+x11vnc -clip 1024x768+1920+0
+xrandr
+rclea
+clear
+clear
+cd scripts
+xrandr
+xrandr --rmmode "1024x768"
+xrandr --delmode "DVI-I-1-1" "1024x768"
+xrandr --rmmode "1024x768"
+xrandr
+./adb-monitor.sh boot
+vim ./monitors.sh
+cd xmonad
+xrandr
+clear
+clear
+./adb-monitor.sh boot
+x11vnc -clip 1024x768+1920+0
+xrandr --setprovideroutputsource 1 0 --setprovideroutputsource 2 0
+xrandr
+xrandr --listproviders
+vim ./monitors.sh
+vim adb-monitor.sh
+xrandr -q
+xrandr 
+clear
+cd scripts
+cd xmonad
+ls
+lf
+xrandr
+clear
+xset r
+xprop
+feh --bg-fill --no-fehbg ~/.config/wall.png
+xset -r
+xset r
+xset r on
+vim monitors.sh
+vim adb-monitor.sh
+adb reverse tcp:5900 tcp:5900
+vim adb-monitor.sh
+cd scripts
+vim adb-monitor.sh
+cd xmonad
+vim monitors.sh
+cd scripts
+:w
+adb reverse tcp:5900 tcp:5900
+cd scripts
+vim adb-monitor.sh
+xrandr
+cd xmonad
+vim monitors.sh
+adb reverse tcp:5900 tcp:5900
+xrandr --listproviders
+xmonad --recompile
+xrandr --addmode "DVI-I-1-1" "1024x768"
+xrandr
+xrandr --output "DVI-I-1-1" --mode 1024x768 --right-of eDP-1
+xrandr --output "DVI-I-1-1" --mode "1024x768" --right-of eDP-1
+xrandr --delmode "DVI-I-1-1" "1024x768"
+xrandr
+xrandr --addmode DVI-I-1-1 1920x1080
+xrandr --output DVI-I-1-1 --mode 1920x1080 --right-of eDP-1
+adb reverse tcp:5900 tcp:5900
+x11vnc -clip 1920x1080+1920+0
+xrandr --output DVI-I-1-1 --off
+cd scripts
+adb reverse tcp:5900 tcp:5900
+xrandr --output DVI-I-1-1 --mode 1024x768_144.00
+xrandr
+xrandr --output DVI-I-1-1 --mode "1024x768_144.00"
+xrandr --rmmode "1024x768_144.00"
+xrandr
+x  adb reverse tcp:5900 tcp:5900<\n>
+cd xmonad
+xrandr
+xrandr --output DVI-I-1-1 --mode "1024x768_60.00" --right-of eDP-1
+xset r on
+xset r
+xset -r
+xset r
+xmobar -x 1 ~/.config/xmobar/xmobarrc1
+xmobar -x 1 ~/.config/xmobar/xmobarrc1 &
+xmobar -x 1 ~/.config/xmobar/xmobarrc1
+feh --bg-fill --no-fehbg ~/.config/wall.png
+cd xmobar
+pwd
+ls
+.~/.config/xmonad/monitors.sh
+x11vnc -clip 1024x768+1920+0
+adb reverse tcp:5900 tcp:5900
+x11vnc -clip 1024x768+1920+0
+mpv 'https://www.youtube.com/watch?v=C0VqS8ioyqs'
+vim monitors.sh
+vim adb-monitor.sh
+xinerama
+xinerama1
+cd scripts
+vim adb-monitor.sh
+paru tigervnc
+tigervnc
+xvnc
+xrandr
+Xvfb :1 -screen 0 1024x768x24
+bs
+typst
+lf
+mkdir -p ~/.config/betterlockscreen/ && mv /home/julian/.config/betterlockscreenrc /home/julian/.config/betterlockscreen/betterlockscreenrc
+mkdir -p ~/.config/betterlockscreen/; mv /home/julian/.config/betterlockscreenrc /home/julian/.config/betterlockscreen/betterlockscreenrc
+cd .config/betterlockscreen/
+ls
+vim betterlockscreenrc
+cd .config/betterlockscreen/
+journalctl betterlockscreen.service
+journalctl betterlockscreen@julian.service
+journalctl betterlockscreen@$USER.service
+journalctl betterlockscreen@.service
+systemctl  betterlockscreen@.service
+systemctl status betterlockscreen@.service
+systemctl status betterlockscreen@$USER.service
+paru -Rscnd betterlockscreen
+paru betterlockscreen
+cp betterlockscreen@.service /usr/lib/systemd/system/
+sudo cp betterlockscreen@.service /usr/lib/systemd/system/
+loc betterlockscreen@.service
+systemctl enable betterlockscreen@$USER
+systemctl enable betterlockscreen@julian
+vim betterlockscreenrc
+cd /usr/bin
+ls
+vim betterlockscreen
+cd config
+cd betterlockscreen/
+cd /usr/bin
+vim betterlockscreenrc
+vim betterlockscreen
+lf
+cd .wine
+ls
+vim wine-breeze-dark.reg
+wine regedit wine-breeze-dark.reg
+vim wine-breeze-dark.reg
+wine regedit wine-breeze-dark.reg
+loc picom.conf
+vim /etc/xdg/picom.conf
+sudo vim /etc/xdg/picom.conf
+cd xmobar
+./playerctl.sh
+cd xmobar
+wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe" | awk -F ' \\[|\\]' '{print $3}'
+wmctrl
+wmctrl -l -x
+xdotool getwindowname ^'$(wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe")'
+xdotool getwindowname ^'$($wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe")'
+xdotool getwindowname ^'$(wmctrl -l -x | grep "foobar2000.exe.foobar2000.exe")'
+vim playerctl.sh
+cd xmobar
+playerctl.sh
+./playerctl.sh
+playerctl.sh
+playerctl
+playerctl status
+xprop
+clear
+playerctl
+playerctl -l
+mpv 'https://www.youtube.com/watch?v=8CCTIKvk-Ac'
+mpv 'https://www.youtube.com/watch?v=r36zLaNsF10'
+mpv 'https://www.youtube.com/watch?v=YpPaL814rYA'
+webcam
+nc 0.cloud.chals.io 21029
+lf
+nc 0.cloud.chals.io 21029
+SEND_FLAG_PLEASE
+nc 0.cloud.chals.io 21029
+>SEND_FLAG_PLEASE
+nc 0.cloud.chals.io 21029
+cd Downloads/
+<4a8cd947c2ab0a31b99e5134d0ff5de
+nc 0.cloud.chals.io 21029
+<-53454e445f464c41475f504c45415345
+nc 0.cloud.chals.io 21029
+<b95cf52cfaba0ad572952ffd72374027
+nc 0.cloud.chals.io 21029
+clear
+nc 0.cloud.chals.io 21029
+clear
+nc 0.cloud.chals.io 21029
+88caea90dad5891bb66e3fb079d051b8ef788d944fa9fca709f60ddbaaae3a37
+nc 0.cloud.chals.io 21029
+vim main.py
+rm -rf main.py
+vim main.py
+vim cbc.py
+nc 0.cloud.chals.io 26834
+<\n>nc 0.cloud.chals.io 26834 
+lf
+cd Downloads/
+vim rain.png
+lf
+<\n>nc 0.cloud.chals.io 12782 
+nc 0.cloud.chals.io 14154
+nc 0.cloud.chals.io 14536
+lf
+paru urh
+<\n>nc 0.cloud.chals.io 31192<\n>
+lf
+gimp
+btop
+killall -q audacity
+lf
+cd Downloads/
+vim I_member
+chmod +x I_member
+./I_member
+vim I_member
+objdump
+objdump -d I_member
+./I_member
+vim I_member
+./I_member
+rm -rf I_member
+./I_member
+chmod +x I_member
+./I_member
+objdump -d I_member
+./I_member
+./I_membe
+./I_member
+vim I_member
+lf
+cd Downloads/
+objdump -d I_member
+./I_member
+objdump -d I_member
+ls
+lf
+python LamportServer.py
+https://docs.google.com/document/d/1-8rNa12O5tEzcWR_NkTh6MC8kwO6OR4CGyNswErV9Vo/edit
+nc 0.cloud.chals.io 15880
+vim LamportServer.py
+nc 0.cloud.chals.io 15880
+vim LamportServer.py
+nc 0.cloud.chals.io 15880
+vim LamportServer.py
+nc 0.cloud.chals.io 26834
+nethack
+lf
+pacman -Qi nethack
+lf
+cd Downloads/
+./I_member
+nc 0.cloud.chals.io 12782
+vim snippet.txt
+./I_member
+objdump -d I_member
+clear
+./I_member
+vim CBC.py
+clear
+nc 0.cloud.chals.io 26834
+clear
+nc 0.cloud.chals.io 26834
+nc 0.cloud.chals.io 26833
+nc 0.cloud.chals.io 26834
+nc 0.cloud.chals.io 21029
+nc 0.cloud.chals.io 26834
+lf
+objdump -d I_member
+cd Downloads/
+objdump -d I_member
+lf
+git pull
+lf
+cd Downloads/
+chmod +x ctf_sigid_flag
+./ctf_sigid_flag
+nethack
+lf
+cd Downloads/
+nc 0.cloud.chals.io 21029
+btm
+killall -q discordcanary
+killall -q discord-canary
+lf
+ls
+clear
+lf
+btop
+killall -q steam
+mpv 'https://www.youtube.com/watch?v=aoVVCwx6k1w'
+adb-sync --show-progress --del push Music/Playlists/liked_singles_flac/ /storage/0000-0000/Music/Playlists/liked_singles_flac/
+cd Music/
+cd Pl
+ls
+mkdr "forgotten_era"
+mkdir "forgotten_era"
+cd forgotten_era/
+ls
+spotdl --format flac 'https://open.spotify.com/playlist/1AuqofS3kjAJl0oY8tvjgf?si=b34f5956eff44e52&pt=0d12a329d211969301218c512d3b34a8'
+paru -Syu
+spotdl --format flac 'https://open.spotify.com/playlist/1AuqofS3kjAJl0oY8tvjgf?si=b34f5956eff44e52&pt=0d12a329d211969301218c512d3b34a8'
+paru spotdl
+spotdl --format flac 'https://open.spotify.com/playlist/1AuqofS3kjAJl0oY8tvjgf?si=b34f5956eff44e52&pt=0d12a329d211969301218c512d3b34a8'
+ping 1.1.1.1
+spotdl --format flac 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=7c1a95dce80e4eeb'
+lf
+lfcd
+mpv 'https://www.youtube.com/watch?v=nMN-Nrh_Uho&list=PL5Lgag0FDBLVAf5Y9j_oZGggJEqIwrQiE&index=20&pp=iAQB'
+'https://www.youtube.com/watch?v=yPBaon3L6j4&list=PL5Lgag0FDBLVAf5Y9j_oZGggJEqIwrQiE&index=21&pp=iAQB'
+mpv 'https://www.youtube.com/watch?v=yPBaon3L6j4&list=PL5Lgag0FDBLVAf5Y9j_oZGggJEqIwrQiE&index=21&pp=iAQB'
+t do 1
+t ls
+t do 2 1 4 5
+t ls
+t pri 2 A 3 A 4 A 5 B 6 B
+t ls
+sudo vim /etc/xdg/picom.conf
+xmonad --recompile
+xrdb -query
+lf
+xmonad --recompile
+lf
+vim
+lf
+cd code_Master/dmscripts/
+git pull
+colortest
+color
+ls
+npm install -g ricemood
+lf
+npm install 0g
+npm install -g
+lf
+npm -g install ricemood
+npm install ricemood
+ls
+vim node_modules/
+lf
+ricemood -a
+lf
+npm install ricemood
+npm audit fix
+npm uninstall ricemood
+lf
+paru ricemood
+paru nvm
+config nu
+lf
+loca init-nvm.sh
+lf
+vim /usr/share/nvm/init-nvm.sh
+nvm install node
+paru -Rscnd nvm
+vim /usr/share/nvm/init-nvm.sh
+cd zsh
+exit
+config nu
+:q
+:q!
+exit
+env nu
+ls
+clear
+vim .config/nushell/env.nu
+echo $env.PATH
+ricemood -a
+vim /home/julian/.config/ricemood/ricemood.ini
+ricemood -a
+cd kitty
+cd .config/kitty
+ls
+ricemood -a
+cd ricemood
+cd .config/ricemood
+vim kitty.conf
+ricemood -a
+;f
+lf
+cd kitty
+ls
+vim ricemood-theme.conf
+ricemood -a
+lf
+cd
+vim .fehbg
+ricemood -a
+vim .fehbg
+ricemood -a
+lf
+ricemood -a
+cmus
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+npm uninstall -g ricemood
+lf
+npm install -g ricemood
+ricemood -a
+cd ricemood
+ls
+vim ricemood.ini
+ricemood -a
+lf
+ricemood -a
+cd
+vim .fehbg
+ricemood -a
+vim .fehbg
+cd ricemood
+vim ricemood.ini
+vim kitty.conf
+ricemood -a
+vim kitty.conf
+cd ..
+ricemood -a
+vim kitty.conf
+vim .fehbg
+ricemood -a
+vim .fehbg
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+ricemood
+claer
+config nu
+pfetch
+paru pfetch
+paru -Q fetch
+loc "fetch"
+qlf
+lf
+ricemood -a
+lf
+ricemood -a
+lf
+bg
+ricemood -a
+lf
+ricemood -a
+lf
+vim rofi
+cd rofi
+ls
+vim config.rasi
+ls
+cd themes
+ls
+lf
+ricemood -a
+lf
+cd ricemood
+ls
+vim kitty.conf
+lf
+ricemood -a
+lf
+paru
+vim /etc/pacman.conf
+sudo vim /etc/xdg/picom.conf
+sudo vim /etc/pacman.conf
+paru
+vim longbox.rasi
+ls
+fastfetch
+neofetch
+ls
+git pull
+git add . 
+git commit -m "inital attempt Die.java Task 6"
+git push
+git add .
+git commit -m "inital attempt Die.java Task 6"
+git push
+git pull
+git pull upstream main
+git pull upstream
+git remote get-url upstream
+git remote add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-ass2
+git pull upstream
+git pull upstream main
+git config pull.rebase false
+git pull upstream main
+git add .
+git commit -m "Upstream pull tests + Working Task 6 (Die)"
+git push
+git rm -f src/comp1110/ass2/game/board/Die.java
+git commit -m "Removed redundant Die class"
+git push
+git add .
+git commit -m "Removed forgotten call to Die class in Marrakech.java"
+git push
+paru sayonara
+cmus
+lf
+paru -Rscnd sayonara-player
+lf
+ricemood 
+ricemood -a
+ls
+lf
+xprop
+sudo vim /etc/xdg/picom.conf
+killall -q steam
+cmus
+locate ".xmonad"
+cmus
+lf
+cd xmonad
+ls
+xmonad --recompile
+lfcd
+ls
+vim Egg.hs
+xmonad --recompile
+sudo vim /etc/xdg/picom.conf
+cd .config/sxhkd/
+xrdb -query
+cd .config/sxhkd/
+lf
+cd code_Master/dmscripts/
+ls
+zsh
+clear
+ls
+cd scripts/
+ls
+lf
+paru -Rscnd xmonad
+lf
+cd /usr/share
+ls
+cd lightdm
+cd lightdm-webkit/
+ls
+lf
+cd /usr/share/xsessions/
+ls
+sudo rm -rf >
+vim xmonad.desktop
+cp bspwm.desktop xmonad.desktop
+sudo cp bspwm.desktop xmonad.desktop
+lf
+sudo vim xmonad.desktop
+cd /usr/share/xsessions/
+ls
+xmonad --recompile
+lf
+vim .config/xmonad/xmonad.hs
+xmonad --recompile
+vim xmonad.desktop
+xmonad --recompile
+xmonad --restart
+xmonad
+vim .config/xmonad/xmonad.hs
+xmonad
+xmonad --recompile
+lf
+xmonad --recompile
+xmonad
+xmonad --recompile
+xmonad
+vim .config/xmonad/xmonad.hs
+xmonad --recompile
+cd /usr/share/xsessions/
+sudo vim xmonad.desktop
+lf
+loc xmonad
+loc lightdm
+vim /etc/lightdm/Xsession
+vim /etc/lightdm/lightdm.conf
+startx
+sudo startx
+lf
+lfcd
+vim build
+chmod a+x build
+xmonad --recompile
+ln -s ~/.local/bin/xmonad /usr/bin
+sudo ln -s ~/.local/bin/xmonad /usr/bin
+paru dtos
+lf
+echo $env.PATH
+exit
+env nu
+echo $env.PATH
+vim .config/nushell/env.nu
+vim .bashrc
+echo $env.PATH
+echo $env.XDG_SESSION_TYPE
+paru hyperland
+paru hyprland
+config nu
+exit
+exit
+ls
+rofi
+rofi -show run
+rofi -show ru
+rofi -show run
+polybar --list-monitors
+vim .config/hyprland
+polybar main 
+paru waybar
+lf
+vim .config/hyprland
+foobar2000
+wine foobar2000
+notify-send "eggs" "benedict"
+cd code_Master/scripts/
+ls
+xev
+clear
+xe
+xev
+vim volume-notif.sh
+xev
+vim .config/hypr/hyprland.conf
+vim .config
+cd .config
+lf
+hyprpaper
+feh --bg-fill --no-fehbg ~/.config/wall.png
+paru hyprpaper
+hyprpaper
+cd .config
+hyprpaper
+hyprctl monitors | grep 'Monitor' | awk '{ print $2 }'
+feh --bg-fill --no-fehbg ~/.config/wall.png
+vim .config/hypr/hyprpaper.conf
+rm -rf .config/hypr/hyprpaper.conf
+paru -Rscnd hyprpaper
+paru Swww
+lf
+killall -q lf
+lf
+swww img ~/.config/wall.png
+swww-daemon
+swww init
+swww img ~/.config/wall.png
+betterlockscreen
+betterlockscreen -l
+paru waybar
+killall waybar
+paru -Rscnd waybar
+lf
+cp /etc/xdg/waybar/ ~/.config/waybar/
+mkdir ~/.config/waybar
+cp /etc/xdg/waybar/ ~/.config/waybar/
+cp -r /etc/xdg/waybar/ ~/.config/waybar/
+lf
+lfcd
+ls
+cd .config/waybar/
+ls
+xprop
+waybar
+betterlockscreen -l
+xprop
+systemctl disable betterlockscreen@julian
+paru swaylock
+swaylock
+paru -Rscnd swaylock
+betterlockscreen -l
+systemctl enable betterlockscreen@julian
+xprop
+hyprctl clients
+lf
+hyprctl clients
+xprop
+pidof foobar2000
+pidof foobar2000.exe
+pidof foobar
+pgrep foobar2000
+xprop
+hyprctl clients
+xev
+flameshot
+flameshot gui
+paru xdg-desktop-portals
+paru desktop-portals
+paru hyperland
+paru hyprland
+cmus
+paru spotify-tui
+spt
+paru spotifyd
+spotifyd
+spt
+copyq
+copyq --gui
+copyq --help
+copyq show
+copyq --start-server
+fcitx
+fcitx --help
+fcitx --enable
+fcitx -r
+hyprctl exit
+hyprctl reload
+hyprctl kill
+fcitx
+fcitx-remote
+git pull
+vim ~/.local/bin/wrappedh1
+loc hyprland.desktop
+vim /usr/share/wayland-sessions/hyprland.desktop
+cp /usr/share/wayland-sessions/
+cd /usr/share/wayland-sessions/
+ls
+sudo cp hyprland.desktop hyprland-wrapped.desktop
+sudo vim hyprland-wrapped.desktop
+hyprland-wrapped
+./.local/bin/hyprland-wrapped.desktop
+cd ~/.local/bin
+ls
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+exit
+swww init
+vim /usr/share/wayland-sessions/hyprland.desktop
+vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+lf
+sudo chmod 755 ~/.local/bin/wrappedh1
+lf
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+exit
+ls
+lf
+sudo cp ~/.local/bin/wrappedh1 /usr/local/bin/
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+exit
+sudo rm -rf /usr/local/bin/wrappedh1
+ls /usr/local/bin
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+cd .local/bin/
+ls
+swww
+swww kill
+swww init
+./wrappedh1
+cd .local/bin/
+ls
+pwd
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+cd .local/bin/
+ls
+vim wrappedh1
+sudo vim /usr/share/wayland-sessions/hyprland-wrapped.desktop
+exit
+exit
+swww kill
+swww init
+paru chezmoi
+cd code_Master/
+chezmoi init https://github.com/i4pg/dotfiles.git
+paru -Rscnd chezmoi
+cd waybar
+ls
+vim style.css
+vim moccha.css
+vim style.css
+mv style.css default.css
+cp moccha.css style.css
+vim moccha.jsonc
+mv moccha.css mocha.css
+mv moccha.jsonc mocha.jsonc
+zsh
+vim mocha.jsonc
+waybar -c "$SDIR"/mocha.jsonc -s "$SDIR"/mocha.css &
+waybar -c "$SDIR"/mocha.jsonc -s "$SDIR"/mocha.css
+waybar -c ~/.confi/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+vim mocha.jsonc
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cd waybar
+vim mocha.css
+cd config
+cd helix
+ls
+vim config.toml
+helix
+vim config.toml
+helix
+ls
+lf
+mkdir .waybar
+cd .waybar/
+ls
+vim mocha.css
+cd waybar
+ls
+vim mocha.css
+mv mocha.css ~/.config/waybar/themes/
+ls
+mv mocha.css ~/.config/waybar/themes
+ls
+cd ..
+rm -rf .waybar
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cd waybar
+cd themes
+vim mocha.css
+cd waybar
+vim mocha.css
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+ls
+mv themes waybar/
+mv -r themes waybar
+mv -r themes waybar/
+mv -h
+lf
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cd waybar
+ls
+lf
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cd waybar
+vim mocha.css
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cd waybar
+ls
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+vim config
+vim style.css
+ls
+vim style.css
+waybar
+vim config
+vim style.css
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+waybar
+vim mocha.jsonc
+cd waybar
+vim mocha.jsonc
+kitty conf
+kitty +kitten themes
+ls
+cd hyprland
+cd .config/hypr/
+ls
+vim mocha.conf
+cd hypr
+cd waybar
+vim mocha.css
+cd waybar
+cd themes
+cd mocha.css
+vim mocha.css
+cd..
+cd ..
+vim mocha.css
+vim mocha.conf
+vim waybar
+ls
+cd waybar
+vim mocha.conf
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+lf
+cd waybar
+vim mocha.jsonc
+cd waybar
+ls
+cd waybar
+vim mocha.jsonc
+vim code_Master/dmscripts/scripts/dm-confedit
+ls
+lf
+locate -i "confedit"
+lf
+cd .config/
+cd dmscripts/
+ls
+vim config
+cd .config/waybar/
+ls
+vim mocha.jsonc
+cd waybar
+vim mediaplayer.py
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+ls
+vim mediaplayer.py
+chmod +x mediaplayer.py
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+vim mocha.css
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+vim mediaplayer.py
+waybar -c ~/.config/waybar/mocha.jsonc -s ~/.config/waybar/mocha.css
+cmus
+vim mocha.jsonc
+vim mocha.css
+vim mocha.jsonc
+cd waybar
+vim mocha.jsonc
+ls
+rm -rf config
+rm -rf style.css
+cp mocha.css style.css
+cp mocha.jsonc config
+cd waybar
+playerctl
+playerctl status
+vim mocha.css
+cp mocha.css style.css
+pidof python3
+pgrep python3
+wmctrl -l -x
+hyprctl 
+hyprctl instances
+hyprctl clients
+hyprctl
+waybar
+cd waybar
+vim mocha.css
+cp mocha.css style.css
+waybar
+vim mocha.css
+waybar
+cp mocha.css style.css
+waybar
+vim mocha.css
+cp mocha.css style.css
+waybar
+vim mocha.css
+cp mocha.css style.css
+cmus
+cava
+cmus
+playerctl status
+cd Music/
+lyrics.py
+python lyrics.py
+neofetch
+gnome-tweaks
+loc settings.ini
+neofetch
+vim /usr/share/gtk-3.0/settings.ini
+vim /usr/share/gtk-4.0/settings.ini
+fc-list ':' file
+paru gnome-tweaks
+paru -Rscnd gnome-tweaks
+vim ~/.config/waybar/scripts/active-window.sh
+cd waybar
+vim mocha.css
+killall waybar
+killall python
+killall python3
+waybar
+cd waybar
+cp config mocha.jsonc
+cp style.css mocha.css
+waybar
+cd waybar
+cp config mocha.jsonc
+cd code_Master/scripts/
+cd ..
+lfcd
+git add .
+git rm --cached xmonad/xmonad-contrib
+git rm -f --cached xmonad/xmonad-contrib
+git add /
+git add .
+git rm --cached xmonad/xmonad-contrib
+git rm -f --cached xmonad/xmonad-contrib
+git rm xmonad/xmonad-contrib/
+git rm -f xmonad/xmonad-contrib/
+ls
+lf
+git reset
+lf
+git add .
+git commit -m "xmonad"
+git push
+.ssh
+vim .ssh
+ls
+cd
+ls
+vim .ssh/known_hosts
+git add ssh
+git ssh
+cd code_Master/my_repos/dotfiles/
+lf
+lfcd
+git add .
+git commit -m "update"
+git push
+cd
+cd code_Master/my_repos/dotfiles/
+cd .ssh
+ls
+vim id_ed25519.pub
+vim ~/.local/bin/wrappedh1
+hx --health
+xclip
+paru -Rscnd helix
+paru helix
+paru -Rscnd xclip
+hx --health
+paru -Rscnd termcode
+paru xclip
+paru copyq
+hx --health
+cd .ssh
+ls
+hyprctl clients
+vim id_ed25519.pub
+waybar
+cava
+lf
+cd hypr
+xdg-desktop-portals-hyprland
+xdg-desktop-portal-hyprland
+systemctl enable xdg-desktop-portal-hyprland
+cmus
+mpv 'https://www.youtube.com/watch?v=OIvmWigdkX8'
+mpv 'https://www.youtube.com/watch?v=N5JDJ_7z-0o'
+lf
+cmus
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+spicetify
+spicetify --help
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+spicetify backup apply
+spicetify
+spicetify --help
+spicetify path
+spicetify-cli
+spicetify backup apply enable-devtools
+lf
+cd Downloads/spicetify-main/
+ls
+cp -r catppuccin ~/.config/spicetify/Themes/
+spicetify config current_theme catppuccin
+spicetify config color_scheme mocha
+spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
+spicetify apply
+cd waybar
+cp config mocha.jsonc
+cp style.css mocha.css
+vim config
+cp config mocha.jsonc
+git pull
+hyprctl clients
+sudo pacman -Q linux
+paru grim
+grim
+grim -h
+grim
+grim -g
+grim -
+xev
+paru slurp
+grim -g "$(slurp)" | wl-copy
+paru wl-clipboard
+grim -g "$(slurp)"
+grim -
+grim - | wl-copy
+<\n><\n>grim -g "$(slurp)"<\n>
+slurp
+wl-copy
+wl-clipboard
+wl=copy
+wl-copy
+slurp -d
+cd scripts
+vim xdph-restart.sh
+chmod +x xdph-restart.sh
+./xdph-restart.sh
+systemctl --user status xdg-desktop-portal-hyprland
+systemctl enable --now xdg-desktop-portal-hyprland
+lf
+cd hypr
+ls
+vim mocha.conf
+betterlockscreen -l
+git pull
+cd waybar
+vim mocha.css
+cp mocha.css style.css
+hyprctl clients
+xprop
+killall rofi
+acpi
+git pull
+ls
+clear
+cd code_Master/
+ls
+lf
+killall -q foobar
+killall -q foobar2000.exe
+lf
+cmus
+git pull
+cava
+cmus
+xrandr
+hyprctl monitors
+git pull
+cmus
+systemctl disable betterlockscreen@julian
+paru swaylock
+swaylock
+swaylock --screenshots
+cd .config/
+ls
+mkdir swaylock
+cd swaylock/
+vim config
+swaylock
+swaylock --clock --indicator --screenshots --effect-scale 0.4 --effect-vignette 0.2:0.5 --effect-blur 4x2 --datestr "%a %e.%m.%Y" --timestr "%k:%M"
+paru -Rscnd swaylock
+swaylock
+swaylock --clock --indicator --screenshots --effect-scale 0.4 --effect-vignette 0.2:0.5 --effect-blur 4x2 --datestr "%a %e.%m.%Y" --timestr "%k:%M"
+paru swaylock-effects
+swaylock --clock --indicator --screenshots --effect-scale 0.4 --effect-vignette 0.2:0.5 --effect-blur 4x2 --datestr "%a %e.%m.%Y" --timestr "%k:%M"
+vim config
+rm -rf config
+swaylock --clock --indicator --screenshots --effect-scale 0.4 --effect-vignette 0.2:0.5 --effect-blur 4x2 --datestr "%a %e.%m.%Y" --timestr "%k:%M"
+swaylock
+swaylock --clock --indicator --screenshots --effect-scale 0.4 --effect-vignette 0.2:0.5 --effect-blur 4x2 --datestr "%a %e.%m.%Y" --timestr "%k:%M"
+cd hypr
+vim mocha.css
+ls
+vim config
+lf
+cmus
+cd /etc/systemd/system
+ls
+lf
+cd suspend.target.wants/
+ls
+vim suspend@.service
+sudo vim suspend@.service
+ls
+;f
+lf
+cd /usr/bin
+ls
+qlf
+lf
+systemctl enable swaylock@.service
+systemctl enable swaylock@julian.service
+systemctl enable --now swaylock@julian.service
+lf
+systemctl enable --now swaylock@julian.service
+journalctl -xeu swaylock@julian.service
+lfcd
+systemctl enable --now swaylock@julian.service
+echo $env.WAYLAND_DISPLAY
+journalctl -xeu swaylock@julian.service
+sudo vim swaylock@.service
+systemctl enable --now swaylock@julian.service
+echo $env.WAYLAND_DISPLAY
+journalctl -xeu swaylock@julian.service
+sudo vim swaylock@.service
+lf
+sudo vim swaylock@.service
+systemctl enable --now swaylock@julian.service
+journalctl -xeu swaylock@julian.service
+sudo vim swaylock@.service
+systemctl disable swaylock@.service
+paru swayidle
+ls
+lf
+cd
+cd .config
+ls
+mkdir swayidle
+cd swayidle
+ls
+vim config
+cd swayidle
+vim config
+cd swayidle
+vim config
+git pull
+paru birdtray
+waybar
+cd xmobar
+lf
+cd code_Master/my_repos/dotfiles/xmonad/xmobar/
+ls
+lf
+playerctl
+playerctl status
+cmus
+lf
+cd Downloads/
+ls
+lf
+unzip *.zip
+unzip *
+lf
+unzip '*.zip'
+unzip "*.zip"
+bash
+cd Downloads/
+unzip *.zip
+unzip "*.zip"
+lf
+lf
+trash-empty
+unzip "*.zip"
+lf
+lf
+git pull
+xev
+hyprctl
+hyprctl workspaces
+hyprctl workspaces 
+paru hyprland-relative-workspace
+git reset
+git revert 
+git pull
+hyprctl clients
+git add .
+git commit -m "moved Player instance order around"
+git commit -m "initialised players"
+git commit -m "added some minor documentation"
+git add .
+git commit -m "added some minor documentation"
+git push
+git add .
+git commit -m "added personal todos"
+git push
+git add .
+git commit -m "added personal todos"
+git push
+cava
+cmus
+ls
+clear
+lf
+git add .
+git commit -m "Initiallised Assam"
+git puh
+git push
+killall steam
+paru -Syu
+hyprctl clients
+git rm src/comp1110/ass2/game/Rug
+git commit -m "Removed Redundant Rug Class"
+git push
+git add .
+git commit -m "Initialised Tiles"
+git push
+git pull
+git commit -m "Initialised Tiles"
+git push
+git add .
+git commit -m "Clarified test"
+git push
+git add .
+git commit -m "added a tile identifier since it's rather vague since it's initialised in the for looop"
+git push
+git add .
+git commit -m "Clarified test"
+git push
+git pull upstream main
+cava
+cmus
+git pull
+lf
+nethack
+git add .
+git commit -m "Potential location of all rugs of same ID"
+git push
+git add .
+git commit -m "quicksave: about to change all instances of rugsArray to rugsStrArray"
+git push
+git add /
+git add .
+git commit -m "quicksave: about to change all instances of rugsArray to rugsStrArray + added TODO reminder"
+git push
+easyeffects --gapplication-service
+swww kill
+swww init
+mus
+cmus
+lf
+git config user.name "Julian Mo"
+git add . 
+git commit -m "replaces all instances of 'rugsArray' with 'rugsStringArray'<\n>"
+git push
+git add .
+git commit -m "initial attempt at tile partner coordinate"
+git push
+git add .
+git commit -m "added contains assam check to tile"
+git push
+git add .
+git commit -m "removed completed TODOs"
+git push
+git reset
+git branch show
+git pull
+git branch show
+git branch
+git branch --delete show
+git branch debugging
+git branch --delete debugging
+git switch debugging
+git revert 9a54bde19579950395e531a8085b9be023810161
+git revert --continue
+git reset
+git reset 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git revert 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git reset
+git commit -m "revert branch"
+git revert 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git commit -m "revert save"
+git add .
+git commit -m "revert save"
+git revert 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git revert --continue
+git branch --delete debugging
+git switch main
+git revert --quit
+git switch main
+git merge --rebase
+git merge --abort
+git merge 
+git add .
+git switch main
+git commit -m "idk"
+git switch main
+git branch show
+git add .
+git commit -m "Documentation to help make Rugs.java easier to understand"
+git push
+git switch debugging
+git pull
+git switch main
+git branch
+git branch --delete show
+git branch --delete debugging
+git branch -D debugging
+git switch debugging
+git reset 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git reset --hard77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git reset --hard 77c77d49d1d00923ca3cdf718c6e01cf7b6711e4
+git status
+git checkout
+git switch main
+git branch -D debugging
+git pull
+git switch debugging
+git reset --hard 9a54bde19579950395e531a8085b9be023810161
+git switch main
+git branch -D debugging
+git switch debugging
+git reset --hard febf26851b89773d257dc467ce415d1eb21c55bb
+git diff febf26851b89773d257dc467ce415d1eb21c55bb 9a54bde19579950395e531a8085b9be023810161
+git diff febf26851b89773d257dc467ce415d1eb21c55bb 9a54bde19579950395e531a8085b9be023810161 > diff.txt
+zsh
+cd assn2
+cd ass2
+vim log.txt
+cd ass2
+git reset --hard febf26851b89773d257dc467ce415d1eb21c55bb
+git switch main
+git pull
+git branch -D debugging
+lf
+git branch
+clear
+git reset
+git reset --hard
+git reset --hard 9a54bde19579950395e531a8085b9be023810161
+git reset
+git reset --hard fa88ec1c7af0a985c184ed1b5918f72f012e147e
+git branch tilePartner
+git switch tilePartner
+git reset --hard 9a54bde19579950395e531a8085b9be023810161
+nethack
+mpv 'https://www.youtube.com/watch?v=de2GFWsG9Ug'
+git switch main
+git commit -m "The issue was in Rugs"
+git add .
+git commit -m "The issue was in Rugs"
+git switch main
+git pull
+git switch main
+git branch
+git switch tilePartner
+git add .
+git commit -m "working rugs initialisation"
+git add .
+git commit -m "working rugs initialisation"
+git switch main
+git switch tilePartner
+git merge
+git commit -m "working tile partner?"
+git add .
+git commit -m "working tile partner?"
+git push
+git push --set-upstream origin tilePartner
+git switch main
+git branch
+git pull
+git switch tilePartner
+git commit -m "something ain't right"
+git add .
+git commit -m "something ain't right"
+git switch tilePartner
+git push --set-upstream origin tilePartner
+git merge
+git merge tilePartner main
+git switch main
+git add .
+git commit -m "fixed"
+git push
+vim log.txt
+git rm log.txt
+mpv 'https://www.youtube.com/watch?v=kFG7UDfWH9U'
+git pull
+lf
+loc "Win Win"
+paru -Rscnd rofi
+paru rofi
+paru rofi wayland
+cd hypr
+ls
+lf
+cd Downloads/
+extract *.zip
+unzip "*.zip"
+ls
+lf
+lf
+cmus
+lf
+trash-empty
+mpv 'https://www.youtube.com/watch?v=vCn7JrHM3nI'
+sudo pacman 0Syu
+paru -Syu
+CMUS
+lf
+lfcd
+typst
+typst compile test.typ
+lf
+lfcd
+ls
+mpv 'https://www.youtube.com/watch?v=gLX9hOAjQrY'
+mpv 'https://www.youtube.com/watch?v=B5drnBSYp4g'
+git pull
+lf
+paru -Rscnd simplescreenrecorder
+mpv 'https://www.youtube.com/watch?v=qFAYvTLaKmE'
+mpv 'https://www.youtube.com/watch?v=-PBKR_2dHIs'
+f
+lf
+extract *.zip
+cd Downloads/
+extract *.zip
+unzip "*.zip"
+lf
+cmus
+git pull
+git diff branch
+pavu
+git add .
+git commit -m "Signed originality"
+git push
+git add .
+git commit -m "signed contribution"
+git push
+git add .
+git commit -m "signed originality"
+git push
+git pull
+git push
+git pull
+git add .
+git pull
+git merge resume
+git merge a1cbf92204852ef42b5b17ab6a2ad941bfd603ab
+git commit -m "signed originality"
+git merge a1cbf92204852ef42b5b17ab6a2ad941bfd603ab
+git pull
+git push
+git commit -m "signed originality"
+git add .
+git commit -m "signed originality"
+git push
+swww kill
+swww init
+mpv 'https://www.youtube.com/watch?v=MykbRWNFvQw'
+mpv 'https://www.youtube.com/watch?v=-PBKR_2dHIs'
+git pull
+webcam
+git add src/comp1110/ass2/game/Rug.java
+git commit -m "Added Rug Documentation"
+git push
+git add .
+git commit -m "cleanup"
+git push
+git add .
+git commit -m "C-best"
+git add .
+git commit -m "C-best"
+git push
+playerctl metadata title
+playerctl status
+playerctl statusayerctl metadata
+playerctl metadata
+git pull
+cd ass2
+git pull upstream main
+paru -Syu
+git reset
+git pull
+lf
+git pull
+git merge 
+git commit -m temp
+git add 
+git add .
+git pull
+git commit -m "temp"
+git pull
+git merge
+git reset
+git commit -m "reset"
+git add .
+git commit -m "reset to pull"
+git pull
+git merge
+git add .
+git pull
+git merge MERGE_HEAD
+git merge be8d98322090d8e054f85dd9c6e856dfb029135a
+git merge
+neofetch
+clear
+paru onefetch
+git add .
+git commit -m "First attempt at reinitialising gamestate through loop"
+git push
+git pull
+git reset --hard
+git pull
+git reset --hard 9a54bde19579950395e531a8085b9be023810161
+git pull u7679057
+git pull
+git add .
+git commit -m "Working reinitialisation of Players through loop"
+git push
+git pull
+git add .
+git commit -m "Working reinitialisation of Players through loop"
+git push
+git pull
+mpv 'https://users.cecs.anu.edu.au/~jks/LogicNotes/'
+mpv 'https://www.youtube.com/watch?v=-PBKR_2dHIs'
+mpv 'https://www.youtube.com/watch?v=mwj2XA-51Nk'
+lf
+cd Downloads/
+chmod +x BetterDiscord-Linux.AppImage
+./BetterDiscord-Linux.AppImage
+swww kill
+swww init
+cd Downloads/
+./BetterDiscord-Linux.AppImage
+cd Downloads/
+./BetterDiscord-Linux.AppImage
+swww kill
+swww init
+swww query
+swww init
+swww kill
+swww init
+swww kill
+swww img ~/.config/wall.png
+swww init
+swww img ~/.config/wall.png
+git pull upstream main
+backlight
+brightnessctl
+swww init
+killall vlc
+xrandr
+xrandr --output DP-1 off
+cmus
+hyprctl clients
+clear
+hyprctl workspaces
+killall waybar
+cmus
+ssh u7679057@partch.anu.edu.au
+xev
+xe
+xev
+swww init
+paru -Syu
+lf
+wofi
+paru wofi
+wofi
+wofi --show
+wofi --help
+paru -Rscnd wofi
+cd hypr
+ls
+clear
+cd rofi
+ls
+cd themes
+ls
+vim catppuccin-mocha.rasi
+mpv 'https://www.youtube.com/watch?v=SePMrGjCLbQ'
+lf
+cmus
+killall spotify
+paru -Syu
+git add .
+git commit -m "Completed lab7"
+git push
+cmus
+swww init
+swww kill
+swww init
+nmtui
+lf
+nmtui
+cmus
+lf
+cd Downloads/
+./BetterDiscord-Linux.AppImage
+ls
+clear
+ls
+mpv 'https://www.youtube.com/watch?v=sR8M4zARBXY'
+t do 2 3 4 5 6
+t ls
+clear
+cmus
+lf
+cd Downloads/
+ffmpeg -I "*.mp4" mp3
+mkdir newfiles
+for f in *.m4a; do ffmpeg -i "$f" -codec:v copy -codec:a libmp3lame -q:a 2 newfiles/"${f%.m4a}.mp3"; done
+lf
+cd assn1
+ls
+cd INFS1001
+ls
+ls | reverse
+cd Assn1/
+ls
+cd Assn1/
+cd Assn1
+cd INFS1001
+cd Ass
+cd ..
+cd INFS1001
+cd Assn1/
+ls
+cd INFS1001
+cd Assn1/
+ls
+sxiv Part2.pdf
+zathura Part2.pdf
+swallow
+typst watch Part2.typ
+cd Assn1/
+cd INFS1001
+cd Assn1/
+ls
+cd ..
+ls
+ls | reverse
+vim "Part2.typ"
+lf
+zathura `!INFS1001 2023 S2 Technology Analysis Report.pdf`
+vim "Part2.typ"
+zathura Part2.pdf
+cd Downloads/
+cd ass2
+ls
+cd code_Master/my_repos/dotfiles/xmonad/xmobar/
+mpv 'https://www.youtube.com/watch?v=1Ck_Rju6uks'
+lf
+cd Downloads/
+ls
+lf
+zsh
+cd Downloads/
+config env
+cd Downloads/
+ls
+clear
+lf
+cd INFS1001
+cd assn1
+ls
+z edit
+cd
+zoxide edit
+cd Assn1/
+cd Assn1
+zoxide edit
+cd Assn1
+ls
+kitty
+zsh
+clear
+cd Assn1
+lf
+cd Assn1
+cd ..
+zathura !ass1-without-sol.pdf
+paru pandoc
+sudo pacman -Syu pandoc
+pacman -Qi pandoc
+pandoc
+pandoc --version
+pandoc -h
+cd Assn1
+ls
+pandoc Part2.typ -o test.docx
+pandoc Part2.typ -o test.docx -f typ
+pandoc Part2.typ -o test.docx -f typst
+pandoc Part2.typ -o test.docx -f typ -t docx
+pandoc Part2.typ -o test.docx -f typst
+pandoc -o test.docx -f typ Part2.typ
+pandoc -o test.docx --from typst Part2.typ
+pary pandoc-typst
+paru pandoc-typst
+paru typst
+pandoc -o test.docx --from typst Part2.typ
+pandoc -o test.docx --from typ Part2.typ
+pandoc -s Part2.typ
+paru -Rscnd pandoc
+paru -Rscnd haskell-pandoc
+vim "Part2.typ"
+zathura Part2.pdf
+zathura `!INFS1001 2023 S2 Technology Analysis Report.pdf`
+ls
+cd Assn1
+clear
+nmtui
+nethack
+cd config
+lf
+lfcd
+./BetterDiscord-Linux.AppImage
+lf
+lfcd
+mkdir resume
+cd resume/
+lf
+cd resume
+ls
+cd resume
+watch resume.typ
+vim resume.typ
+vim template.typ
+cd resume
+vim resume.typ
+typst watch resume.typ
+vim template.typ
+cd assn1
+vim Part2.typ
+cd resume
+vim template.typ
+rm template.typ
+cp `~/Documents/Everything Bucket/Uni/Y1S2/INFS1001/Assn1/Part2.typ`
+cd resume
+pwd
+cp `~/Documents/Everything Bucket/Uni/Y1S2/INFS1001/Assn1/Part2.typ` ~/Documents/important/Employment/resume/template.typ
+ls
+ghc
+lf
+mpv 'https://www.youtube.com/watch?v=1Ck_Rju6uks'
+mpv 'https://www.youtube.com/watch?v=2eq-LvTJoFs'
+mpv 'https://www.youtube.com/watch?v=60Mc8HzY324'
+mpv 'https://www.youtube.com/watch?v=O6thDjOMLJU'
+mpv 'https://www.youtube.com/watch?v=c8sllmr8TkI'
+mpv 'https://www.youtube.com/watch?v=mapooT7V8W8'
+ping doubledouble.top
+paru soulseek
+gufw
+sudo gufw
+sudo pacman -S gufw
+sudo gufw
+xhost si:localuser:root
+nicotine
+sudo gufw
+paru -Rscnd nicotine
+paru -Rscnd nicotine+
+lf
+paru -Syu
+neofetch
+fastfetch
+lf
+xmonad --recompil
+xmonad
+exit
+lf
+xmonad --recompile
+loc xmonad.desktop
+vim /usr/share/xsession/xmonad.desktop
+q
+loc xmonad.desktop
+vim /usr/share/xsessions/xmonad.desktop
+exit
+xmonad
+xmonad --recompile
+startx
+ls
+clear
+exit
+stack
+cd .config/xmonad/
+ls
+vim build
+mv build egg
+ls
+exit
+startx
+exit
+exit
+exit
+xmonad --recompile
+cd .config/xmonad/
+ls
+lf
+exit
+xmonad --recompile
+vim /home/julian/.local/share/xmonad/xmonad.errors
+xmonad --recompile
+lf
+xmonad --recompile
+paru -Syu stack
+stack exec
+exec stack --ghc
+loc stack
+xmonad --recompile -v
+xmonad --recompile
+cd .config/xmonad/
+vim build
+sudo pacman -S stack
+stack upgrade
+stack
+xmonad --recompile
+exit
+exit
+exit
+startx
+exit
+cd .config/
+cd xmonad
+ls
+vim stack.yaml
+stack install
+ghc
+ghc --upgrade
+ghci
+zsh
+xmonad --recompile
+cd
+xmonad --recompile
+zsh
+config env
+exit
+config env
+xmonad --recompile
+xmonad --restart
+exit
+exit
+startx
+xmonad
+xmonad --recompile
+exit
+exit
+exit
+startx
+xmonad --recompile
+xmonad
+vim /usr/share/xsessions/xmonad.desktop
+sudo vim /usr/share/xsessions/xmonad.desktop
+xmonad --recompile
+su
+xmonad --recompile
+reboo
+reboot
+xmonad --recompile
+zsh
+exit
+cd xmonad
+xmonad --recompile
+cabal update
+cabal install
+vim cabal.project
+cabal install
+vim cabal.project
+cabal install
+ls
+lf
+vim cabal.project
+cabal install
+vim cabal.project
+cabal install
+vim cabal.project
+cabal install
+vim cabal.project
+rm -rf cabal.project
+cabal update
+lf -a
+ls -a
+lf
+loc containers
+cd
+rm -rf .stack/
+trash-empt
+trash-empty
+cd xmonad
+ls
+ghc-pkg check containers
+ghc-pkg --check containers
+ghc-pkg --help
+ghc-pkg check
+ghc-pkg list containers
+hyprctl 
+hyprctl plugin
+cd scripts
+ls
+vim adb-monitor.sh
+hyprctl output create headless
+vim adb-monitor.sh
+cd scripts
+hyprctl monitors
+paru wayvnc
+hyprctl output remove HEADLESS-1
+swww init
+vim adb-monitor.sh
+cd config
+ls
+mkdir wayvnc
+cd wayvnc
+vim config
+wayvnc 0.0.0.0
+wayvnc --log-level=info 0.0.0.0
+hyprctl output create headless
+wayvnc --log-level=info 0.0.0.0
+hyprctl monitors
+hyprctl output remove HEADLESS-2
+swww
+swww init
+hyprctl monitors
+hyprctl output create headless
+hyprctl monitors
+exit
+wayvnc --output=HEADLESS1
+hyprctl output create headless
+hyprctl monitors
+wayvnc --output=HEADLESS-1
+hyprctl 
+hyprctl clients
+vnc --output=HEADLESS-1
+wayvnc --output=HEADLESS-1
+adb reverse tcp:5900 tcp:5900
+wayvnc --output=HEADLESS-1
+adb reverse tcp:5900 tcp:5900
+adb killserver
+adb kill-server
+adb reverse tcp:5900 tcp:5900
+adb kill-server
+adb reverse tcp:5900 tcp:5900
+wayvnc --output=HEADLESS-1 --log-level=info 0.0.0.0
+swww kill
+swww init
+swww 
+sww img ~/.config/wall.png
+swww img ~/.config/wall.png
+wayvnc --output=HEADLESS-1 --log-level=info 0.0.0.0
+wayvnc --output=HEADLESS-1 --log-level=trace
+wayvnc --version
+wayvnc --output=HEADLESS-1 --log-level=trace
+loc src/display.c
+loc display.c
+loc neatvnc
+paru -Rscnd wayvnc
+cd code_Master/
+git clone https://github.com/any1/wayvnc.git<\n>git clone https://github.com/any1/neatvnc.git<\n>git clone https://github.com/any1/aml.git
+ls
+lf
+mkdir wayvnc/subprojects
+lf
+lfcd
+mkdir wayvnc/subprojects
+cd wayvnc/subprojects/
+ln -s ../../neatvnc .
+ln -s ../../aml .
+cd -
+cd wayvnc/subprojects/
+zsh
+cd -
+mkdir neatvnc/subprojects
+cd neatvnc/subprojects/
+ln -s ../../aml .
+cd -
+meson build
+cd wayvnc
+meson build
+ninja -C build
+meson test -C build
+wayvnc --output=HEADLESS-1 --log-level=trace
+cd wayvnc
+wayvnc --output=HEADLESS-1 --log-level=trace
+lf
+cd build/
+cd ..
+cd wayvnc
+cd build/
+pwd
+echo $env.PATH
+config env
+waybar
+killall spotify
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+t a revise comp2400 week 7 lecture slides
+t a revise comp1110 week 7 lecture slides
+t a revise comp1600 week 7 lecture slides
+t a revise infs1001 week 7 lecture slides
+clear
+ls
+t ls
+t pri 2 A 3 A 4 A 5 A
+clear
+ls
+t ls
+mpv 'https://www.youtube.com/watch?v=SV1kxu6CqQk'
+swww kill
+swww -o ~/.config/wall.png
+swww --help
+swww img ~/.config/wall.png
+swww init
+swww img ~/.config/wall.png
+hyprctl monitors
+hyprctl monitors | grep 'active workspace'
+cd hypr
+ls
+hyprctl monitors | grep "active workspace"
+hyprctl monitors | grep "active workspace" | grep 2
+hyprctl monitors | grep "active workspace" | grep 2 | wc -l
+cd xmonad
+vim monitors.sh
+hyprctl dispatch swapactivemonitors
+hyprctl dispatch swapactivemonitors current +1
+hyprctl dispatch swapactiveworkspaces
+hyprctl dispatch swapactiveworkspaces current +1
+cd hypr
+chmod +x monitors.sh
+./monitors.sh 2
+./monitors.sh 
+./monitors.sh 2
+hyprctl monitors -j
+./monitors.sh 3
+./monitors.sh 5
+hyprctl help
+hyprctl activeworkspace
+cd xmonad
+vim monitors.sh
+cd .config/bspwm
+ls
+cd ../bspwm
+ls
+vim bspwmrc
+hyprctl activeworkspace | grep "ID [0-9]*([0-9])"
+hyprctl activeworkspace | grep -E "ID [0-9]*([0-9])"
+hyprctl activeworkspace | grep -Eo "ID [0-9]*([0-9])"
+cd hypr
+./monitors.sh 1
+./monitors.sh 3
+hyprctl activeworkspace | grep -E "ID [0-9]*([0-9])" | grep -Eo "[0-9]*([0-9])"
+hyprctl activeworkspace | grep -E "ID [0-9]*([0-9])"
+vim monitors.sh
+hyprctl activeworkspace | grep -Eo "ID [0-9]*([0-9])"
+hyprctl activeworkspace | grep -Eo "ID [0-9]*([0-9])" | grep -Eo "[0-9]*([0-9])"
+lf
+cd hypr
+ls
+cd waybar
+ls
+vim style.css
+cron -e
+crontab -e
+cd waybar
+waybar
+cd waybar
+vim style.css
+acpi
+cmus
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+lf
+nethack
+cmus
+lf
+mpv
+adb reverse tcp:5900 tcp:5900
+paru rofi
+paru wofi
+pacman -Qi rofi
+hyprctl clients
+hyprctl layers
+hyprctl layers\
+hyprctl layers
+lf
+cd rofi
+ls
+cd themes
+ls
+vim catppuccin-mocha.rasi
+hyprctl
+hyprctl monitor
+headless
+hyprctl output create headless
+cd wayvnc
+adb reverse tcp:5900 tcp:5900
+cd code_Master/
+ls
+cd vnc/wayvnc/
+ls
+lf
+./code_Master/vnc/wayvnc/build/wayvnc --output=HEADLESS-1
+adb reverse tcp:5900 tcp:5900
+crontab -e
+mpv 'https://www.youtube.com/watch?v=5asbFhxhHyo'
+cmus
+cd assn2
+cd ass2
+ls
+cd src/comp1110/ass2/
+ls
+tree 
+ls t
+ls -t
+ls 0l
+ls -l
+clear
+vim game/board/Tile.java
+vim game/GameState.java
+vim game/Player.java
+vim game/Rug.java
+vim gui/Viewer.java
+vim game/board/Tile.java
+cd ass2
+vim game/board/Tile.java
+cd src/comp1110/ass2/
+vim game/board/Tile.java
+vim game/GameState.java
+git reset --hard
+git pull upstream main
+cd ass2
+ks
+ls
+cd src/comp1110/ass2/
+ls
+vim game/GameState.java
+vim game/Player.java
+vim game/Rug.java
+vim game/board/Tile.java
+vim gui/Viewer.java
+git add .
+git commit -m "Removed redundant Colour.colour to Colour"
+cd ass2
+cd src/comp1110/ass2/
+vim game/Assam.java
+vim game/GameState.java
+vim gui/Viewer.java
+git add .
+git commit -m "Removed redundant Direction.direction to Direction"
+git push
+git pull
+git push
+paru onefetch
+onefetch
+onefetch -v
+onefetch --help
+onefetch --number-of-authors 20
+git branch
+git rm branh
+git branch -d tilePartner
+git branch -D tilePartner
+git commit -m "removed tilePartner branch"
+git push
+git config user.name "Julian Mo"
+paru -Qi nethack
+paru nethack
+lf
+cd resume
+ls
+cd resume
+vim resume.typ
+zathura resume.pdf
+cd comp1600
+ls
+vim ass2
+mkdir assn2
+ls
+cd assn2
+ls
+cd 1600
+cd assn2
+ls
+cd assn2
+ls
+typst watch submissi:w
+ls
+vim submission.typ
+rm submission.typ
+cd assn2
+cp ~/Documents/important/
+ls
+cd ~/Documents/important/
+ls
+cd Employment/
+ls
+cd resume/
+ls
+cd assn2
+cp ~/Documents/important/Employment/resume/template.typ template.typ
+ls
+cd assn2
+cd ass2
+onefetch
+onefetch --number-of-authors 20
+adb reverse tcp:5900 tcp:5900
+t a call 13 23 26
+t a call James Massey
+t a call Dervish
+t ls
+adb reverse tcp:5900 tcp:5900
+mpv 'https://www.youtube.com/watch?v=tvuhWyOW_HU'
+playerctl
+playerctl status
+playerctl metadata
+lf
+cd hypr
+ls
+cd waybar
+killall -q python3
+vim style.css
+killall -q python3
+vim template.typ
+:wq
+zathura submission.pdf
+pacman -Q linux
+killall -q python3
+vim config
+lf
+clear
+cd rofi
+ls
+cd config
+ls
+cd ..
+ls
+cd themes
+lf
+vim catppuccin-mocha.rasi
+rofi -show run
+hyprland clients
+hyprctl clients
+clear
+hyprctl clients
+proc
+pgrep adb
+pid adb
+hyprctl layers
+rofi -v
+rofi -q
+rofi 0h
+rofi -h
+lf
+clear
+cd code_Master/
+ls
+clear
+cd
+paru -Syu
+swww init
+swww kill
+swww init
+lf
+adb reverse tcp:5900 tcp:5900
+hyprctl output create headless
+brightnessctl
+paru brillo
+brillo
+cd scripts
+brillo -q -U 5
+paru -Rscnd brillo
+cd code_Master/
+vim brightness-notif.sh
+git clone https://gitlab.com/cameronnemo/brillo.git
+cd brillo/
+make
+sudo make install.setgid
+brillo -q -U 5
+brillo
+brillo -G
+brillo -q
+brillo -q -U
+brillo -q -U 5
+brillo -A 10
+cd /etc/udev/rules.d/
+ls
+sudo vim 90-backlight.rules
+ls
+brillo -A 10
+lf
+sudo vim 90-backlight.rules
+sudo
+cd scripts
+ls
+vim brightness-notif.sh
+hyprctl output create headless
+adb reverse tcp:5900 tcp:5900
+mpv 'https://www.youtube.com/watch?v=tvuhWyOW_HU'
+git pull
+cd resume/
+cd resume
+ls
+cd resume
+t do 6
+clear
+t ls
+t rm 6
+ls
+t ls
+t rm 7
+vim resume.typ
+zathura resume.pdf
+lf
+cd ass2
+ls
+cd src/comp1110/ass2/
+ls
+cd ass2
+ls
+cd admin
+ls
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+vim D-test-plan.md
+git add .
+git commit -m "initial test plan"
+git push
+mpv 'https://www.youtube.com/watch?v=tD_D2P80xEY'
+swww img ~/.config/wall.png
+lf
+lfcd
+vim `AmaLee, Divide Music - One Hell of a Team (Inspired by _Hazbin Hotel_).lrc`
+lf
+cd code_Master/
+cd scripts
+ls
+vim fb2k.sh
+ls
+vim fb2k-notif.sh
+cd scripts
+WINEPREFIX='/home/julian/.wine/' wine $env.HOME/foobar2000/foobar2000.exe /show
+WINEPREFIX='/home/julian/.wine/' ^'wine $env.HOME/foobar2000/foobar2000.exe /show'
+WINEPREFIX='/home/julian/.wine/' ^$'wine $env.HOME/foobar2000/foobar2000.exe /show'
+WINEPREFIX='/home/julian/.wine/' ^'wine $env.HOME/foobar2000/foobar2000.exe /show'
+WINEPREFIX='/home/julian/.wine/' 'wine $env.HOME/foobar2000/foobar2000.exe /show'
+WINEPREFIX='/home/julian/.wine/' 'wine $env.HOME/foobar2000/foobar2000.exe /hide'
+WINEPREFIX='/home/julian/.wine/' $'wine $env.HOME/foobar2000/foobar2000.exe /hide'
+WINEPREFIX='/home/julian/.wine/' ^$'wine $env.HOME/foobar2000/foobar2000.exe /hide'
+WINEPREFIX='/home/julian/.wine/' wine ^'$env.HOME/foobar2000/foobar2000.exe /hide'
+WINEPREFIX='/home/julian/.wine/' wine ^$'$env.HOME/foobar2000/foobar2000.exe /hide'
+l
+lf
+adb reverse tcp:5900 tcp:5900
+ls
+clear
+btm
+paru -Rscnd birdtray
+paru birdtray
+cd /usr/share/applications/
+ls
+loc thunderbird.desktop
+vim org.mozilla.Thunderbird.desktop
+sudo vim org.mozilla.Thunderbird.desktop
+cd /usr/share/applications/
+loc birdtray.desktop
+vim /usr/share/applications/com.ulduzsoft.Birdtray.desktop
+sudo vim com.ulduzsoft.Birdtray.desktop
+paru -Rscnd birdtray
+sudo vim org.mozilla.Thunderbird.desktop
+paru birdtray
+birdtray -s
+env -u WAYLAND_DISPLAY birdtray
+env -u XDG_SESSION_TYPE=x11 birdtray
+birdtray -s
+paru -Rscnd birdtray
+paru -Rscnd birdtray-git
+ls
+lf
+trash-empty
+lf
+git pull
+lf
+cd ass2
+lf
+git add .
+git pull
+git commit -m "test-plan mostly done"
+git push
+git pull
+git add .
+git commit -m "Moved rugCountTest into RugTest under tests dir"
+git push
+vim admin/D-test-plan.md
+git add .
+git commit -m "Added TileTest and improved some other classes"
+git push
+vim admin/D-originality-u7679057.yml
+git commit -m "Admin"
+git push
+git add .
+git commit -m "Forgot to add admin files to admin commit"
+git push
+hx
+helix
+cd xmonad
+ls
+mpv 'https://www.youtube.com/watch?v=3brHIV_hGXk'
+git pull
+git pull upstream main
+paru thunderbird
+paru thunderbird-wayland
+cd /usr/share/applications/
+sudo vim org.mozilla.Thunderbird.desktop
+cd /usr/share/applications/
+sudo vim org.mozilla.Thunderbird.desktop
+MOZ_ENABLE_WAYLAND=1 thunderbird<\n>
+paru birdtray
+MOZ_ENABLE_WAYLAND=1 thunderbird<\n>
+env -u WAYLAND_DISPLAY birdtray4
+env -u WAYLAND_DISPLAY birdtray
+cd /usr/bin/
+ls
+git pull
+lf
+;fcd
+lfcd
+./BetterDiscord-Linux.AppImage
+paru deadbeef
+nmtui
+iwctl
+ip -a
+ip a
+lf
+loc thunderbird.desktop
+lf
+cd /usr/share/applications/
+vim org.mozilla.Thunderbird.desktop
+loc bin/thunderbird
+sudo vim org.mozilla.Thunderbird.desktop
+t a add private tutoring resume
+paru deadbeef
+paru kmail
+paru geary
+paru -Rscnd geary
+hyprctl dispatch togglespecialworkspace
+hyprctl dispatch togglespecialworkspace mail
+mpv 'https://www.youtube.com/watch?v=5asbFhxhHyo'
+adb reverse tcp:5900 tcp:5900
+hyprctl output create headless
+hyprctl activeworkspace
+hyprctl togglespecialworkspace hidden
+hyprctl dispatch togglespecialworkspace hidden
+hyprctl dispath movetoworkspacesilent prev
+hyprctl dispatch movetoworkspacesilent prev
+hyprctl dispatch movetoworkspacesilent current
+hyprctl dispatch movetoworkspacesilent 1
+hyprctl dispatch togglespecialworkspace hidden
+hyprctl dispatch movetoworkspacesilent previous
+hyprctl dispatch movetoworkspace previous
+paru -Syu
+swww kill
+swww init
+mpv 'https://www.youtube.com/watch?v=sl4aeMiyUqE'
+cd scripts
+ls
+lf
+./fb2k-notif.sh
+./fb2k.sh
+ls
+lf
+cd waybar
+lf
+waybar
+cd waybar
+./playerctl.sh
+hyprctl clients
+hyprctl clients | grep "[foobar2000]"
+hyprctl clients | grep '\[foobar2000\]'
+cd waybar
+hyprctl clients | grep 'title: *\[foobar2000\]'
+hyprctl clients | grep 'title: * \[foobar2000\]'
+hyprctl clients | grep 'title: {a-z}\[foobar2000\]'
+hyprctl clients | grep 'title:\[foobar2000\]'
+hyprctl clients | grep '\[foobar2000\]'
+hyprctl clients | grep '\[foobar2000\]' | grep title
+vim playerctl.sh
+./playerctl.sh
+vim playerctl.sh
+./playerctl.sh
+pgrep foobar2000
+vim playerctl.sh
+playerctl status
+vim playerctl.sh
+./playerctl.sh
+vim playerctl.sh
+./playerctl.sh
+cd waybar
+./playerctl.sh
+zsh
+cd waybar
+vim style.css
+bash
+vim playerctl.sh
+waybybar
+waybar
+pidof playerctl.sh
+pidof "playerctl.sh"
+pgrep playerctl
+pgrep playerctl.sh
+killall -q playerctl.sh
+pgrep playerctl.sh
+./playerctl.sh
+cd waybar
+./playerctl.sh
+vim playerctl.sh
+./playerctl.sh
+cmus
+pidof "playerctl.sh"
+hyprctl output create headless
+adb reverse tcp:5900 tcp:5900
+cd scripts
+mpv 'https://www.youtube.com/watch?v=7VpKwQjPQHw'
+hyprctl output
+hyprctl monitors
+hyprctl monitors | grep -i "HEADLESS-"
+hyprctl monitors | grep "HEADLESS-[0-9]<\n>"
+hyprctl monitors | grep "HEADLESS-[0-9]"
+hyprctl monitors | grep -o "HEADLESS-[0-9]"
+hyprctl output remove HEADLESS-1
+cd scripts
+vim monitors.sh
+monitor
+exec
+cd code_Master/
+lfcd
+pwd
+exec ~/code_master/vnc/wayvnc/build/wayvnc
+exec code_master/vnc/wayvnc/build/wayvnc
+exec code_master/vnc/wayvnc/build/wayvnc --output=HEADLESS-1
+vim adb-monitor.sh
+boot
+hyprctl monitors
+cd scr
+ls
+swww init
+swww img ~/.config/wall.png
+hyprctl monitors
+vim adb-monitor.sh
+cd waybar
+vim playerctl.sh
+cd comp1600
+l
+sls
+ls
+cd assn
+ls
+cd comp1600
+ls
+cd assn2/
+ls
+cd 1600
+cd assn2/
+cd comp1600
+cd assn2/
+ls
+lg
+lf
+cd comp1600
+cd assn2/
+lf
+cd meta
+f
+lf
+cd comp1600
+cd assn2/
+cd meta
+ls
+mv `Screenshot 2023-09-28 at 22-34-29 sol4.pdf.png` `assoc.png`
+ls
+vim submission.typ
+zathura submission.pdf
+cd comp1600
+cd assn2/
+cd comp1600
+cd assn2/
+watch resume.typ
+typst watch resume.typ
+cd comp1600
+cd assn2/
+hyprctl clients
+hyprctl clients | grep '\[foobar2000\]'
+ls
+lf
+trash-empty
+cd comp1600
+ls
+lf
+swww img ~/.config/wall.png
+lf
+paru -Syu
+spicetify upgrade
+spicetify restore backup apply
+zathura submission.pdf
+vim submission.typ
+cmus
+cd Everything Bucket
+git add .
+git commit -m "Update"
+git push
+lf
+adb devices
+adb monitor
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+cd Music/Playlists/
+ls
+mkdir Candybox
+cd Candybox/
+spotdl 'https://open.spotify.com/playlist/51j8z8S06FYMN1QwYiO9Ee?si=fbf39c44aca54118'
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+mpv 'https://www.youtube.com/watch?v=iuaRQ5NQFq8'
+mpv 'https://www.youtube.com/watch?v=6W55Z46wqf0'
+killall -q steam
+paru ncmpcpp
+ncmpcpp 
+cd code_Master/
+git clone https://github.com/uzuto/craft-pink.git
+lf
+lf
+ncmpcpp 
+lf
+git clone https://github.com/uzuto/craft-pink.git
+lf
+ncmpcpp 
+lf
+ncmpcpp 
+lf
+lfcd
+vim config
+ncmpcpp 
+mpd
+mpd --verbose
+paru mpd
+ncmpcpp 
+vim config
+mpd
+mpd --verbose
+sudo mpd
+vim config
+killall -q mpd
+sudo kill mpd
+sudo killall mpd
+cmus
+paru -Rscnd mpd
+paru -Rscnd ncmpcpp
+lf
+lfcd
+'https://open.spotify.com/playlist/77OHk3PTbt5Tt1bDjjETRj?si=7bc1a138a1144241'
+cd waybar
+ls
+spotdl 'https://open.spotify.com/playlist/77OHk3PTbt5Tt1bDjjETRj?si=7bc1a138a1144241'
+ls
+lf
+vim cava.sh
+ls
+cava.sh
+exit
+ls
+#!/bin/bash<\n>is_cava_ServerExist=`ps -ef|grep -m 1 cava|grep -v "grep"|wc -l`<\n>if [ "$is_cava_ServerExist" = "0" ]; then<\n>	echo "cava_server not found" > /dev/null 2>&1<\n>#	exit;<\n>elif [ "$is_cava_ServerExist" = "1" ]; then<\n>  killall cava<\n>fi<\n><\n>cava -p ~/.config/cava/config1 | sed -u 's/;//g;s/0/▁/g;s/1/▂/g;s/2/▃/g;s/3/▄/g;s/4/▅/g;s/5/▆/g;s/6/▇/g;s/7/█/g;'
+ps -ef|grep -m 1 cava|grep -v "grep"|wc -l
+vim cava.sh
+chmod +x cava.sh
+cava
+cd ../cava
+ls
+vim config1
+cd ../waybar
+ls
+vim cava.sh
+waybar
+pgrep cava
+cd waybar
+vim style.css
+cd .config/cava
+ls
+chmod +x config1
+cava -p ~/.config/cava/config1
+sudo modprobe snd_aloop
+cava -p ~/.config/cava/config1
+:q
+cd cava
+cava -p ~/.config/cava/config1
+vim config1
+lf
+cd cava
+vim config1
+cd cava
+vim config1
+neofetch
+fastfetch
+cd foobar2000/profile/lyrics/
+ls
+adb-sync --show-progress --del push Music/albums_flac/ /storage/0000-0000/Music/albums_flac/
+cd foobar2000/profile/lyrics/
+ls
+rm -rf `Nine Lashes - Anthem Of The Lonely.lrc`
+cd foobar2000/profile/lyrics/
+ls
+lf
+cd cava
+vim config1
+lf
+hyprctl clients | grep '\[foobar2000\]'
+hyprctl clients | grep '\[foobar2000\]' | grep title
+cd lyrics
+ls
+ls | amalee
+ls | grep amalee
+ls | grep -o "Amalee"
+ls | grep -o "AmaLee"
+ls | grep "AmaLee"
+cd lyrics
+vim `Rachie, KiAme - Usseewa.lrc`
+rm -rf `Rachie, KiAme - Usseewa.lrc`
+cd lyrics
+vim `Rachie, KiAme - Usseewa.lrc`
+vim
+mpv 'https://www.youtube.com/watch?v=84vcI6VZpG4'
+lf
+cd scripts
+ls
+cd hyprland
+ls
+cd hypr
+ls
+cd waybar
+ls
+cd waybar
+ls
+lf
+cd waybar
+ls
+playerctl status
+vim playerctl.sh
+cd hypr
+paru -Syu
+swww img ~/.config/wall.png
+hyprctl clients | grep '\[foobar2000\]' | grep title
+hyprctl clients | grep '\[foobar2000\]'
+hyprctl clients
+cd waybar
+vim playerctl.sh
+cd waybar
+vim playerctl.sh
+mpv 'https://www.youtube.com/watch?v=VD7v48HDSEk'
+mpv 'https://www.youtube.com/watch?v=06ZFvPuQY0c'
+mpv 'https://www.youtube.com/watch?v=H8BRxH3ft2Q'
+webcam
+cd lyrics
+ls
+rm -rf `Cepheid, Un3h - Chronos.lrc`
+lf
+cd cava
+cd waybar
+playerctl status
+playerctl metadata
+pgrep foobar2000
+cd waybar
+./playerctl.sh
+hyprctl clients | grep '\[foobar2000\]' | grep title
+:Wq
+vim playerctl.sh
+./playerctl.sh
+cmus
+git add .
+git commit -m "CropRotation"
+git push
+git pull upstream main
+git reset --hard
+swww img ~/.config/wall.png
+paru -Syu
+ls
+clear
+ls
+lf
+killall -q firefox
+lf
+lfcd
+wine `the pyramid.exe`
+killall wine
+$env.WINEPREFIX="/home/julian/.wine" 
+exec $env.WINEPREFIX="/home/julian/.wine" wine `the pyramid.exe`
+echo $env.WINEPREFIX
+echo $env.wineprefix
+git pull upstream main
+git reset --hard
+git pull
+git pull upstream main
+git add .
+git commit -m "Pull upstream main"
+git push
+git add .idea/artifacts/game.xml src/META-INF/MANIFEST.MF
+git commit -m "game.xml and manifest.mf"
+git push
+java --module-path /usr/lib/jvm/javafx-sdk-17.0.8/lib --add-modules=javafx.controls,javafx.fxml,javafx.media -jar out/artifacts/game/game.jar
+git add .
+git add .idea/artifacts/game.xml src/META-INF/MANIFEST.MF
+git commit -m "game.xml and manifest.mf"
+git push
+cmus
+dunst-notify
+notify-send "eggs" "benedict"
+cd scripts
+vim brightness-notif.sh
+mpv 'https://www.youtube.com/watch?v=J7ueXMjlcT0'
+vim /etc/pacman.conf
+paru -Syu
+sudo vim /etc/pacman.conf
+mpv 'https://www.youtube.com/watch?v=9rnlIImZ99g'
+ls
+clear
+cd Music/Playlists/
+ls
+cd for_heartbreaks_and_heartaches_flac/
+ls
+rm -rf *
+onefetch --number-of-authors 20
+clear
+spotdl 'https://open.spotify.com/playlist/77OHk3PTbt5Tt1bDjjETRj?si=c69d64f63b4a440e'
+java --module-path /usr/lib/jvm/javafx-sdk-17.0.8/lib --add-modules=javafx.controls,javafx.fxml,javafx.media -jar out/artifacts/game/game.jar
+cd assn2
+cd admin
+ls
+vim E-review-u7679057.md
+git add .
+git commit -m "review"
+git push
+git pull
+git push
+git pull
+git add .
+git commit -m "contribution"
+git push
+lf
+cd .local/bin/
+chmod +x docfd
+cd
+docfd
+lf
+paru pdftotext
+lf
+cd .config
+lf
+docfd
+exit
+env nu
+clear
+cd
+exit
+env nu
+docfd
+docfc --exts=md
+docfd --exts=md
+acpi
+pip search
+pip search synced-lyrics
+git pull
+lf
+fdisk -u
+fdisk -l
+sudo fdisk-l
+sudo fdisk -l
+paru woe-usb
+lf
+git add .
+git commit -m "arraystack"
+git push
+java --module-path /usr/lib/jvm/javafx-sdk-17.0.8/lib --add-modules=javafx.controls,javafx.fxml,javafx.media -jar out/artifacts/game/game.jar
+cd waybar
+./playerctl.sh
+hyprctl clients | grep '\[foobar2000\]' | grep title
+vim playerctl.sh
+cmus
+docfd ~/.config/ --exts=config
+docfd ~/.config/ --exts=
+docfd ~/.config/ --exts= 
+docfd ~/.config/
+docfd ~/Documents/Everything Bucket/ --exts=md
+docfd "~/Documents/Everything Bucket/" --exts=md
+docfd `~/Documents/Everything Bucket/` --exts=md
+mpv 'https://www.youtube.com/watch?v=9rnlIImZ99g'
+lf
+cd fastfetch
+cd .config/fastfetch
+ls
+vim LClogo_small.txt
+cd waybar
+vim playerctl.sh
+cd waybar
+paru -Syu
+webcam
+mpv 'https://www.youtube.com/watch?v=060IHIfVLdI'
+mpv 'https://www.youtube.com/watch?v=108jzITOluA'
+webcam
+l
+cd lyrics
+rm -rf `Black Gryph0n, Baasik - Insane.lrc`
+mpv 
+loc traitor
+cd Music/Playlists/for_heartbreaks_and_heartaches_flac/
+spotdl 'https://open.spotify.com/track/3VrlN2qq4uFl8PW2IVNioP?si=d182a3572a844e7b'
+sudo vim /etc/pacman.conf
+paru -Syu
+cd assn2
+ls
+zathura submission.pdf
+lf
+cd .local/bin/
+chmod +x docfd
+docfd `~/Documents/Everything Bucket/` --exts=pdf
+paru -Qi pipewire
+obs
+ls
+ping 1.1.1.1
+cmus
+mpd
+lf
+cd ass2
+kitty +kitten themes
+cd kitty
+ls
+lf
+hypr
+cd hypr
+vim mocha.css
+s
+ls
+git pull
+git add .
+git commit -m "Added Tiletest that checks for partner coords"
+git push
+paru kde
+paru kde-connect
+paru kdeconnect
+ip a
+nmtui
+ip a
+paru -Rscnd kdeconnect
+nmtui
+paru -Qi linux-wifi-hotspot
+paru linux-wifi-hotspot
+sudo
+sudo vim egg
+paru linux-wifi-hotspot
+paru kdeconnect
+sudo gufw
+gufw
+sudo gufw
+ping 1.1.1.1
+lf
+trash-empty
+mpv 'https://www.youtube.com/watch?v=vWbwiVO7rvc'
+mpv 'https://www.youtube.com/watch?v=4UBvmaHXGRo'
+mpv 'https://www.youtube.com/watch?v=u4LfOHLpPbc'
+mpv 'https://www.youtube.com/watch?v=AFJSSU0APQY'
+cd comp2400
+ls
+cd _videos/
+ls
+clear
+ls
+lf
+git reset --hard
+mpv 'https://www.youtube.com/watch?v=Tqqsb0X3yHA'
+mpv 'https://www.youtube.com/watch?v=KCVfj9mLZ3M'
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=J7ueXMjlcT0'
+hyprctl clients
+paru -Rscnd kdeconnect
+cd code_Master/
+git clone https://invent.kde.org/network/kdeconnect-kde.git
+cd kdeconnect-kde/
+lf
+cmake
+cmake CMakeLists.txt
+paru extra-cmake-modules
+cmake CMakeLists.txt
+make
+make *
+make test
+cmake CMakeLists.txt
+paru kirigami-addons
+cmake CMakeLists.txt
+paru PackageConfig
+paru package-config
+paru pkg
+clear
+paru KF5
+cmake CMakeLists.txt
+paru kf5package
+paru kf4-package
+paru kpackage
+cmake CMakeLists.txt
+paru kaudio
+paru kf5
+paru kpulse
+paru pulseaudioqt
+cmake CMakeLists.txt
+paru kf5-pulseaudio
+paru pulseaudio-qt
+cmake CMakeLists.txt
+paru doctools
+cmake CMakeLists.txt
+paru CMutils
+cmake CMakeLists.txt
+paru people
+cmake CMakeLists.txt
+paru bluetooth
+cmake CMakeLists.txt
+paru connectivity
+cmake CMakeLists.txt
+paru libfakekey
+cmake CMakeLists.txt
+paru qqc-desktop
+paru qqc2-desktop
+cmake CMakeLists.txt
+lf
+cd code_Master/kdeconnect-kde/
+./prefix.sh
+chmod +x prefix.sh
+./prefix.sh
+lf
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=~/kde-prefix ..
+make -j$(nproc) install<\n>
+~/kde-prefix/lib64/libexec/kdeconnectd<\n>
+lf
+~/kde-prefix/lib64/libexec/kdeconnect
+./kde-prefix/lib64/libexec/kdeconnect
+./kde-prefix/lib/libexec/kdeconnect
+~/kde-prefix/lib/libexec/kdeconnect
+~/kde-prefix/lib/libexec/kdeconnectd
+lf
+history | where command =~ paru | get command
+paru -Qi qqc2
+paru kdeconnect
+ip a
+kdeconnect-app
+kdeconnectd
+/usr/lib/kdeconnectd
+gufw
+/usr/lib/kdeconnectd
+kdeconnect-cli -l
+gufw
+sudo -E gufw
+sudo gufw
+gufw
+paru -Rscnd gufw
+ufw
+ufw app list
+pacman -Qi zerotier
+ufw
+ufw enable
+sudo ufw
+sudo ufw enable
+adb devices
+sudo ufw disable
+lf
+cd Downloads/
+vim vending.txt
+lf
+killall -q waybar
+cd scripts
+vim adb-monitor.sh
+ufw enable
+sudo ufw enable
+paru gufw
+xhost si:localuser:root
+sudo gufw
+paru swaync
+swaync
+cp /etc/xdg/swaync/config.json ~/.config/swaync/
+mkdir ~/.config/swaync
+cp /etc/xdg/swaync/config.json ~/.config/swaync/
+cd config
+cd swaync
+ls
+killall -q dunst
+swaync
+vim config.json
+vim dracula.css
+swaync
+cd swaync
+cp dracula.css style.css
+swaync-client -rs
+swaync-client -t
+lf
+cd scripts
+ls
+libnotify -r 2539 -u low "egg"
+lib-notify -r 2539 -u low "egg"
+vim brightness-notif.sh
+cd scripts
+paru -Rscnd swaync
+systemctl status dunst.service
+systemctl enable dunst.service
+dunstctl history-pop
+mpv 'https://www.youtube.com/watch?v=ASKdLqq-B6s'
+paru -Syu
+lf
+killall -q audacity
+git pull
+git switch rugStreams
+git branch rugStream
+git switch rugStream
+ls
+loc initialiseGameStateTests.java
+hx tests/comp1110/ass2/game/GameStateTests/initialiseGameStateTests.java
+git add .
+git commit -m "Switched rugs array to ArrayList of rugs"
+git push
+git push --set-upstream origin rugStream
+git branch
+git add .
+git add commit -m "converted rugStringsArray to tileStringsArray for clarification"
+git commit -m "converted rugStringsArray to tileStringsArray for clarification"
+git push
+ls
+clear
+cd waybar
+vim playerctl.sh
+mpv 
+mpv 'https://www.youtube.com/watch?v=kFcoidcOBdw'
+mpv 'https://www.youtube.com/watch?v=i1CigtTJtP8'
+paru -Syu
+mpv 'https://l.instagram.com/?u=https%3A%2F%2Fyoutu.be%2F5r3B7yz6J68%3Fsi%3DKtvfUv8pPkLmAzZZ&e=AT2-ZJCAbuyXKtsWG7AoLottQOUDyMRDjPUF8ArUjibc6dvXeWDr-fJgqYN1rHPS_U4peqrMAx23bX3znOx7KjPUltoFV2zP7qvTGOPyTvui52ZjdgRiltiN670xjxWpM7yEiZ0PzWXjnQ'
+mpv 'https://www.youtube.com/watch?v=ZfohKCW0eSU'
+mpv 'https://www.youtube.com/watch?v=IMklAONx62M'
+cd code_Master/
+git clone https://github.com/catppuccin/zathura.git
+ls
+mpv 'https://www.youtube.com/watch?v=Iwg0D0xA3Io'
+mpv 'https://www.youtube.com/watch?v=WZqGSUF4IMs'
+cd comp2400
+cd assn2/
+ls
+vim submission.typ
+typst watch submission.typ
+:w
+typst watch submission.typ
+cd comp2400
+cd assn2/
+ls
+cd comp2400
+cd assn2/
+lf
+cd assn2/
+cd ..
+cd comp2400
+cd assn2
+ls
+vim submission.typ
+lf
+vim submission.typ
+mpv 'https://www.youtube.com/watch?v=512EqGYqFxM'
+lf
+zathura submission.pdf
+lf
+lf
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=k6C3YFney6Y'
+mpv 'https://www.youtube.com/watch?v=jKJ68Iq8Aso'
+mpv 'https://www.youtube.com/watch?v=X4fgT5zuqDw'
+hyprctl clients
+cava
+lf
+cd comp2400
+cd assn2
+cd comp2400
+cd assn2
+cd comp2400
+cd assn2
+cd comp2400
+cd assn2
+ls
+gid add .
+git add .
+git commit -m "getRugFromID"
+git push
+zathura submission.pdf
+vim submission.typ
+zathura A2_2023.pdf
+lf
+cd comp2400
+cd assn2
+zathura A2_2023.pdf
+zathura submission.pdf
+mpv 'https://www.youtube.com/watch?v=X4fgT5zuqDw'
+mpv 'https://www.youtube.com/watch?v=jKJ68Iq8Aso'
+cd waybar
+./playerctl.sh
+paru -Syu
+reboot
+mpv 'https://www.youtube.com/watch?v=cpuHr8vMwS0'
+mpv 'https://www.youtube.com/watch?v=uDfRZVTCXC4'
+lf
+git add .
+git commit -m "Working tilePartner"
+git push
+git add .
+git switch main
+git pull
+git branch
+git branch -D rugStream
+git branch
+ls
+ls -a
+lf
+git add .
+git commit -m "Rotate Assam Test"
+git push
+git pull
+git add .
+git commit -m "Rotate Assam Test"
+git push
+git add. 
+git add .
+git commit -m "Added getRugFromCoord method in GameState.java"
+git push
+git add .
+git commit -m "Cleaning and formatting"
+git push
+lf
+deezer
+cd hypr
+ls
+vim mocha.conf
+mpv 'https://www.youtube.com/watch?v=mGE3pJDFNC4'
+playerctl metadata
+mpv 'https://www.youtube.com/watch?v=mGE3pJDFNC4'
+mpv 'https://www.youtube.com/watch?v=me20a_1s74U'
+mpv 'https://www.youtube.com/watch?v=j8E98AnN8D4'
+mpv 'https://www.youtube.com/watch?v=mGE3pJDFNC4'
+git pull
+ls
+lf
+ls
+clear'<\n>clear<\n>'
+clear
+lf
+ls
+lf
+su
+git add .
+git commit -m "isPlacementValidTest (no implemented Logic)"
+git push
+lf
+mpv 'https://www.youtube.com/watch?v=j7y99kABNI0'
+mpv 'https://www.youtube.com/watch?v=mGE3pJDFNC4'
+mpv 'https://www.youtube.com/watch?v=HwAPLk_sQ3w'
+paru -Syu
+clear
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=icF74c89jUk'
+mpv 'https://www.youtube.com/watch?v=T4TsQVIBOA4'
+mpv 'https://www.youtube.com/watch?v=iWe90g9fJ-g'
+git pull
+lf
+cd resume
+ls
+cd resume
+git add .
+git commit -m "isPlacementValidTest (not sharing rug) & (not on assam) implemented""<\n>"
+git push
+git add .
+git commit -m "isPlacementValidTest working"
+git push
+git add .
+git commit -m "isPlacementValidTest in a more OOP style"
+git push
+lf
+git add .
+git commit -m "GetPaymentAmountTest complete"
+git push
+vim resume.typ
+zathura resume.pdf
+lf
+paru -Rscnd uds
+lf
+mpv 'https://www.youtube.com/watch?v=vJa4sKVXy4I'
+mpv 'https://www.youtube.com/watch?v=iw46KQuaG9A'
+mpv 'https://www.youtube.com/watch?v=ILVapcivK6o'
+git pull
+git reset --hard
+paru notion
+notion
+paru -Rscnd notion
+paru notion
+cd Everything Bucket
+git add .
+cd Everything Bucket
+git add .
+git commit -m "Update"
+git push
+scrcpy
+mpv 'https://www.youtube.com/watch?v=YGNCkwCjqBQ'
+playerctl metadata
+playerctld
+systemctl enable playerctld
+lf
+cd waybar
+vim playerctl.sh
+cd waybar
+vim playerctl.sh
+kitty +kitten themes
+playerctl status
+cd waybar
+playerctl metadata
+vim playerctl.sh
+lf
+trash-empty
+lf
+aybarcd w
+cd waybar
+playerctl metadata
+paru -Syu ncmpcpp
+mpd
+ncmpcpp
+lf
+paru mpd
+mpd
+lf
+loc mpd.conf
+cp /etc/mpd.conf ~/.config/mpd/
+mkdir ~/.config/mpd
+cp /etc/mpd.conf ~/.config/mpd/
+mpd
+systemctl enable --now mpd.service
+mpd
+lf
+mpd
+vim .config/mpd/mpd.conf
+mpd
+vim .config/mpd/mpd.conf
+mpd
+killall -q mpd
+sudo killall -q mpd
+mpd
+sudo killall -q mpd
+vim .config/ncmpcpp/config
+mpd
+ncmpcpp
+vim .config/ncmpcpp/config
+ncmpcpp
+lf
+ncmpcpp
+mpd
+touch .local/share/mpd/playlists
+touch .local/share/mpd/playlists/
+mkdir ~/.local/share/mpd/playlists/
+mpd
+touch .local/share/mpd/mpd.db
+mpd
+rm -rf .local/share/mpd.mpd.db
+rm -rf .local/share/mpd/mpd.db
+ls
+lf
+vim .config/mpd/mpd.conf
+cp /etc/mpd.conf ~/.config/mpd/
+vim .config/mpd/mpd.conf
+mpd
+sudo mpd
+journalctl -xeu mpd.service
+systemctl enable --now mpd.service
+journalctl -xeu mpd.service
+systemctl stop mpd.service
+systemctl enable --now mpd.service
+systemctl status mpd.service
+killall -q mpd
+systemctl enable --now mpd.service
+lf
+loc ncmpcpp/config
+cp /usr/share/doc/ncmpcpp/config ~/.config/ncmpcpp/config
+lf
+killall -q mpd
+sudo killall -q mpd
+mpd
+killall -q mpd
+systemctl enable --now mpd.service
+ncmppp
+sudo systemctl stop mpd.service && sudo systemctl disable mpd.service
+sudo systemctl stop mpd.service; sudo systemctl disable mpd.service
+mpd
+vim .config/mpd/mpd.conf
+mpd
+vim .config/mpd/mpd.conf
+ncmppp
+vim .config/mpd/mpd.conf
+lf
+vim .config/ncmpcpp/config
+ncmpcpp
+vim .config/ncmpcpp/config
+ncmpcpp
+playerctl metadata
+playerctl
+ncmpcpp
+ls
+vim .config/ncmpcpp/config
+killall -q mpd
+mpd
+ncmpcpp
+vim .config/mpd/mpd.conf
+mpd
+paru wildmidi
+vim .config/mpd/mpd.conf
+vim .config/ncmpcpp/config
+vim .config/mpd/mpd.conf
+mpd
+killall -q mpd
+vim .config/mpd/mpd.conf
+vim .config/mpd/mpd.conf4
+vim .config/mpd/mpd.conf
+cp /etc/mpd.conf ~/.config/mpd/
+vim .config/mpd/mpd.conf
+mpd
+sudo mpd
+vim .config/mpd/mpd.conf
+mpd
+ncmpcpp
+vim .config/mpd/mpd.conf
+mkdir ~/.config/mpd/playlists
+mkdir ~/.local/state/mpd
+mpc update
+mpd .config/mpd/mpd.conf
+paru mpc
+mpc update
+mpd
+systemctl enable --now --user  mpd.service
+mpd
+killall -q mpd
+systemctl enable --now --user  mpd.service
+vim .config/ncmpcpp/config
+ncmpcpp
+vim .config/ncmpcpp/config
+vim .config/mpd/mpd.conf
+ncmp
+systemctl enable --now --user  mpd.service
+vim .config/ncmpcpp/config
+vim .config/mpd/mpd.conf
+ncmpcpp
+killall -q mpd
+systemctl enable --now --user  mpd.service
+ncmpcpp
+killall -q mpd
+systemctl enable --now --user  mpd.service
+ncmpcpp
+vim mpd
+vim .config/mpd/mpd.conf
+ncmpcpp
+vim .config/mpd/mpd.conf
+ncmpcpp
+killall -q mpd
+mpd
+killall -q mpd
+systemctl enable --now --user  mpd.service
+ncmpcpp
+lf
+mpc statu
+mpc status
+mpc status | grep -m1
+mpc status | grep -m1 ""
+cd waybar
+ncmpcpp
+lf
+cd ncmpcpp
+cd .config/ncmpcpp/
+ls
+cp config config.bak
+ncmpcpp
+vim config
+ncmpcpp
+vim config
+ncmpcpp
+vim config
+ncmpcpp
+vim art.sh
+chmod +x art.sh
+ncmpcpp
+vim config
+ncmpcpp
+vim config
+ncmpcpp
+vim config
+vim art.sh
+ncmpcpp
+mpc --format %file% current
+vim art.sh
+ncmpcpp
+vim art.sh
+ncmpcpp
+mpc --format %file% current
+vim art.sh
+ncmpcpp
+vim art.sh
+lf
+ncmpcpp
+vim art.sh
+ncmpcpp
+vim art.sh
+lf
+cd Music/albums_flac
+./AlbumArtExtractor.sh
+cd
+ncmpcpp
+cd ncmpcpp
+mpc --format %album% current
+vim art.sh
+cd Music/albums_flac
+find "Mili/Sleep\ Talk\ Metropolis/" -type d -exec $(find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)
+find "Mili/Sleep Talk Metropolis/" -type d -exec $(find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)
+ncmpcpp
+cd ncmpcpp
+ls
+lf
+git clone https://github.com/alnj/ncmpcpp-ueberzug.git
+git clone https://github.com/munguua/ncmpcpp-ueberzug.git
+cd ncmpcpp-ueberzug/
+chmod +x ncmpcpp-ueberzug ncmpcpp_cover_art.sh<\n>
+vim config
+cd ..
+vim config
+ncmpcpp
+lf
+ncmpcpp
+paru ueberzug
+ncmpcpp
+lf
+cd
+ln -s ~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug ~/.local/bin/
+ncmpcpp-ueberzug 
+lf
+cd ncmpcpp
+ls
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+lf
+ncmpcpp-ueberzug 
+killall -q ueberzug
+lf
+wrappedh1 
+lf
+ncmpcpp
+lf
+ncmpcpp
+mpc status | grep -m1 ""
+cd waybar
+vim playerctl.sh
+ncmpcpp
+lf
+cd ncmpcpp
+mpc --format %file% current
+lf
+ncmpcpp
+lf
+mpc --format %file% current
+find "~/Music/albums_flac/Area 11/Heaven-Piercing Giga Drill" -maxdepth 1 -type f -iregex ".*\.\(jpe?g\|png\|gif\|bmp\)"
+find "~/Music/albums_flac/Area 11/Heaven-Piercing Giga Drill" --maxdepth 1 -type f -iregex ".*\.\(jpe?g\|png\|gif\|bmp\)"
+find "~/Music/albums_flac/Area 11/Heaven-Piercing Giga Drill" -maxdepth 1 -type f -iregex ".*\.\(jpe?g\|png\|gif\|bmp\)"
+find "~/Music/albums_flac/Area 11/Heaven-Piercing Giga Drill" -type f -iregex ".*\.\(jpe?g\|png\|gif\|bmp\)"
+zsh
+exit
+ncmpcpp
+cd ncmpcpp
+zah
+lf
+ncmpcpp
+lf
+./art.sh
+lf
+./art.sh
+lf
+./art.sh
+kitty +kitten icat "/home/julian/Music/albums_flac/As It Is/Never Happy, Ever After (Deluxe Edition)/Never Happy, Ever After (Deluxe Edition).jpeg"
+lf
+ncmpcpp
+clear
+ncmpcpp
+cd nethackrc/
+cd ncmpcpp
+printf '\e]20;"/home/julian/Music/albums_flac/As It Is/Never Happy, Ever After (Deluxe Edition)/Never Happy, Ever After (Deluxe Edition).jpeg";70x70+0+00:op=keep-aspect\a'<\n>
+printf "\e]20;"/home/julian/Music/albums_flac/As It Is/Never Happy, Ever After (Deluxe Edition)/Never Happy, Ever After (Deluxe Edition).jpeg";70x70+0+00:op=keep-aspect\a"<\n>
+kitty +kitten icat "/home/julian/Music/albums_flac/As It Is/Never Happy, Ever After (Deluxe Edition)/Never Happy, Ever After (Deluxe Edition).jpeg"
+lf
+ncm
+ncmpcpp 
+paru -Rscnd imagemagick
+ncmpcpp 
+paru imagemagick
+ncmpcpp
+ncmpcpp 
+ncmpcpp
+exit
+ncmpcpp
+lf
+cd ncmpcpp
+ls
+lf
+ncmpcpp
+systemctl disable --now --user mpd.service
+lf
+cd waybar
+ls
+git pull
+onefetch --number-of-authors 20
+git add .
+git commit -m "faster"
+git push
+git pull
+git add .
+git commit -m "compliance fix"
+git push
+git pull
+git reset --hard
+lf
+cd resume
+vim resu
+cd resume
+lf
+trash-empty
+lf
+trash-empty
+lf
+sudo rm -rf /home/julian/.local/share/Trash/files/*
+zathura resume.pdf
+vim resume.typ
+lf
+typst watch resume.typ
+lf
+cd resume
+typst watch resume.typ
+zathura resume.pdf
+vim resume.typ
+lf
+typst watch resume.typ
+vim resume.typ
+typst watch resume.typ
+zathura resume.pdf
+lf
+cd resume
+watch resume.typ
+cd resume
+zathura resume.pdf
+vim resume.typ
+cd ass2
+clear
+onefetch
+onefetch --number-of-authors 20
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+webcam
+mpv 'https://www.youtube.com/watch?v=_ZqxkGEn8rM'
+git pull
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=GfEX1jVPjdA'
+git pull
+lf
+lf
+cd Downloads/4
+cd Downloads/
+unzip "*.zip"
+lf
+lfj
+lf
+lfcd
+ls
+lf
+ls
+git add .
+git commit -m "Added bridge"
+git push
+onefetch --number-of-authors 20
+git add .
+git commit -m "Bridge Array"
+git push
+git reset --hard
+hx src/comp1110/ass2/Marrakech.java
+kitty
+git pull
+git add .
+git commit -m "moveAssamTest"
+git push
+git add .
+git commit -m "MakePlacementTest complete"
+git push
+mpv 'https://www.youtube.com/watch?v=GfEX1jVPjdA'
+git pull
+git commit -m "cleanup"<\n>""
+git push
+git pull
+git merge
+paru -Syu
+config nu
+mpv 'https://www.youtube.com/watch?v=dKoTf5iZWtU'
+git pull
+git reset --hard
+git pull
+mpv 'https://www.youtube.com/watch?v=JlmOgKfOJic'
+paru -Syu
+f
+lf
+git pull
+git add .
+git commit -m "rotateAssam fix not turning left"
+git push
+git add .
+git commit -m "rotateAssam fix not turning left"
+git push
+lf
+git pull
+git add .
+git commit -m "removed debugging code"
+git push
+git reset --hard
+ssh u7679057@partch.anu.edu.au
+git pull
+hyprctl clients
+playerctl status
+t pull
+git pull
+git reset --hard
+git pull
+git add .
+git commit -m "potential fix"
+git push
+git pull
+git reset --hard
+git add .
+git commit -m "fixed broken makePlacement"
+git push
+git commit -m "fixed broken makePlacement"
+git push
+git pull
+git push
+git add .
+git commit -m "removed debugging code"
+git push
+git add .
+git commit -m "debug test chnge"
+git push
+git reset --hard
+git add .
+git commit -m "Can place first rug"
+git push
+git add .
+git commit -m "Can place first rug"
+git push
+playerctl status
+playerctl metadata
+paru -Syu
+git pull
+ls
+clear
+git reset --hard
+git pull
+git add .
+git commit -m "Preview rug!"
+git push
+lf
+l
+lf
+loc "teams"
+lf
+cd ass2
+lf
+git add .
+git commit -m "Instructions Image"
+git push
+git add .
+git commit -m "reposition instructions"
+git push
+clear
+git push
+git pull
+git add src/comp1110/ass2/game/AI.java
+git push
+git commit -m "AI"
+git push
+git pull
+git commit -m "AI"
+git add .
+git reset --hard
+git pull
+git add .
+git commit -m "AI"
+git push
+git add .
+git commit -m "Signed contribution and originality"
+git push
+git pull
+git commit -m "Forced commit to pull"
+git add .
+git commit -m "Forced commit to pull"
+git pull
+git commit -m "Forced commit to pull"
+git add .
+git commit -m "Forced commit to pull"
+git pull
+git revert 01c333fc
+git revert  ac16a624
+git revert 01c333fc 
+git commit -m "revert"
+git revert  ac16a624
+git revert  ac16a624 -m "revert"
+git revert ac16a624 -m "revert"
+git reset --hard
+git add .
+git commit -m "This works"
+git push
+cd ass2
+git add .
+git commit -m "Best"
+git pull
+git push
+git pull
+git push
+git pull
+git push
+git pull
+git push
+git add .
+git commit -m "Best update"
+git push
+git reset --hard
+git pull
+git add admin/B-Design.pdf
+git push
+clear
+onefetch --number-of-authors 20
+paru binstall
+lf
+cd ass2
+cd git add admin/B-Design.pdf
+git add admin/B-Design.pdf
+lf
+mpv 'https://www.google.com/search?client=firefox-b-d&q=omniman+mortal+kombat'
+mpv 'https://www.youtube.com/watch?v=V9TbsDfRV5Q'
+mpv 'https://www.youtube.com/watch?v=Zoo7BlXcsaw'
+mpv 'https://www.youtube.com/watch?v=L5T_-3wH2Xc'
+mpv 'https://www.youtube.com/watch?v=A6I_GROCG2U'
+mpv 'https://www.youtube.com/watch?v=4taolRYnA8g'
+mpv 'https://www.youtube.com/watch?v=4Xx0EJCOUyQ'
+mpv 'https://www.youtube.com/watch?v=a2iUauBRFAE'
+mpv 'https://www.youtube.com/watch?v=txAxAOcnNf4'
+mpv 'https://www.youtube.com/watch?v=CRlNu1rgJ4w'
+git pull
+git add .
+git commit -m "renamed B-Design to B-design"
+git push
+git add .
+git commit -m "fixed best u7679057"
+git push
+git add .
+git commit -m "fixed best u7656655"
+git push
+git reset --hard
+cd ass2
+paru tree-sitter
+cd .config/helix
+ls
+typst queries
+typst --help
+typst query 
+typst query runtime/queries/typst
+loc runtime/queries/typst
+loc queries/typst
+lf
+vim languages.toml
+cd
+tree-sitter generate
+cd Downloads
+ls
+tree-sitter generate
+tree-sitter generate tree-sitter-typst.tar.xz
+lf
+cd tree-sitter-typst/
+ls
+make
+tree-sitter generate
+tree-sitter generate 
+lf
+cmake 
+cmake Makefile
+make Makefile
+lf
+cd ..
+c
+lfcd
+make
+tree-sitter generate 
+ls
+cd src
+tree-sitter generate 
+cd
+cd Downloads/
+lf
+cd helix
+lf
+hx
+lf
+env
+clear
+env
+lf
+cd helix
+vim languages.toml
+hx --health
+hx --grammar fetch
+hx --grammar build
+hx --grammar fetch
+vim hx
+hx languages.toml
+hx --grammar fetch
+hx --grammar build
+lf
+;f
+vim languages.toml
+hx --grammar build
+hx --grammar fetch
+hx --grammar build
+lf
+hx --grammar fetch
+hx --grammar build
+lf
+vim languages.toml
+hx --grammar fetch
+hx --grammar build
+vim languages.toml
+hx --grammar fetch
+hx --grammar build
+lf
+cd resume
+vim resume.typ
+:wq
+lf
+cd helix
+lf
+hx
+cd resume
+vim resume.typ
+cd helix
+hx --grammar fetch
+hx --grammar build
+lf
+paru typst-lsp
+paru typst-lsp-bin
+cd resume
+vim resume.typ
+cd resume
+ls
+pidof typst
+pgrep typst
+lf
+btop
+vim resume.typ
+ls
+vim resume.typ
+lf
+mpv 'https://www.youtube.com/watch?v=CRlNu1rgJ4w'
+mpv 'https://www.youtube.com/watch?v=Yuy3GJMbdBM'
+cmus
+cd candybox
+ls
+rm -rf *
+killall -q foobar2000/
+lf
+hyprctl clients
+ls
+clear
+lf
+hx
+spotdl 'https://open.spotify.com/playlist/51j8z8S06FYMN1QwYiO9Ee?si=7a41e2279a8143f8'
+spodl 'https://open.spotify.com/track/2O7MDtip1E1NRLb38RSpZD?si=f2cb0572bfba49cf'
+spotdl 'https://open.spotify.com/track/2O7MDtip1E1NRLb38RSpZD?si=f2cb0572bfba49cf'
+cd candybox
+yt-dlp -f 'ba' -x --audio-format mp3 'https://open.spotify.com/track/2O7MDtip1E1NRLb38RSpZD?si=f2cb0572bfba49cf'
+yt-dlp -f 'ba' -x --audio-format mp3 'https://www.youtube.com/watch?v=wb16gdHiD78'
+config nu
+lf
+yt-audio 'https://www.youtube.com/watch?v=XFXc4vMe6Ac'
+nushell
+yt-audio 'https://www.youtube.com/watch?v=XFXc4vMe6Ac'
+yt-audio 'https://www.youtube.com/watch?v=LjQH76yEZ3w'
+cd heartbreak
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=3f97308cfd19448e'
+cd warm
+cd playlists
+cd warm_ice_flac/
+rm -rf *
+spotdl 'https://open.spotify.com/playlist/3OSTEPqwEZWocpaSMnkcJG?si=dde9e81c229b467c'
+lf
+cd warm
+lf
+cd playlists/silicon
+cd playlists
+cd silicon/
+spotdl 'https://open.spotify.com/playlist/4SNcvWUbnpzOJb2i6VdR7p?si=4b9ae12c468f4f42' > log.txt
+spotdl 'https://open.spotify.com/playlist/4SNcvWUbnpzOJb2i6VdR7p?si=4b9ae12c468f4f42' < log.txt
+spotdl 'https://open.spotify.com/playlist/4SNcvWUbnpzOJb2i6VdR7p?si=4b9ae12c468f4f42' |&tee log.txt
+cd silicon
+spotdl 'https://open.spotify.com/playlist/4SNcvWUbnpzOJb2i6VdR7p?si=4b9ae12c468f4f42' |& tee log.txt
+cd silicon
+ls
+cd heartbreak
+spotdl 'https://open.spotify.com/track/1WzAeadSKJhqykZFbJNmQv?si=95efeb09e33f4cb6'
+mpv 'https://www.youtube.com/watch?v=o75KCZJL1X4'
+git pull
+git add .
+git commit -m "C-best-u7652670 placeholder"
+git push
+git pull
+git push
+hyprctl clients
+cd helix
+vim config
+ls
+vim config.toml
+cd hyrp
+cd hypr
+ls
+cd hypr
+nano hyprland.conf
+mpv 'https://www.youtube.com/watch?v=AH29SKJ_urg'
+swww img ~/.config/wall.png
+xev
+xdotool key caps_lock
+xdotool key Caps_Lock
+AKJKJK
+xdotool key Caps_Lock
+xev
+clear
+xev
+lf
+cd comp1600
+cd assn3/
+ls
+lf
+mpv 'https://www.youtube.com/watch?v=jBFQciUktsY'
+onefetch --number-of-authors 20
+cd ass2
+onefetch --number-of-authors 20
+exit
+env nu
+cd assn3
+ls
+cd assn3
+typst watch submission.typ
+vim submission.typ
+ls
+lf
+cd assn3
+lf
+cd meta
+pandoc
+paru pandoc
+pandoc 
+ls
+pandoc notcheatingdocument.pdf -f pdf -t jpg -s -o notcheatingdocument.jpg
+pandoc notcheatingdocument.pdf -f PDF -t jpg -s -o notcheatingdocument.jpg
+gimp
+ls
+vim submission.typ
+ls
+vim submission.typ
+typst watch submission.typ
+cd assn3
+zathura
+;f
+zathura submission.pdf
+cd assn3
+zathura submission.pdf
+lf
+lfcd
+zathura submission.pdf
+lf
+cd assn3
+zathura submission.pdf
+cd assn3
+zathura submission.pdf
+cd assn3
+ls
+vim submission.typ
+lf
+lfcd
+cd assn2
+lf
+zathura submission.pdf
+acpi
+mpv 'https://www.youtube.com/watch?v=PY1s5GFwQKo'
+mpv 'https://www.youtube.com/watch?v=QhcNY0FtK1o'
+lf
+paru cptv
+cptv
+lf
+paru ctpv
+ls
+clear
+t do 3 4 2 5
+t do 8
+t ls
+t do 2
+t ls
+t del 1
+t l
+config nu
+lf
+loc suspend
+rofi -h
+lf
+ls
+lf
+clear
+clea
+clear
+fastfetch
+clear
+fastfetch
+clear
+confi env
+paru nushell
+ls | where size > 15MiB
+ls | where size > 15MiB | table
+ls | where size > 15Mb | table
+ls | where size > 15 | table
+ls | where size > 15Mib | table
+ls | table
+ls - a
+ls -a
+ls | where size > 15KB | table
+ls -a | where size > 15KB | table
+clear
+ls -c
+kitty +kitten icat "/home/julian/Music/albums_flac/As It Is/Never Happy, Ever After (Deluxe Edition)/Never Happy, Ever After (Deluxe Edition).jpeg"
+clear
+cd hypr
+ls
+kitty +kitten themes
+fastfetch --help color
+paru -Syu
+swww img ~/.config/wall.png
+lf
+cd Downloads/
+ls
+chmod +x docfd
+lf
+ls
+ls | name
+ls | filter name
+ls | filter {name}
+ls name
+clear
+ls | columns
+ls | where columns == name
+ls | select name
+clear
+^ls 
+^ls
+ls
+clear
+ls 
+ls
+clear
+mpv 'https://www.youtube.com/watch?v=MUx7WJUnfk4'
+ls
+lf
+lfcd
+./BetterDiscord-Linux.AppImage
+swaylock
+cd swaylock
+ls
+vim config.toml
+vim config
+lf
+ls
+lf
+chmod +x *
+lf
+mpv 'https://www.youtube.com/watch?v=Hx3Zamrh-Uc'
+paru nwg-look
+ls
+cd limbus/
+ls
+lf
+mpv 'https://www.youtube.com/watch?v=dJ6pNpCa8us'
+cd .config/BetterDiscord/
+ls
+./BetterDiscord-Linux.AppImage
+cd .config/BetterDiscord/
+ls
+./BetterDiscord-Linux.AppImage
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+paru -Syu
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+nethack
+1037 * 32
+mpv 'https://www.youtube.com/watch?v=wmLjHeK35bA'
+mpv 'https://www.youtube.com/watch?v=9pV61bnD5As'
+mpv 'https://www.youtube.com/watch?v=-5Ar9yhoyzo'
+mpv 'https://www.youtube.com/watch?v=ViFbaqah0ig'
+mpv 'https://www.youtube.com/watch?v=FILAF4WOf98'
+mpv 'https://www.youtube.com/watch?v=Ca8ace1N_4A'
+mpv 'https://www.youtube.com/watch?v=_tNd3GoHHIg'
+echo $env.XDG_SESSION_TYPE
+lf
+trash-empty
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+cd .config/BetterDiscord/
+ls
+./BetterDiscord-Linux.AppImage
+ls
+vim mocha.theme.css
+cd .config/BetterDiscord/
+./BetterDiscord-Linux.AppImage
+lss
+ls
+lf
+chmod +x *
+ls
+./BetterDiscord-Linux.AppImage
+spicetify upgrade
+spicetify restore backup apply
+lf
+cd Downloads/
+ls
+chown -R julian *
+sudo chown -R julian *
+lf
+unzip "*.zip"
+lf
+ls
+ls -a
+lf
+ls
+cd Music/
+cd albums_flac/
+ls
+ls | where modified >= "4 months ago"
+ls | where modified >= 4 months ago
+ls | sort-by size
+ls | sort-by modified
+clear
+ls | sort-by modified
+ls | sort-by modified | where modified >= (date now) - 16wk
+ls | sort-by modified | where modified <= (date now) - 16wk
+acpi
+ls | sort-by modified | where modified <= (date now) - 16wk
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=4oqCLbdS-CA'
+mpv 'https://www.youtube.com/watch?v=BnUuZdX5mJI'
+cd betterdiscord
+ls
+./BetterDiscord-Linux.AppImage
+lf
+cd betterdiscord
+./BetterDiscord-Linux.AppImage
+lf
+./BetterDiscord-Linux.AppImage
+lf
+paru -Rscnd discord-canary
+paru discord-canary
+lf
+paru -Rscnd discord-canary
+loc discord-canary
+lf
+trash-empty
+lf
+paru discord-canary
+12 / 15
+spicetify upgrade
+spicetify restore backup apply
+mpv 'https://www.youtube.com/watch?v=ZyLlxVnN90Y'
+mpv 'https://www.youtube.com/watch?v=HMKDw6XtRvc'
+mpv'https://www.youtube.com/watch?v=ag1lBEEJKHI'
+mpv 'https://www.youtube.com/watch?v=ag1lBEEJKHI'
+mpv 'https://www.youtube.com/watch?v=BcMWJYg5Rb8'
+paru -Rscnd discord-canary
+loc discord
+clear
+loc discord
+lf
+trash-empty
+loc discord
+paru discord-canary
+cd fastfetch
+ls
+cd fastfetch
+ls
+cd fastfetch
+ls
+mv LC_logo.png LClogo.png
+ls
+cd fastfetch
+lf
+cd fastfetch
+clear
+fastfetch
+c;ear
+clear
+hx
+cd helix
+ls
+vim languages.toml
+vim
+cd helix
+ls
+vim
+vim languages.toml
+cd resume
+ls
+vim resume.typ
+ls
+cd helix
+ls
+paru -Syu
+cd resume
+vim resume.typ
+vim languages.toml
+helix ver
+helix -v
+paru helix
+pacman -Qi helix
+clear
+lf
+ls
+mpv 'https://www.youtube.com/watch?v=1Z8Zw3AOEFQ'
+mpv 'https://www.youtube.com/watch?v=Z1yB7YIjO2U'
+mpv 'https://www.youtube.com/watch?v=wj9uaDUsiU8'
+mpv 'https://www.youtube.com/watch?v=IsDypwIz6lY'
+mpv 'https://www.youtube.com/watch?v=HN5P7-WbE44'
+lf
+mpv 'https://www.youtube.com/watch?v=pPS6FpPj-K4'
+mpv 'https://www.youtube.com/watch?v=0-lTnHxp2Wg'
+ls
+cd music
+cd albums_flac/
+ls
+ls | sort-by modified | where modified >= 16wk
+ls | sort-by modified | where modified >= 16wks
+ls | sort-by modified | where modified >= (date now) - 16wk
+ls | sort-by modified | where modified <= (date now) - 16wk
+ls | sort-by modified | where modified <= (date now) - 10wk
+ls | sort-by modified | where modified <= (date now) - 16wk
+cd albums_flac/
+cd albums_flac
+paru -Syu
+scrcpy 192.168.12.16
+scrcpy tcpip=192.168.12.16
+scrcpy tcpip=192.168.12.16:39507
+scrcpy --tcpip=192.168.12.16:39507
+adb devices
+adb tcpip 5555
+mpv 'https://www.youtube.com/watch?v=3iqI31iF2uk'
+scrcpy --tcpip=192.168.12.16
+ls
+clear
+ls | sort-by modified
+killall -q steam
+ghci
+ls
+lf
+ghcup
+ghcup tui
+ghci
+ls -a
+q==ls
+ls
+ghci
+ghcup
+ghcup test
+ghci
+cabal update
+ghci
+ghcup
+lf
+cabal user-config -f init
+cabal update
+echo $env.PATH
+docfd
+docfd /
+docfd ~/
+docfd ~/ --exts=*
+ghc-pkg list
+ghci
+ghcup
+ghcup nuke
+ghcup
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+mpv 'https://www.youtube.com/watch?v=QrTibAlp5C0'
+mpv 'https://www.youtube.com/watch?v=3iqI31iF2uk'
+mpv 'https://www.youtube.com/watch?v=rRymSi8SmqA'
+lf
+mpv 'https://www.youtube.com/watch?v=y1sF6ZeASU0'
+mpv 'https://www.youtube.com/watch?v=rRymSi8SmqA'
+mpv 'https://www.youtube.com/watch?v=Rp_pmWnZbDU'
+mpv 'https://www.youtube.com/watch?v=DYI7cC7MKUU'
+mpv 'https://www.youtube.com/watch?v=1E3cMslOtFY'
+git reset --hard
+git revert 5265d8c3 -m "revert"
+git revert 20e73c97 -m "revert"
+git revert 5265d8c3
+lf
+cd ..
+cd comp1110
+cd
+cd comp1110
+ls
+cd ..
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-homework.git
+ls
+cd comp1110-homework/
+ls
+git pull upstream main
+git remote add upstream https://gitlab.cecs.anu.edu.au/comp1110/comp1110-homework
+git pull upstream main
+git remote
+git remote -d upstream
+git remote remove upstream
+git remote
+mpv 'https://www.youtube.com/watch?v=cJDufTjXEzc'
+mpv 'https://www.youtube.com/watch?v=28dJodf_qtQ'
+ls
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+cd xmonad
+ls
+clear
+fastfetch
+clear
+lf
+ls
+clear
+cmus
+mpv 'https://www.youtube.com/watch?v=ZEKKF76nbtY'
+mpv 'https://www.youtube.com/watch?v=qcfuA_UAz3I'
+ls
+clear
+lf
+paru -Syu discord-canary
+paru -Rscnd birdtray-git
+paru nudoku
+nudoku
+paru -Rscnd nudoku
+xev
+git remove src/comp1110/homework/O01/BMI.java
+git rm src/comp1110/homework/O01/BMI.java
+git rm -f src/comp1110/homework/O01/BMI.java
+mpv 'https://www.youtube.com/watch?v=qcfuA_UAz3I'
+mpv 'https://www.youtube.com/watch?v=ZEKKF76nbtY'
+mpv 'https://www.youtube.com/watch?v=czjisEGe5Cw'
+mpv 'https://www.youtube.com/watch?v=JPv5FWCYdXc'
+android-file-transfer
+lf
+lfcd
+ls | sort-by modified
+clear
+ls | sort-by modified
+lfcd
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=c8a08c3451154076'
+lfcd
+ls | sort-by modified
+lf
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=c8a08c3451154076'
+cd heartbreak
+spotdl 'https://open.spotify.com/track/7lgvpq4R86aFDc6Q8HJ6Ne?si=13ffc055e71a4e73'
+mpv 
+mpv 'https://www.youtube.com/watch?v=Npuh9GuRw2Y'
+paru -Syu
+lf
+spicetify upgrade
+spicetify restore backup apply
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+cd Megadeth/
+ls
+lf
+cd ..
+ls | sort-by modified | where modified <= (date now) - 16wk
+lf
+lf
+cd Downloads/
+ls
+unzip "*.zip"
+lf
+cd ass2
+git blame
+acpi
+mpv 'https://www.youtube.com/watch?v=4cv3lIvnpiI'
+mpv 'https://www.youtube.com/watch?v=S4Gtl_-QCAc'
+webcam
+mpv 'https://www.youtube.com/watch?v=28dJodf_qtQ'
+webcam
+ls
+clear
+paru -Syu
+lf
+lfcd
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-mse-sample
+ls
+lf
+lfcd
+cd 1110
+l
+ls
+lf
+lfccd
+lfcd
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-sample-exam
+lf
+ghci
+clear
+trash-empty
+history
+zsh
+bash
+vim .bashrc
+vim .zshrc
+exit
+history
+cd ass2
+onefetch --number-of-authors 20
+paru python-ssd1306
+fd
+loc *
+paru fd
+loc *
+loc /
+fd /
+fd . '/'
+tree
+paru -Syu
+fd . '/' | wc -l
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+lf
+cd hypr
+vim playerctl.sh
+fd playerctl
+cd
+fd playerctl
+loc playerctl
+fd playerctl
+cd .config/
+fd playerctl
+cd waybar
+pgrep foobar2000
+hyprctl clients | grep '\[foobar2000\]' | grep title
+vim playerctl.sh
+cd albums_flac
+fd .jpg
+loc .jpg
+clear
+fd ".jpg"
+fd -e jpg
+fd -e jpg ~/Music/albums_flac/
+fd -e jpg . ~/Music/albums_flac/
+lf
+fd -e jpeg . ~/Music/albums_flac/
+fd -e jpeg . ~/Music/albums_flac/ cover
+fd -e jpeg cover
+fd cover.jpg
+lf
+fd -e jpg cover
+lf
+fd -e png cover
+fd cover
+clear
+lf
+fd crosses
+vim foobar2000/profile/lyrics/Sleeping With Sirens, Underoath & Spencer Chamberlain - Crosses.lrc
+paru wine-wayland
+paru wineland
+cd Downloads/
+pacman -U wine-wayland-8.2-1-x86_64.pkg.tar.zst
+sudo pacman -U wine-wayland-8.2-1-x86_64.pkg.tar.zst
+wine
+cd foobar2000/
+cd foobar2000
+ls
+lf
+cd
+lf
+lfcd
+paru wine
+paru wine-stable
+su
+paru wine-stable
+paru -Rscnd wine-wayland
+paru wine-stable
+mpv 'https://www.youtube.com/watch?v=S5QgTL37g-c'
+paru wine-stable
+paru -Rscnd wine-wayland
+paru wine-stable
+paru wine
+lf
+cd Downloads/
+pacman -u wineland-8.2-1-x86_64.pkg.tar.zst
+pacman -U wineland-8.2-1-x86_64.pkg.tar.zst
+sudo pacman -U wineland-8.2-1-x86_64.pkg.tar.zst
+cd foobar2000
+cd ..
+cd
+cd foobar2000/
+wineland foobar2000.exe
+lf
+wineland foobar2000.exe
+lf
+lfcd
+chmod +x -R *
+cd
+wineland foobar2000.exe
+wineland foobar2000
+wineland
+lf
+cd .local/share
+ls
+rm -rf wineland/
+cd
+lf
+paru -Rscnd wineland
+ls
+paru -Syu
+pacman -Rscnd paru
+sudo pacman -Rscnd paru
+sudo pacman -Syu paru
+pacman paru
+yay -S paru
+sudo pacman -S --needed base-devel
+cd code_Master/
+ls
+lf
+git clone https://aur.archlinux.org/paru.git
+cd paru/
+makepkg si
+cd cache
+cd .cache
+ls
+lf
+trash-empty
+makepkg -si
+cd
+paru discord-canary
+paru -Syu
+paru -Rscnd libheif
+paru -Syu
+fd /
+fd . '/'
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+clear
+paru kitty
+lf
+tmux
+paru tmux
+inxi -AbBCdDEfFGijJlLmMnNopPrRsSuwyYzZ
+exit
+tmux
+paru -Rscnd discord-canary
+paru discord-canary
+fd 
+fd
+clear
+fd . 'discord/settings.json'
+fd 'discord/settings.json'
+fd --full-path 'discord/settings.json'
+fd -p 'discord/settings.json'
+fd -p '.*/discord/settings.json'
+cd .config/
+lf
+loc settings.json
+fd -p '.*/discordcanary/settings.json'
+cd discordcanary/
+ls
+vim settings.json
+cd discordcanary
+mpv 'https://www.youtube.com/watch?v=M4LENzsJZOs'
+egg
+paru -Rscnd hyprland-relative-workpaces
+paru -Rscnd hyprland-relative-workpace
+paru -Rscnd hyprland-relative-workpace-bin
+paru -Rscnd hyprland-relative-workpace
+loc hyprland-relative
+paru -Qi hyprland-relative-workspace
+paru -Rscnd hyprland-relative-workspace
+paru -Rscnd hyprland-relative-workspace-bin
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+rm -rf download_log.txt
+ls | sort-by modified | where modified <= (date now) - 16wk
+playerctl metadata
+playerctld
+killall -q playerctld
+playerctl metadata
+lf
+clear
+fastfetch
+cd code_Master/
+cd
+fd The pyre
+fd "the pyre"
+clear
+fd evangelion
+fd 'evangelion'
+fd 'senbonzakura'
+fd 'cuts'
+fd -e jpg
+clear
+killall -q rofi
+exit
+killall -q rofi
+paru -Syu
+clear
+tui
+cd code_Master/
+ls
+lf
+cd nushell
+cd nu
+cd .config/nushell/
+ls
+vim config.nu
+clear
+ping 1.1.1.1
+history
+cd .config/nushell/
+lf
+ping 1.1.1.1
+lf
+ls
+clear
+fd high tide
+fd "high tide"
+ghci
+clear
+clear; fastfetch
+killall -q firefox
+mpv 'https://www.youtube.com/watch?v=aN3ZbIiqQQ0'
+ls
+clear
+hyprctl activeworkspace
+mpv 'https://www.youtube.com/watch?v=k4y0njZlE-g'
+mpv 'https://www.youtube.com/watch?v=2Xm05gVDRuw'
+lf
+fd "anthem"
+loc "anthem"
+fd . 
+fd . "anthem"
+fd . '/' "anthem"
+fd "evdi"
+fd -p '/' "evdi"
+fd "evdi" -p '/'
+lf
+clear
+ping doubledouble.top
+fd -e lrc 
+killall -q steam
+htop
+btop
+top
+clear
+stop
+neofetch
+pfetch
+wfetch
+clear
+fetch
+mpv 'https://www.youtube.com/watch?v=7sA3HR8rs_8'
+ls
+clear
+paru -Syu
+paru -Rscnd jre-openjdk-headless
+paru -Syu
+hyprctl clients 
+rofi
+cd rofi
+cd
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=d2h-2s4aXmo'
+mpv 'https://www.youtube.com/watch?v=CmZdGo6b5yA'
+git reset --hard
+hx blofish
+ls
+ls
+lf
+lfcd
+ls
+git clone https://gitlab.cecs.anu.edu.au/u7679057/comp1110-exam-2022s1
+lfcd
+killall -q foobar2000/
+pgrep foobar2000
+killall -q foobar2000/
+hyprctl clients 
+lfcd
+lf
+lfcd
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+lf
+echo $env.PATH_TO_JFX
+config env
+echo $env.EDITOR
+git checkout --HEAD src/comp1110/exam/Q3Hiking.java
+git checkout HEAD src/comp1110/exam/Q3Hiking.java
+fd -e lrc concrete
+mpv 'https://www.youtube.com/watch?v=49T8AE8WJJU'
+ls
+acpi
+acpi -r
+acpi -i
+acpi -vi
+wechat
+fd "wechat"
+fd -e desktop "wechat"
+fd -e desktop wechat
+fd wechat
+paru -Syu
+lf
+loc deepin5
+fd deepin
+fd wine
+fd -p '/' wine
+fd -p
+fd -p . 
+fd -p . wine
+cd /
+fd wechat
+cd
+sudo hx /etc/pacman.conf
+git checkout HEAD src/comp1110/exam/Q6Escalators.java
+paru deepin-wine-wechat
+deepin-wine-wechat
+wechat
+paru -Qi deepin-wine-wechat
+t ls
+t a
+t ls
+ping 1.1.1.1
+ls
+cd limbus/
+cd ..
+cd .steam/
+ls
+cd steam/
+ls
+cd steamapps/
+lf
+lfcd
+chmod +x -R *
+paru -Qi intellij
+trackpad
+sudo modprove -r rmi_smbus && sudo modprobe rmi_smbus
+sudo modprove -r rmi_smbus; sudo modprobe rmi_smbus
+sudo modprobe -r rmi_smbus; sudo modprobe rmi_smbus
+sudo modprobe -r psmouse
+sudo modprobe psmouse
+lf
+fd WeChat
+lf
+clear
+/opt/apps/com.qq.weixin.deepin/files/run.sh winecfg
+lf
+cd Downloads/
+pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+sudo pacman -U deepin-wine6-stable 
+sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+paru deepin-wine5
+sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+paru -Rscnd deepin-wine5
+paru -Rscnd deepin-wine5-stable
+paru -Rscnd deepin-wine5
+paru -U deepin-wine5
+lf
+paru -Syu deepin-wine5
+lf
+paru -S deepin-wine5
+ls
+vim blobfish
+vim blofish
+m -rf blofish
+rm -rf blofish
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+lf
+cd
+trash-empty
+clear
+fastfetch
+lf
+cd code_Master/
+cd dotfiles
+ls
+git add .
+git commit -m "update"
+git push
+vim
+\vim
+git push
+mpv 'https://www.youtube.com/watch?v=5bInUPcunz8'
+ls
+clear
+config env
+t a Inquire about Security Deposit
+t a pack
+t ls
+t del 1
+clear
+exit
+exa
+exa -list
+exa 
+clear
+config nu
+clear
+lf
+ls
+clear
+cd Music/
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+lf
+man kill
+man killall
+ping 1.1.1.1
+nmtui
+cd Everything Bucket
+ls
+git add .
+git rm --cached Uni/Y1S2/COMP1110/pastexams/comp1110-exam-2022s1/
+git rm --cached -f Uni/Y1S2/COMP1110/pastexams/comp1110-exam-2022s1/
+git commit -m "update"
+t do 2 3
+t do 1
+clear
+t ls
+ping 1.1.1.1
+ls
+ufw
+ufw status
+sudo ufw status
+sudo ufw allow 1714:1764/udp
+sudo ufw allow 1714:1764/tcp
+sudo ufw reload
+sudo ufw status
+adb
+adb devices
+adb kill-server
+kdeconnectd
+paru -Qi kdeconnect
+nmtui
+git push
+nmtui
+arp-scan -I wlan0 --rtt --format='|${ip;-15}|${max}|${rtt;8}|' 10.28.46.188
+arp-scan -I wlan0
+arp-scan
+arp-scan -L
+arp-scan --localnet
+arp-scan --interface=wlan0 --localnet
+sudo arp-sacn --interface=wlan0 --localnet
+sudo arp-scan --interface=wlan0 --localnet
+ls
+ping 1.1.1.1
+cd Everything Bucket
+git add .
+git rm --cached -f Uni/Y1S2/COMP1110/pastexams/comp1110-exam-2022s1/
+git commit -m "update"
+ping 1.1.1.1
+lf
+spicetify upgrade
+spicetify restore backup apply
+lf
+clear
+webcam
+paru -Rscnd deepin-wechat
+paru -Qi deepin-wine-wechat
+paru -Rscnd deepin-wine-wechat
+lf
+ls
+clear
+cd code_Master/
+ls
+lf
+cd code_Master/
+ls
+lf
+paru -Syu
+lf
+paru -Rscnd deadbeef-git
+ls
+clear
+lf
+ping 1.1.1.1
+clear
+exit
+mpv 'https://www.youtube.com/watch?v=f5ktqM27hp8'
+mpv 'https://www.youtube.com/watch?v=Ttsfx_Mjf-g'
+mpv 'https://www.youtube.com/watch?v=okAAL53Rj_0'
+kdeconnectd
+paru kdeconnect
+killall -q kde
+bpytop
+killall -q kworker
+sudo killall -q kworker
+pidof kworker
+btop
+sudo killall kworker
+pidof kworker
+mpv 'https://www.youtube.com/watch?v=DjxpxOGDB6g'
+mpv 'https://www.youtube.com/watch?v=QAgzJQ5l2eY'
+mpv 'https://www.youtube.com/watch?v=W-3GyxBeiSI'
+mpv 'https://www.youtube.com/watch?v=vjGh27QIkB8'
+cd code_Master/
+ls
+cd
+fd wrapped
+fd h1
+cd /
+fd wrapped
+lf
+cd /usr/share/wayland-sessions/
+ls
+fd wrapped
+fd . wrapped
+fd -p .  wrapped
+fd -p . wrapped
+fd wrapped /
+fd wrapped .
+fd
+fd -H wrapped
+cd .local/bin/wrappedh1
+cd .local/bin
+vim wra
+vim wrappedh1
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=i1rMve9IeAE'
+acpi
+spicetify update
+spicetify restore backup apply
+mpv 'https://www.youtube.com/watch?v=IDZK0bzthfg'
+mpv 'https://www.youtube.com/watch?v=2LPLjIG-15A'
+mpv 'https://www.youtube.com/watch?v=CShMxC-pfMA'
+ls
+clear
+ping 1.1.1.1
+clear
+paru -Syu
+mpv 'https://www.youtube.com/watch?v=x5PR-sy2U4I'
+config env
+config nu
+cd .config/zoxide.nu
+cd .config/zoxide
+ls
+vim zoxide.nu
+cd .config/zoxide
+vim zoxide.nu
+vim .config/zoxide.nu
+lf
+cd .config/nushell/
+config nu
+vim .config/zoxide/zoxide.nu
+cd
+vim .config/zoxide/zoxide.nu
+config env
+config nu
+cd albums_flac
+z albums_flac
+z
+z albums_flac
+paru zoxide
+config env
+z albums_flac
+cd .config/zoxide
+vim zoxide.nu
+killall rofi
+fd userchrome.css
+cd dotfiles
+vim userChrome.css
+lf
+dd bs=4M if=
+lf
+lsblk
+dd bs=4M if=/home/julian/Downloads/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=/home/julian/Downloads/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+ls
+sudo dd bs=4M if=/home/julian/Downloads/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+lf
+clear
+cmus
+cd code_Master/
+git clone https://github.com/catppuccin/thunderbird
+t a pack
+t a redesign website
+t a ask uncle richard for summer job
+t pri 1 A
+t pri 3 B
+t pri 2 C
+t ls
+t a book return to canberra trip
+t pri 4 B
+t ls
+t a arch Uncle Joe's Gaming Laptop<\n>'
+t rm 5
+t ls
+t a arch Uncle Joe gaming laptop
+t pri 6 C
+t ls
+t a Christmas Presents for Mum and Angus
+t pri 7 B
+t ls
+pgrep discord
+pgrep discordcanary
+pgrep discord-canary]
+pgrep discord-canary
+btm
+pgrep DiscordCanary
+playerctl metadata
+t ls
+ls
+clear
+t pri 7 8
+t ls
+t a Arch old dell laptop
+t pri 8 D
+t ls
+lf
+sudo pacman -Syu
+pari -Sui
+paru -Syu
+killall rofi
+mpv 'https://www.youtube.com/watch?v=DbhQTYShwRI'
+paru -Qi deepin-wine-wechat
+paru deepin-wine-wechat
+sudo helix /etc/pacman.conf
+/opt/apps/com.qq.weixin.deepin/files/run.sh winecfg
+/opt/apps/com.qq.weixin.deepin/files/run.sh -w
+cd Downloads/
+sudo pacman -U deepin-wine-wechat-3.5.0.46-2-x86_64.pkg.tar.zst
+hyprctl clients 
+/opt/apps/com.qq.weixin.deepin/files/run.sh -d
+/opt/apps/com.qq.weixin.deepin/files/run.sh -h
+sudo pacman -Rscnd deepin-wine5
+/opt/apps/com.qq.weixin.deepin/files/run.sh -d
+fd run.sh /
+vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+rm $HOME/.deepinwine/Deepin-WeChat/deepin
+rm $env.HOME/.deepinwine/Deepin-WeChat/deepin
+rm ~/.deepinwine/Deepin-WeChat/deepin
+/opt/apps/com.qq.weixin.deepin/files/run.sh -d
+Deepin-WeChat 3.4.0.38deepin4 c:/Program Files/Tencent/WeChat/WeChat.exe -d
+paru -Syu deepin-wine5
+paru deepin-wine
+paru -Qi deepin-wine5
+deepin-wine
+deepin-wine5
+sudo hx /opt/apps/com.qq.weixin.deepin/files/run.sh
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+pidof wechat
+lf
+fd simsun
+fd -e .ttc \
+fd -e .ttc /
+fd -e .ttc . /
+lf
+paru -S deepin-wine-wechat
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+cd Downloads/
+sudo pacman -U deepin-wine-wechat-3.5.0.46-2-x86_64.pkg.tar.zst
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+paru fontforge
+lf
+fd simsun /
+fd SimSun /
+fd -h simsun /
+fd -H simsun /
+trash-empty
+fd -H simsun /
+lf
+cp /home/julian/.local/share/Steam/steamapps/compatdata/1973530/pfx/drive_c/windows/Fonts/simsun.ttc ~/Downloads/
+lf
+fd -H -e ttf simsun /
+fd -H -e ttf 
+clear
+lf
+pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+cd Downloads/
+sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+lf
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+paru -S deepin-wine-wechat
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+cd Downloads/
+sudo pacman -U deepin-wine-wechat-3.8.1.26-1-x86_64.pkg.tar.zst
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+hyprctl clients
+clear
+paru -S wqy-microhei
+vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+lf
+sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+sudo helix /opt/apps/com.qq.weixin.deepin/files/run.sh
+lf
+playerctl metadata
+cd waybar
+./playerctl.sh
+hyprctl clients | grep '\[foobar2000\]' | grep title
+cd waybar
+mpc
+mpc status
+mpd
+paru -Rscnd mpd
+paru -Rsncd mpc
+vim playerctl.sh
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+ping 1.1.1.1
+ls
+cd albums_flac
+ls | sort-by modified | where modified <= (date now) - 16wk
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+ls
+clear
+t a get sign out documents
+t a fill out sign out documents
+t pri 9 A 10 A
+t ls
+t clear
+t del 7
+t a Christmas Present for Mum
+t a Christmas Present for Angus
+t ls
+t pri 11 B 12 B
+cd candybox
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=f36755d97d3e4740'
+cd heartbreak
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=f36755d97d3e4740'
+cd warm
+cd
+cd warm_ice
+fd warm
+cd Music/Playlists/warm_ice/
+ls
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=f36755d97d3e4740'
+ls
+cd
+ping 1.1.1.1
+cd code_Master/
+ls
+cd
+lf
+cd fancy
+cd playlists
+cd fancy_flac/
+ls
+spotdl 'https://open.spotify.com/playlist/4kMCf5EZpdKukgPiGw8DGy?si=f36755d97d3e4740'
+adb devices
+adb tcpip 5555
+ip a
+scrcpy --tcpip=10.28.111.105
+scrcpy
+scrcpy -d
+hyprctl 
+hyprctl workspaces
+mpv 'https://www.youtube.com/watch?v=EFaIpRIcUoE'
+lf
+vim playerctl.sh
+cd waybar
+lf
+t do 9
+t ls
+vim playerctl.sh
+vim playerctl.py
+./playerctl.py
+chmod +x playerctl.py
+cd waybar
+lf
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+python playerctl.py
+vim playerctl.py
+lf
+cd waybar
+vim playerctl.py
+cd waybar
+pwd
+vim playerctl.sh
+./playerctl.sh
+vim playerctl.sh
+btop
+lf
+trash-empty
+lf
+cd waybar
+vim playerctl.sh
+cd waybar
+vim playerctl.sh
+cd waybar
+vim playerctl.sh
+cd waybar
+cd scripts
+hyprctl clients | grep '\[foobar2000\]' | grep title
+bash
+hyprctl clients | grep '\[foobar2000\]' | grep title
+vim playerctl.sh
+mpv 'https://www.youtube.com/watch?v=lrl1bAh_AbQ'
+ls
+clear
+paru -Syu
+clear
+lf
+trash-empty
+lf
+mpv 'https://www.youtube.com/watch?v=EhaRkbt7Cf8'
+mpv 'https://www.youtube.com/watch?v=CpHiSrHQTQg'
+killall foobar2000
+killall foobar2000.exe
+ls
+clear
+ping 1.1.1.1
+clear
+lf
+acpi
+lf
+trash-empty
+mpv 'https://www.youtube.com/watch?v=S2fqtO2Titk'
+vim
+hx
+cd resume
+ls
+cd resume
+watch resume.typ
+vim resume.typ
+zathura resume.pdf
+cd ass2
+ls
+cd assn2
+ls
+cd assn2
+ls
+vim submission.typ
+lf
+kill mpv
+killall mpv
+mpv 'https://www.youtube.com/watch?v=VDM_xWAB8Vc'
+zathura submission.pdf
+l
+lf
+hx
+mpv 'https://www.youtube.com/watch?v=VDM_xWAB8Vc'
+paru -Syu
+ls
+clear
+lf
+cd Downloads/
+unzip "*.zip"
+lf
+cd waybar
+ls
+vim playerctl.sh
+lf
+ls
+rm -rf tmp
+lf
+ghc
+ghci
+lf
+killall -q discord-canary
+lf
+cd resume
+watch resume.typ
+cd resume
+cd assn2
+ls
+timedatectl
+timedatectl set-timezone 
+timedatectl set-timezone "Australia/Perth"
+timedatectl list-timezones
+lf
+paru qrcp
+lf
+lfcd
+ip a
+qrcp send `Roland-(LoR)-Fixer-Lobotomy-Corporation-7606401.jpeg`
+python -m http.server 8000
+spicetify update
+spicetify restore backup apply
+lf
+cd albums_flac
+ip a
+cd hyprland
+cd hypr
+ls
+dd bs=4M if=/home/julian/Downloads/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+dd bs=4M if=/home/julian/iso/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=/home/julian/iso/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
+nmtui
+lf
