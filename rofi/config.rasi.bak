@@ -1,7 +1,0 @@
-configuration {
- modi: "window,drun,ssh,run,combi";
- font: "JetBrains Mono Medium 11";
- combi-modi: "window,drun,run,ssh";
- }
-@theme "~/.config/rofi/themes/longbox.rasi"
-

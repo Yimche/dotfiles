@@ -2,12 +2,11 @@
 
 /* Global */
 * {
-  font-family: "FiraCode Nerd Font";
+  font-family: "Jetbrains Mono Medium", "Fira Code Nerd Font";
   font-size: .9rem;
   border-radius: 1rem;
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: shade(@base, 0.9);
 }
 
 @keyframes blink_red {
@@ -34,6 +33,10 @@
 }
 
 /* Bar */
+#left, #right {
+  background-color: shade(@base, 0.9);
+}
+
 window#waybar {
   background-color: transparent;
 }
@@ -43,7 +46,9 @@ window > box {
   margin: .3rem;
   margin-bottom: 0;
 }
-
+window#empty custom-player.stopped {
+  background-color: transparent;
+}
 
 /* Workspaces */
 #workspaces:hover {
@@ -114,10 +119,18 @@ tooltip label {
 #mpd {
   color: @lavender;
 }
-#custom-media, #custom-player {
+#custom-player {
+  background-color: @base;
   color: @lavender;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+#custom-player.stopped {
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  padding: 5px;
 }
 
 #custom-media.Stopped {
@@ -153,8 +166,9 @@ tooltip label {
 #pulseaudio {
   color: @mauve;  /* not active */
 }
-#network {
+#network { 
   color: @pink; /* not active */
+  min-width: 170px;
 }
 #network.disconnected {
   color: @foreground;  /* not active */
