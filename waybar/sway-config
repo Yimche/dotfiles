@@ -1,48 +1,33 @@
 {
   "layer": "top",
   "modules-left": [
-    "group/left"
+    "custom/powermenu",
+    "sway/workspaces",
+    "sway/mode",
+    "custom/cava-internal",
   ],
+  "sway/mode": {
+    "format": " {}"
+  },
   "modules-center": [
-    "group/center"
+    //"custom/media"
+    "custom/player"
   ],
   "modules-right": [
-    "group/right"
+    "pulseaudio",
+    "backlight",
+    "disk",
+    "cpu",
+    "memory",
+    "network",
+    "battery",
+    "clock",
+    "tray",
   ],
-  "group/left": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/powermenu",
-      "hyprland/workspaces",
-      "hyprland/mode",
-      "custom/cava-internal",
-    ]
-  },
-  "group/center": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/player"
-    ]
-  },
-  "group/right": {
-    "orientation": "horizontal",
-    "modules": [
-      "pulseaudio",
-      "backlight",
-      "disk",
-      "cpu",
-      "memory",
-      "network",
-      "battery",
-      "clock",
-      "tray",
-    ]
-  },
   //"width": 1900,
   "margin-left": 10,
   "margin-right": 10,
   "margin-top": 5,
-  "reload_style_on_change": true,
   "custom/launcher": {
     "format": "",
     "tooltip-format": "pacman -Q linux",
@@ -52,7 +37,7 @@
     "exec": "$HOME/.config/waybar/cava.sh",
     "tooltip": false
   },
-  "hyprland/workspaces": {
+  "sway/workspaces": {
     "disable-scroll": true,
     /*"all-outputs": true,*/
     "active-only": false,
@@ -69,9 +54,6 @@
       "9": "九",
       "10": "十",
     }
-  },
-  "hyprland/mode": {
-    "format": " {}"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -99,7 +81,7 @@
     "path": "/home",
     "tooltip": true,
     "tooltip-format": "{used}/{total} => {path} {percentage_used}%",
-    "on-click": "sleep 0.1 && baobab",
+    "on-click": "baobab",
   },
   "pulseaudio": {
     "scroll-step": 1,
@@ -117,7 +99,7 @@
     /* }, */
     "scroll-step": 1,
     /* "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",*/
-    "on-click": "sleep 0.1 && rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/scripts/soundswitch.sh' -theme '~/.config/rofi/themes/soundswitch.rasi'",
+    "on-click": "rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/soundswitch.sh'",
     "tooltip": false,
       },
   "battery": {
@@ -154,7 +136,7 @@
     "format:alt": "{:%Y-%m-%d}"
   },
   "memory": {
-    "on-click": "sleep 0.1 && kitty btm",
+    "on-click": "kitty btm",
     "interval": 1,
     "format": "﬙ {percentage}%",
     "states": {
@@ -197,7 +179,7 @@
   },
   "custom/powermenu": {
     "format": "",
-    "on-click": "sleep 0.1 && sh ~/.config/rofi/scripts/powermenu.sh",
+    "on-click": "sh ~/.config/rofi/powermenu.sh",
     "tooltip": false
   },
   "tray": {
@@ -253,8 +235,6 @@
   "custom/player": {
     "format": "{}",
     "interval": 2,
-    "tooltip": false,
-    // "return-type": "json",
     "exec": "$HOME/.config/waybar/playerctl.sh"
   },
   "hyprland/window": {
