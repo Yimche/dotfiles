@@ -183,11 +183,12 @@
     "interval": 1,
     //"format-wifi": "說 {essid}",
     "format-wifi": "說 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
-    "format-ethernet": "  {ifname} ({ipaddr})",
+    "format-ethernet": "說 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    //"format-ethernet": "  {ifname} ({ipaddr})",
     "format-linked": "說 {essid} (No IP)",
     "format-disconnected": "說 Disconnected",
     "tooltip": true,
-    "tooltip-format": "{essid}: {ipaddr}"
+    "tooltip-format": "{essid}{ifname}: {ipaddr}"
   },
   "temperature": {
     "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
@@ -254,7 +255,8 @@
     "format": "{}",
     "interval": 2,
     "tooltip": false,
-    // "return-type": "json",
+    "return-type": "json",
+    "escape": true,
     "exec": "$HOME/.config/waybar/playerctl.sh"
   },
   "hyprland/window": {

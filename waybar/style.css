@@ -46,13 +46,10 @@ window > box {
   margin: .3rem;
   margin-bottom: 0;
 }
-window#empty custom-player.stopped {
-  background-color: transparent;
-}
 
 /* Workspaces */
 #workspaces:hover {
-  background-color: @green;
+  background-color: transparent;
 }
 
 #workspaces button {
@@ -61,7 +58,7 @@ window#empty custom-player.stopped {
   padding-top: .1rem;
   padding-bottom: .1rem;
   color: @red;
-  /* border: .2px solid transparent; */
+  border: .2px solid transparent;
   background: transparent;
 }
 
@@ -70,7 +67,7 @@ window#empty custom-player.stopped {
 }
 
 #workspaces button:hover {
-  /* border: .2px solid transparent; */
+  border: .7px solid @rosewater;
   color: @rosewater;
 }
 

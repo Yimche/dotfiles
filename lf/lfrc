@@ -37,18 +37,8 @@ map O $mimeopen --ask $f
 # use either file extensions and/or mime types here. Below uses an editor for
 # text files and a file opener for the rest.
 cmd open ${{
-    case $(file --mime-type "$f" -bL) in
-        text/*|application/json) $EDITOR "$f";;
-        *) devour xdg-open "$f" ;;
-    esac
+	~/code_Master/scripts/launch.sh $f
 }}
-#cmd open ${{
-#    test -L $f && f=$(readlink -f $f)
-#    case $(file --mime-type $f -b) in
-#        text/*) $EDITOR $fx;;
-#        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
-#    esac
-#}}
 
 # define a custom 'rename' command without prompt for overwrite
 # cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
@@ -111,8 +101,13 @@ cmd zip ${{
 #: set previewer ~/.go/bin/pistol
 #set previewer ~/.config/lf/lf_kitty_preview
 #set cleaner ~/.config/lf/lf_kitty_clean
-set previewer ~/.config/lf/lfpreview.sh
+#set previewer ~/.config/lf/lfpreview.sh
 #set previewer ~/.config/lf/preview
+
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
 
 set drawbox true
 #set hidden true
@@ -153,9 +148,9 @@ cmd sudomkfile ${{
 }}
 
 cmd setwallpaper ${{
-	cp "$f" ~/.config/wall.png && feh --bg-fill --no-fehbg "$f"
-  betterlockscreen -u ~/.config/wall.png
-  cp "$f" /usr/share/backgrounds/wall.png
+	cp "$f" ~/.config/wall.png && swww img "$f"
+	#betterlockscreen -u ~/.config/wall.png
+	cp "$f" /usr/share/backgrounds/wall.png
 }}
 
 #: Archive bindings
@@ -176,6 +171,11 @@ cmd tar %tar cvf "$f.tar" "$f"
 cmd trash %trash-put $fx
 cmd restore %trash-restore
 #: }}}
+#
+
+cmd exec ${{
+  exec $f
+}}
 
 #: Custom Mappings {{{
 map md mkdir
@@ -193,7 +193,7 @@ map gpw cd ~/Pictures/wallpapers
 map gT cd ~/.local/share/Trash/files
 map gm cd /run/media/julian
 map gv cd ~/Videos
-map gu cd ~/Documents/uni/
+map gu cd ~/Documents/uni/Y2S1
 
 map r rename
 map H top
@@ -218,3 +218,4 @@ map f
 map e $$EDITOR "$f"
 
 #:}}}
+
