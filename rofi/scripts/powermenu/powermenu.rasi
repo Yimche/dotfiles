@@ -1,0 +1,50 @@
+configuration {
+    show-icons:                   true;
+    display-drun: 		          "";
+    drun-display-format:          "{icon} {name}";
+    disable-history:              true;
+    click-to-exit: 		          true;
+    location:                     1;
+    fixed-num-lines: false;
+}
+
+@import "/home/julian/.config/rofi/themes/mocha.rasi"
+
+/* Line Responsible For Button Layouts */
+/* BUTTON = FALSE */
+
+window {
+    width: 130px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: @border-col;
+    x-offset: 15px;
+    y-offset: -2px;
+    background-color: @bg-col;
+    padding: 10px 0px 10px 0px;
+}
+
+mainbox {
+    children: [listview];
+    background-color: @transparent;
+}
+
+inputbar{
+    padding: 0px;
+}
+
+listview {
+    columns: 1;
+    background-color: @transparent;
+}
+
+element, element-icon, element-text {
+    font: "Fira Code Nerd Font 11";
+    background-color: @transparent;
+    color: @fg-col;
+}
+
+element-text selected, element-text hover {
+    color: @selected-col;
+}
+
