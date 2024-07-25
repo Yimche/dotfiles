@@ -17,21 +17,27 @@ source $HOME/code_Master/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Haskell Stuff
 export PATH="$HOME/.cabal/bin:$PATH"
+export PATH="$HOME/.ghcup/bin:$PATH"
+export PATH="$HOME/.local/bin/:$PATH"
 
 #: Alias
 #: alias lf='lfrun'
-alias open='devour xdg-open'
-alias t='todo.sh'
-alias mpv='devour mpv'
-alias sxiv='devour sxiv'
-alias zathura='devour zathura'
-alias scrcpy='devour scrcpy'
+#alias open='devour xdg-open'
+#alias t='todo.sh'
+#alias mpv='devour mpv'
+#alias sxiv='devour sxiv'
+#alias zathura='devour zathura'
+#alias scrcpy='devour scrcpy'
 alias ls='exa --long --group-directories-first --icons'
 alias ll='exa --long --group-directories-first --icons'
 alias la='exa --long --all --group-directories-first --icons'
 alias lt='exa --long --tree --group-directories-first --icons'
-alias locate='updatedb --require-visibility 0 -o ~/.locate.db && locate --database=$HOME/.locate.db'
-alias webcam='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
+#alias locate='updatedb --require-visibility 0 -o ~/.locate.db && locate --database=$HOME/.locate.db'
+#alias webcam='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
+alias cdw='cd /mnt/c/Users/julia/'
+alias irc='ssh ircj@akropolis.trickypr.com'
+alias explorer='explorer.exe .'
+alias vim='nvim'
 
 #alias updatedb='updatedb --require-visibility 0 -o ~/.locate.db'
 
@@ -45,6 +51,7 @@ ci() {
 LFCD="$HOME/.config/lf/lfcd.sh"
 if [ -f "$LFCD" ]; then
   source "$LFCD"
+  alias lf='lfcd'
 fi
 
 # Base16_Shell
@@ -54,3 +61,5 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 fastfetch
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+export LS_COLORS="$(vivid generate nord)"
