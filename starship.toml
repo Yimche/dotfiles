@@ -8,13 +8,13 @@
 [username]
 style_user = "bright-cyan bold"
 style_root = "red bold"
-format = "[$user]($style) "
+format = '\[[$user]($style)'
 disabled = false
 show_always = true
 
 [hostname]
-ssh_only = false
-format = 'on [$hostname](bold purple) '
+ssh_only = true
+format = '@[$hostname](bold purple)'
 trim_at = "."
 disabled = false
 
@@ -22,14 +22,16 @@ disabled = false
 [character]                            # The name of the module we are configuring is "character"
 success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
 error_symbol = "[✗](bold red)"
+disabled = true
 
 #  
 # configure directory
 [directory]
-read_only = " "
+read_only = ' '
 truncation_length = 10
 truncate_to_repo = true # truncates directory to root folder if in github repo
-style = "bold italic blue"
+style = "bold blue"
+format = ': [$path]($style)\] '
 
 [cmd_duration]
 min_time = 4
