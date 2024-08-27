@@ -27,6 +27,7 @@
     separator_color = frame
     sort = yes
     font = FiraCode Nerd Font 10
+    #font = JetBrains Mono NL 10
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -38,7 +39,7 @@
     stack_duplicates = true
     hide_duplicate_count = false
     show_indicators = false
-    enable_recursive_icon_lookup = true
+    enable_recursive_icon_lookup = false
     icon_theme = Adwaita
     icon_position = left
     min_icon_size = 32
@@ -65,21 +66,21 @@
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
-    background = "#1e1e2edd"
-    foreground = "#f5e0dc"
-    frame_color = "#89dceb"
+    background = "#1e1e2edd" #2e3440dd
+    foreground = "#f5e0dc" #e5e9f0
+    frame_color = "#b4befe" #81a1c1
     timeout = 10
 
 [urgency_normal]
     background = "#1e1e2edd"
-    foreground = "#f5e0dc"
-    frame_color = "#b4befe"
+    foreground = "#e5e9f0" #e5e9f0
+    frame_color = "#b4befe" #5e81ac
     timeout = 10
 
 [urgency_critical]
     background = "#1e1e2edd"
-    foreground = "#f5e0dc"
-    frame_color = "#f38ba8"
+    foreground = "#e5e9f0"
+    frame_color = "#f38ba8" #"#bf6161a" 
     timeout = 0
 
 [ignore_instagram_unseen]
