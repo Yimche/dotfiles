@@ -14,6 +14,7 @@ zstyle :compinstall filename '$HOME/.zshrc'
 # End of lines added by compinstall
 source $HOME/code_Master/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/code_Master/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source $HOME/code_Master/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Haskell Stuff
 export PATH="$HOME/.cabal/bin:$PATH"
@@ -33,8 +34,8 @@ alias ll='exa --long --group-directories-first --icons'
 alias la='exa --long --all --group-directories-first --icons'
 alias lt='exa --long --tree --group-directories-first --icons'
 #alias locate='updatedb --require-visibility 0 -o ~/.locate.db && locate --database=$HOME/.locate.db'
-#alias webcam='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
-alias cdw='cd /mnt/c/Users/julia/'
+alias webcam='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
+#alias cdw='cd /mnt/c/Users/julia/'
 alias irc='ssh ircj@akropolis.trickypr.com'
 alias explorer='explorer.exe .'
 alias vim='nvim'
@@ -58,8 +59,10 @@ fi
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
+print ""
 fastfetch
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 export LS_COLORS="$(vivid generate nord)"
+export EDITOR="nvim"
