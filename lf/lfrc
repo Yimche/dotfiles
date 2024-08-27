@@ -148,9 +148,9 @@ cmd sudomkfile ${{
 }}
 
 cmd setwallpaper ${{
-	cp "$f" ~/.config/wall.png && swww img "$f"
+	ln -snf "$f" ~/.config/wall.png && swww img "$f"
 	#betterlockscreen -u ~/.config/wall.png
-	cp "$f" /usr/share/backgrounds/wall.png
+	#cp "$f" /usr/share/backgrounds/wall.png
 }}
 
 #: Archive bindings
@@ -193,7 +193,7 @@ map gpw cd ~/Pictures/wallpapers
 map gT cd ~/.local/share/Trash/files
 map gm cd /run/media/julian
 map gv cd ~/Videos
-map gu cd ~/Documents/uni/Y2S1
+map gu cd ~/Documents/uni/Y2S2
 
 map r rename
 map H top
