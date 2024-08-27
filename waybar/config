@@ -18,12 +18,12 @@
       "custom/cava-internal",
     ]
   },
-  "group/center": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/player"
-    ]
-  },
+  //"group/center": {
+  //  "orientation": "horizontal",
+  //  "modules": [
+  //    "custom/player"
+  //  ]
+  //},
   "group/right": {
     "orientation": "horizontal",
     "modules": [
@@ -87,10 +87,10 @@
     "on-scroll-down": "brillo -q -U 5",
     "format": "{icon} {percent}%",
     "format-icons": [
-      "",
-      "",
-      "",
-      ""
+      "󰃞",
+      "󰃟",
+      "󰃝",
+      "󰃠"
     ]
   },
   "disk": {
@@ -104,7 +104,7 @@
   "pulseaudio": {
     "scroll-step": 1,
     "format": "{icon} {volume}%",
-    "format-muted": "婢 Muted",
+    "format-muted": " Muted",
     "format-icons": {
       "default": [
         "",
@@ -116,8 +116,8 @@
     /*   "warning": 100, */
     /* }, */
     "scroll-step": 1,
-    /* "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",*/
-    "on-click": "sleep 0.1 && rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/scripts/soundswitch.sh' -theme '~/.config/rofi/themes/soundswitch.rasi'",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "sleep 0.1 && rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/scripts/soundswitch.sh' -theme '~/.config/rofi/themes/soundswitch.rasi'",
     "tooltip": false,
       },
   "battery": {
@@ -128,24 +128,25 @@
     },
     "format": "{icon} {capacity}%",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
     ],
     "format-full": "{icon} {capacity}%",
-    "format-charging": " {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
     "tooltip": true,
   },
   "clock": {
-    //"on-click": "~/.config/waybar/to_latte.sh &",
-    //"on-click-right": "~/.config/waybar/wallpaper_random.sh &",
-    //"on-click-middle": "~/.config/waybar/live_wallpaper.sh &",
+    "on-click": "dunstctl history-pop &",
+    "on-click-right": "dunstctl close-all &",
+    "on-click-middle": "dunstctl set-paused toggle",  // Toggles Do Not Disturb mode
     //"interval": 1,
     //"format": "{:%I:%M %p  %A %b %d}",
     //"tooltip": true,
@@ -156,14 +157,14 @@
   "memory": {
     "on-click": "sleep 0.1 && kitty btm",
     "interval": 1,
-    "format": "﬙ {percentage}%",
+    "format": "󰍛 {percentage}%",
     "states": {
       "warning": 85,
     },
   },
   "cpu": {
     "interval": 1,
-    "format": " {usage}%"
+    "format": " {usage}%"
   },
   "mpd": {
     "max-length": 25,
@@ -181,14 +182,15 @@
   },
   "network": {
     "interval": 1,
-    //"format-wifi": "說 {essid}",
-    "format-wifi": "說 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
-    "format-ethernet": "說 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    //"format-wifi": "󰒢 {essid}",
+    "format-wifi": "󰒢 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    "format-ethernet": "󰒢 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
     //"format-ethernet": "  {ifname} ({ipaddr})",
-    "format-linked": "說 {essid} (No IP)",
-    "format-disconnected": "說 Disconnected",
+    "format-linked": "󰒢 {essid} (No IP)",
+    "format-disconnected": "󰒢 Disconnected",
+    "on-click": "nm-connection-editor",
     "tooltip": true,
-    "tooltip-format": "{essid}{ifname}: {ipaddr}"
+    "tooltip-format": "{ifname} {essid}: {ipaddr}"
   },
   "temperature": {
     "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
@@ -197,7 +199,7 @@
     "format": " {temperatureC}°C"
   },
   "custom/powermenu": {
-    "format": "",
+    "format": "󰐥",
     "on-click": "sleep 0.1 && sh ~/.config/rofi/scripts/powermenu.sh",
     "tooltip": false
   },
@@ -258,6 +260,17 @@
     "return-type": "json",
     "escape": true,
     "exec": "$HOME/.config/waybar/playerctl.sh"
+  },
+  "custom/notifications": {
+    "format": "{icon}",
+    "on-click": "dunstctl history-pop &",
+    "on-click-right": "dunstctl close-all &",
+    "on-click-middle": "dunstctl set-paused toggle",  // Toggles Do Not Disturb mode
+    "format-icons": {
+      "enabled": "󰂚", // Icon for critical notifications
+      "dnd": "󰂛",   // Icon for normal notifications
+    },
+    "tooltip": false,
   },
   "hyprland/window": {
     "format": "{}",

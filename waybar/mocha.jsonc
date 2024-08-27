@@ -34,8 +34,7 @@
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
-    /* "all-outputs": true, */
-    "active-only": true,
+    /* "all-outputs": true, */ "active-only": true,
     "format": "{icon}",
     "format-icons": {
       "1": "一",
@@ -83,7 +82,7 @@
   "pulseaudio": {
     "scroll-step": 1,
     "format": "{icon} {volume}%",
-    "format-muted": "婢 Muted",
+    "format-muted": " Muted",
     "format-icons": {
       "default": [
         "",
@@ -106,18 +105,19 @@
     },
     "format": "{icon} {capacity}%",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
     ],
     "format-full": "{icon} {capacity}%",
-    "format-charging": " {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
     "tooltip": true,
   },
   "clock": {
@@ -172,7 +172,7 @@
     "format": " {temperatureC}°C"
   },
   "custom/powermenu": {
-    "format": "",
+    "format": "⏻",
     "on-click": "~/.config/rofi/powermenu.sh",
     "tooltip": false
   },

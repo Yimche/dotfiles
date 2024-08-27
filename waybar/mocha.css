@@ -1,13 +1,12 @@
-@import "./waybar/themes/mocha.css";
+@import "./themes/mocha.css";
 
 /* Global */
 * {
-  font-family: "FiraCode Nerd Font";
+  font-family: "JetBrains Mono NL";
   font-size: .9rem;
   border-radius: 1rem;
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: shade(@base, 0.9);
 }
 
 @keyframes blink_red {
@@ -26,14 +25,18 @@
 }
 
 #mode, #clock, #memory, #temperature, #cpu, #custom-weather,
-#mpd, #media #idle_inhibitor, #backlight, #pulseaudio, #network, 
-#battery, #custom-powermenu, #custom-cava-internal, #window,
+#mpd, #media #idle_inhibitor #player, #backlight, #pulseaudio, #network, 
+#battery, #custom-powermenu, #custom-cava-internal, #cava, #window,
 #custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator {
   padding-left: .6rem;
   padding-right: .6rem;
 }
 
 /* Bar */
+#left, #right {
+  background-color: shade(@base, 0.9);
+}
+
 window#waybar {
   background-color: transparent;
 }
@@ -44,10 +47,9 @@ window > box {
   margin-bottom: 0;
 }
 
-
 /* Workspaces */
 #workspaces:hover {
-  background-color: @green;
+  background-color: transparent;
 }
 
 #workspaces button {
@@ -56,7 +58,7 @@ window > box {
   padding-top: .1rem;
   padding-bottom: .1rem;
   color: @red;
-  /* border: .2px solid transparent; */
+  border: .2px solid transparent;
   background: transparent;
 }
 
@@ -65,7 +67,7 @@ window > box {
 }
 
 #workspaces button:hover {
-  /* border: .2px solid transparent; */
+  border: .7px solid @rosewater;
   color: @rosewater;
 }
 
@@ -114,10 +116,18 @@ tooltip label {
 #mpd {
   color: @lavender;
 }
-#custom-media {
+#custom-player {
+  background-color: @base;
   color: @lavender;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+#custom-player.stopped {
+  background-color: transparent;
+  border: 0;
+  font-size: 0;
+  padding: 5px;
 }
 
 #custom-media.Stopped {
@@ -125,7 +135,7 @@ tooltip label {
 }
 
 /* Extra */
-#custom-cava-internal{
+#custom-cava-internal, #cava{
   color: @peach;
   padding-right: 1rem;
 }
@@ -153,8 +163,9 @@ tooltip label {
 #pulseaudio {
   color: @mauve;  /* not active */
 }
-#network {
+#network { 
   color: @pink; /* not active */
+  min-width: 170px;
 }
 #network.disconnected {
   color: @foreground;  /* not active */
