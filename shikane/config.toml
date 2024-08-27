@@ -1,0 +1,49 @@
+[[profile]]
+name = "default"
+
+[[profile.output]]
+enable = true
+search = ["m=0xD0A2", "s=", "v=AU Optronics"]
+mode = "1920x1080@60.317Hz"
+position = "0,0"
+scale = 1.0
+transform = "normal"
+adaptive_sync = false
+
+[[profile]]
+name = "crab"
+
+[[profile.output]]
+enable = true
+search = ["m=PHILCO", "s=0x00000001", "v=MS Telematica"]
+mode = "1920x1080@60Hz"
+position = "0,0"
+scale = 1.0
+transform = "normal"
+adaptive_sync = false
+
+[[profile.output]]
+enable = false
+search = ["m=0xD0A2", "s=", "v=AU Optronics"]
+
+[[profile]]
+name = "CSSA HDMI"
+
+[[profile.output]]
+enable = true
+search = ["m=0xD0A2", "s=", "v=AU Optronics"]
+mode = "1920x1080@60.317Hz"
+position = "0,0"
+scale = 1.0
+transform = "normal"
+adaptive_sync = false
+
+[[profile.output]]
+enable = true
+search = ["m=DELL U2312HM", "s=FX01R25L859L", "v=Dell Inc."]
+mode = "1920x1080@60Hz"
+position = "0,-1080"
+scale = 1.0
+transform = "normal"
+adaptive_sync = false
+
