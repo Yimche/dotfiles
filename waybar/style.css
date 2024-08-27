@@ -1,8 +1,8 @@
-@import "./waybar/themes/mocha.css";
+@import "./themes/mocha.css";
 
 /* Global */
 * {
-  font-family: "Jetbrains Mono Medium", "Fira Code Nerd Font";
+  font-family: "JetBrains Mono NL";
   font-size: .9rem;
   border-radius: 1rem;
   transition-property: background-color;
@@ -35,7 +35,13 @@
 /* Bar */
 #left, #right {
   background-color: shade(@base, 0.9);
+  border: 2px solid @lavender;
 }
+/*
+#left, #right, #center {
+  border: 2px solid @lavender;
+}
+*/
 
 window#waybar {
   background-color: transparent;
