@@ -1,0 +1,1 @@
+/home/julian/.config/lf/lfcd.fish
