@@ -10,6 +10,7 @@ return {
         },
         filetypes = ({ "typst", "typ" }).filetypes,
       })
+      lspconfig.clangd.setup({})
     end,
   },
 }
