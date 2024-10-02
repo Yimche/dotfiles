@@ -11,7 +11,8 @@ return {
       },
     },
   },
-  { "shaunsingh/nord.nvim" },
+  --{ "shaunsingh/nord.nvim" },
+  --{ "ellisonleao/gruvbox.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
