@@ -1,0 +1,23 @@
+border-width = 2
+border-color = #b7bdf8
+corner-radius = 10
+outline-width = 0
+
+height = 360
+width = 600
+
+font = /usr/share/fonts/TTF/JetBrainsMonoNL-Medium.ttf
+font-size = 14
+
+prompt-text = "$ "
+
+padding-top = 16
+padding-bottom = 16
+padding-left = 16
+padding-right = 16
+
+# Catppuccin Macchiato
+text-color = #cad3f5
+prompt-color = #ed8796
+selection-color = #eed49f
+background-color = #24273af0
