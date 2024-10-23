@@ -21,6 +21,7 @@ alias webcam='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
 
 starship init fish | source
 zoxide init fish | source
+pyenv init - | source
 
 set -gx LS_COLORS (vivid generate catppuccin-macchiato)
 
