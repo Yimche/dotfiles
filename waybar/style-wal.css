@@ -1,4 +1,5 @@
-@import "./themes/mocha.css";
+/*@import "./themes/macchiato.css";*/
+@import "./themes/colors-waybar.css";
 
 /* Global */
 * {
@@ -11,8 +12,8 @@
 
 @keyframes blink_red {
   to {
-    background-color: @red;
-    color: @base;
+    background-color: @color1;
+    color: @background;
   }
 }
 
@@ -26,16 +27,22 @@
 
 #mode, #clock, #memory, #temperature, #cpu, #custom-weather,
 #mpd, #media #idle_inhibitor #player, #backlight, #pulseaudio, #network, 
-#battery, #custom-powermenu, #custom-cava-internal, #cava, #window,
+#battery, #custom-powermenu, #custom-cava-internal, #cava, #window, #color4tooth,
 #custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator {
   padding-left: .6rem;
   padding-right: .6rem;
 }
 
 /* Bar */
-#left, #right {
-  background-color: shade(@base, 0.9);
+#left, #right{
+  background-color: shade(@background, 0.9);
+  border: 2px solid @color1;
 }
+/*
+#left, #right, #center {
+  border: 2px solid @lavender;
+}
+*/
 
 window#waybar {
   background-color: transparent;
@@ -57,67 +64,67 @@ window > box {
   padding-left: .4rem;
   padding-top: .1rem;
   padding-bottom: .1rem;
-  color: @red;
+  color: @color3;
   border: .2px solid transparent;
   background: transparent;
 }
 
 #workspaces button.active {
-  color: @blue;
+  color: @color4;
 }
 
 #workspaces button:hover {
-  border: .7px solid @rosewater;
-  color: @rosewater;
+  border: .7px solid @color11;
+  color: @color11;
 }
 
 #window {
-  color: @rosewater
+  color: @color11;
 }
 
 /* Tooltip */
 tooltip {
-  background-color: @base;
+  background-color: @background;
 }
 
 tooltip label {
-  color: @rosewater;
+  color: @color11;
 }
 
 /* battery */
 #battery {
-  color: @mauve;
+  color: @color13;
 }
 #battery.full {
-  color: @green;
+  color: @color2;
 }
 #battery.charging{
-  color: @teal;
+  color: @color10;
 }
 #battery.discharging {
   color: @peach;
 }
 #battery.critical:not(.charging) {
-  color: @pink;
+  color: @color13;
 }
 #custom-powermenu {
-  color: @red;
+  color: @color1;
 }
 
 /* mpd */
 #mpd.paused {
-  color: @pink;
+  color: @color13;
   font-style: italic;
 }
 #mpd.stopped {
-  color: @rosewater;
+  color: @color11;
   /* background: transparent; */
 }
 #mpd {
   color: @lavender;
 }
 #custom-player {
-  background-color: @base;
+  background-color: @background;
   color: @lavender;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -140,45 +147,48 @@ tooltip label {
   padding-right: 1rem;
 }
 #custom-launcher {
-  color: @yellow;
+  color: @color3;
 }
 #memory {
   color: @peach;
 }
 #cpu {
-  color: @blue;
+  color: @color4;
 }
 #clock {
-  color: @rosewater;
+  color: @color11;
 }
 #idle_inhibitor {
-  color: @green;
+  color: @color2;
 }
 #temperature {
-  color: @sapphire;
+  color: @color12;
 }
 #backlight {
-  color: @green;
+  color: @color2;
 }
 #pulseaudio {
-  color: @mauve;  /* not active */
+  color: @color13;  /* not active */
 }
 #network { 
-  color: @pink; /* not active */
+  color: @color13; /* not active */
   min-width: 170px;
+}
+#color4tooth {
+  color: @color12;
 }
 #network.disconnected {
   color: @foreground;  /* not active */
 }
 #disk {
-  color: @maroon;
+  color: @color9;
 }
 #custom-pacman{
-  color: @sky;
+  color: @color12;
 }
 #custom-scratchpad-indicator {
-  color: @yellow
+  color: @color3
 }
 #custom-weather {
-  color: @red;
+  color: @color1;
 }

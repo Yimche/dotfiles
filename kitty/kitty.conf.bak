@@ -5,7 +5,8 @@
 #: characters.
 
 #font_family      "JetBrains Mono Nerd Font"
-font_family      "FiraCode Nerd Font Mono"
+#font_family      "FiraCode Nerd Font Mono"
+font_family      "Terminess Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -1061,6 +1062,6 @@ listen_on unix:/tmp/kitty.sock
 confirm_os_window_close 0
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Latte
+# Catppuccin-Macchiato
 include current-theme.conf
 # END_KITTY_THEME

@@ -6,7 +6,7 @@
 #"""
 
 [username]
-style_user = "bright-cyan bold"
+style_user = "bright-red bold"
 style_root = "red bold"
 format = '\[[$user]($style)'
 disabled = false
@@ -30,7 +30,7 @@ disabled = true
 read_only = ' '
 truncation_length = 10
 truncate_to_repo = true # truncates directory to root folder if in github repo
-style = "bold blue"
+style = "bold purple"
 format = ': [$path]($style)\] '
 
 [cmd_duration]

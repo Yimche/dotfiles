@@ -59,32 +59,31 @@
     mouse_left_click = do_action
     mouse_middle_click = close_all
     mouse_right_click = close_current
-    backend=native
 
 [experimental]
     per_monitor_dpi = false
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
-    background = "#1e1e2edd" #2e3440dd
+    background = "#24273add" #2e3440dd
     foreground = "#f5e0dc" #e5e9f0
-    frame_color = "#b4befe" #81a1c1
+    frame_color = "#f0c6c6" #81a1c1
     timeout = 10
 
 [urgency_normal]
-    background = "#1e1e2edd"
+    background = "#24273add"
     foreground = "#e5e9f0" #e5e9f0
-    frame_color = "#b4befe" #5e81ac
+    frame_color = "#ee99a0" #5e81ac
     timeout = 10
 
 [urgency_critical]
-    background = "#1e1e2edd"
+    background = "#24273add"
     foreground = "#e5e9f0"
-    frame_color = "#f38ba8" #"#bf6161a" 
+    frame_color = "#ed8796" #"#bf6161a" 
     timeout = 0
 
 [ignore_instagram_unseen]
     appname = "Firefox"
     summary = "Instagram"
-    message = "<b>Instagram</b>\nYou have unseen notifications."
+    body = "You have unseen notifications."
     skip_display=true

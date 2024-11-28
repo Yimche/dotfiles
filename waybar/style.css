@@ -1,9 +1,10 @@
-@import "./themes/mocha.css";
+@import "./themes/macchiato.css";
 
 /* Global */
 * {
+  /* font-family: "JetBrains Mono NL"; */
   font-family: "JetBrains Mono NL";
-  font-size: .9rem;
+  font-size: 0.9rem;
   border-radius: 1rem;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -12,7 +13,7 @@
 @keyframes blink_red {
   to {
     background-color: @red;
-    color: @base;
+    color: @crust;
   }
 }
 
@@ -26,16 +27,16 @@
 
 #mode, #clock, #memory, #temperature, #cpu, #custom-weather,
 #mpd, #media #idle_inhibitor #player, #backlight, #pulseaudio, #network, 
-#battery, #custom-powermenu, #custom-cava-internal, #cava, #window,
+#battery, #custom-powermenu, #custom-cava-internal, #cava, #window, #bluetooth,
 #custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator {
   padding-left: .6rem;
   padding-right: .6rem;
 }
 
 /* Bar */
-#left, #right {
-  background-color: shade(@base, 0.9);
-  border: 2px solid @lavender;
+#left, #right{
+  background-color: shade(@crust, 0.9);
+  border: 2px solid @red;
 }
 /*
 #left, #right, #center {
@@ -63,9 +64,10 @@ window > box {
   padding-left: .4rem;
   padding-top: .1rem;
   padding-bottom: .1rem;
-  color: @red;
+  color: @yellow;
   border: .2px solid transparent;
   background: transparent;
+  font-family: "JetBrains Mono NL";
 }
 
 #workspaces button.active {
@@ -78,12 +80,17 @@ window > box {
 }
 
 #window {
-  color: @rosewater
+  color: @mauve;
+}
+
+window#waybar.empty #window {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Tooltip */
 tooltip {
-  background-color: @base;
+  background-color: @crust;
 }
 
 tooltip label {
@@ -123,7 +130,7 @@ tooltip label {
   color: @lavender;
 }
 #custom-player {
-  background-color: @base;
+  background-color: @crust;
   color: @lavender;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -172,6 +179,9 @@ tooltip label {
 #network { 
   color: @pink; /* not active */
   min-width: 170px;
+}
+#bluetooth {
+  color: @sky;
 }
 #network.disconnected {
   color: @foreground;  /* not active */

@@ -1,0 +1,21 @@
+$foregroundCol = 0xffe7cde6
+$backgroundCol = 0xff0D0C14
+$borderCol = 0xff3748A2
+$color0 = 0xff0D0C14
+$color1 = 0xff3748A2
+$color2 = 0xff3F4CA9
+$color3 = 0xff5F629F
+$color4 = 0xff9777B2
+$color5 = 0xff7982AD
+$color6 = 0xffA998C5
+$color7 = 0xffe7cde6
+$color8 = 0xffa18fa1
+$color9 = 0xff3748A2
+$color10 = 0xff3F4CA9
+$color11 = 0xff5F629F
+$color12 = 0xff9777B2
+$color13 = 0xff7982AD
+$color14 = 0xffA998C5
+$color15 = 0xffe7cde6
+$transparent = 00000000
+

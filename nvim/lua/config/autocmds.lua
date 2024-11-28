@@ -7,4 +7,9 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
   command = "set filetype=typst",
 })
 
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+  pattern = "*.pxi",
+  command = "set filetype=python",
+})
+
 vim.cmd([[ autocmd FocusLost * nested silent! wa ]])

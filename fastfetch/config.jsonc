@@ -1,28 +1,70 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+  },
   "logo": {
     "type": "file",
     "source": "~/.config/fastfetch/LClogo_small.txt",
     "color": {
-      "1": "31",
-      "2": "33"
+     "1": "31",
+     "2": "33"
     },
     "padding": {
       "left": 2
     }
+    //"type": "kitty",
+    //"source": "~/.config/fastfetch/LClogo.png",
+    //"height": 10,
   },
   "modules": [
-    "title",
+    {
+      "type": "title",
+      "color":{
+        "user":"red",
+        "at":"white",
+        "host":"red",
+      },
+    },
     {
       "type": "custom",
       "format": "――――――――――――――――――――――――――――――――――――――――――――"
     },
-    "os",
-    "host",
-    "disk",
-    "packages",
-    "uptime",
-    "memory",
-    "media"
+    {
+      "type": "os",
+      "keycolor": "red",
+    },
+    {
+      "type": "host",
+      "keycolor": "red",
+    },
+    {
+      "type": "display",
+      "keycolor": "red",
+      "key": "Display "
+    },
+    {
+      "type": "disk",
+      "keycolor": "red",
+    },
+    {
+      "type": "packages",
+      "keycolor": "red",
+    },
+    {
+      "type": "uptime",
+      "keycolor": "red",
+    },
+    {
+      "type": "gpu",
+      "keycolor": "red",
+    },
+    {
+      "type": "memory",
+      "keycolor": "red",
+    },
+    {
+      "type": "media",
+      "keycolor": "red",
+    },
   ]
 }
