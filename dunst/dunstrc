@@ -4,7 +4,7 @@
     monitor = 2
     follow = none
     width = 400
-    height = 120
+    height = (0,120)
     origin = top-right
     offset = 15x15
     scale = 0
