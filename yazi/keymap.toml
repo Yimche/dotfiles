@@ -1,0 +1,29 @@
+[manager]
+prepend_keymap = [
+  #open
+  { on = [ "l" ], run  = "plugin smart-enter", orphan = true, block = true, desc = "Enter the child directory, or open the file" },
+
+  # Go to commands
+  { on = [ "g", "u" ], run = 'shell -- ya emit cd ~/Documents/uni/Y3S1/'},
+  { on = [ "g", "." ], run = 'shell -- ya emit cd ~/'},
+  { on = [ "g", "T" ], run = 'shell -- ya emit cd ~/.local/share/Trash/files/'},
+  { on = [ "g", "D" ], run = 'shell -- ya emit cd ~/Downloads/'},
+  { on = [ "g", "d" ], run = 'shell -- ya emit cd ~/Documents/'},
+  { on = [ "g", "m" ], run = 'shell -- ya emit cd /run/media/julian/'},
+  { on = [ "g", "p", "w" ], run = 'shell -- ya emit cd ~/Pictures/wallpapers/'},
+
+  # Create
+  { on = [ "m", "d" ], run = 'create --dir', desc = "Create new directory" },
+  { on = [ "m", "f" ], run = 'create', desc = "Create new file"},
+
+  # Escape (Clear)
+  
+  { on = "C", run = [ 'escape --all', 'unyank' ], desc = "Clear Selected"},
+
+  #Cut
+  { on = [ "d", "d" ], run = 'yank --cut', desc = "Cut"},
+  { on = [ "d", "D" ], run = 'remove', desc = "Delete"},
+
+  # Background
+  { on = [ "b", "g" ], run = 'shell --orphan -- exec ~/code_Master/scripts/hyprpaper.sh "$1"', desc = "Change Wallpaper"},
+]
