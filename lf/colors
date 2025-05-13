@@ -1,0 +1,375 @@
+# vim:ft=dircolors
+# (This is not a dircolors file but it helps to highlight colors and comments)
+
+# default values from dircolors
+# (entries with a leading # are not implemented in lf)
+# #no     00              # NORMAL
+# fi      00              # FILE
+# #rs     0               # RESET
+# di      01;34           # DIR
+# ln      01;36           # LINK
+# #mh     00              # MULTIHARDLINK
+# pi      40;33           # FIFO
+# so      01;35           # SOCK
+# #do     01;35           # DOOR
+# bd      40;33;01        # BLK
+# cd      40;33;01        # CHR
+# or      40;31;01        # ORPHAN
+# #mi     00              # MISSING
+# su      37;41           # SETUID
+# sg      30;43           # SETGID
+# #ca     30;41           # CAPABILITY
+# tw      30;42           # STICKY_OTHER_WRITABLE
+# ow      34;42           # OTHER_WRITABLE
+# st      37;44           # STICKY
+# ex      01;32           # EXEC
+
+# default values from lf (with matching order)
+# ln      01;36   # LINK
+# or      31;01   # ORPHAN
+# tw      01;34   # STICKY_OTHER_WRITABLE
+# ow      01;34   # OTHER_WRITABLE
+# st      01;34   # STICKY
+# di      01;34   # DIR
+# pi      33      # FIFO
+# so      01;35   # SOCK
+# bd      33;01   # BLK
+# cd      33;01   # CHR
+# su      01;32   # SETUID
+# sg      01;32   # SETGID
+# ex      01;32   # EXEC
+# fi      00      # FILE
+
+# file types (with matching order)
+ln      00;36   # LINK
+or      31;01   # ORPHAN
+tw      34      # STICKY_OTHER_WRITABLE
+ow      34      # OTHER_WRITABLE
+st      00;34   # STICKY
+di      00;34   # DIR
+pi      33      # FIFO
+so      00;35   # SOCK
+bd      33;01   # BLK
+cd      33;01   # CHR
+su      00;32   # SETUID
+sg      00;32   # SETGID
+ex      00;32   # EXEC
+fi      00      # FILE
+
+# archives or compressed (dircolors defaults)
+*.tar   01;37
+*.tgz   01;37
+*.arc   01;37
+*.arj   01;37
+*.taz   01;37
+*.lha   01;37
+*.lz4   01;37
+*.lzh   01;37
+*.lzma  01;37
+*.tlz   01;37
+*.txz   01;37
+*.tzo   01;37
+*.t7z   01;37
+*.zip   01;37
+*.z     01;37
+*.dz    01;37
+*.gz    01;37
+*.lrz   01;37
+*.lz    01;37
+*.lzo   01;37
+*.xz    01;37
+*.zst   01;37
+*.tzst  01;37
+*.bz2   01;37
+*.bz    01;37
+*.tbz   01;37
+*.tbz2  01;37
+*.tz    01;37
+*.deb   01;37
+*.rpm   01;37
+*.jar   01;37
+*.war   01;37
+*.ear   01;37
+*.sar   01;37
+*.rar   01;37
+*.alz   01;37
+*.ace   01;37
+*.zoo   01;37
+*.cpio  01;37
+*.7z    01;37
+*.rz    01;37
+*.cab   01;37
+*.wim   01;37
+*.swm   01;37
+*.dwm   01;37
+*.esd   01;37
+
+# image formats (dircolors defaults)
+*.jpg   00;33
+*.jpeg  00;33
+*.mjpg  00;33
+*.mjpeg 00;33
+*.gif   00;33
+*.bmp   00;33
+*.pbm   00;33
+*.pgm   00;33
+*.ppm   00;33
+*.tga   00;33
+*.xbm   00;33
+*.xpm   00;33
+*.tif   00;33
+*.tiff  00;33
+*.png   00;33
+*.svg   00;33
+*.svgz  00;33
+*.mng   00;33
+*.pcx   00;33
+*.mov   00;33
+*.mpg   00;33
+*.mpeg  00;33
+*.m2v   00;33
+*.mkv   00;37
+*.webm  00;33
+*.ogm   00;33
+*.mp4   00;37
+*.m4v   00;33
+*.mp4v  00;33
+*.vob   00;33
+*.qt    00;33
+*.nuv   00;33
+*.wmv   00;33
+*.asf   00;33
+*.rm    00;33
+*.rmvb  00;33
+*.flc   00;33
+*.avi   00;33
+*.fli   00;33
+*.flv   00;33
+*.gl    00;33
+*.dl    00;33
+*.xcf   00;33
+*.xwd   00;33
+*.yuv   00;33
+*.cgm   00;33
+*.emf   00;33
+*.ogv   00;33
+*.ogx   00;33
+
+# audio formats (dircolors defaults)
+*.aac   00;37
+*.au    00;37
+*.flac  00;37
+*.m4a   00;37
+*.mid   00;37
+*.midi  00;37
+*.mka   00;37
+*.mp3   00;37
+*.mpc   00;37
+*.ogg   00;37
+*.ra    00;37
+*.wav   00;37
+*.oga   00;37
+*.opus  00;37
+*.spx   00;37
+*.xspf  00;37
+
+# documents
+*.pdf   00;37
+*.csv   00;37
+*.xlsx  00;37
+*.docx  00;37
+
+# file types
+*.dll   00;37
+*.epub  00;37
+*.exe   00;37
+*.hs    00;37
+*.fth   00;37
+*.ini   00;37
+*.txt   00;37
+*.typ   00;37
+*.typst 00;37
+
+#Miscellaneous files
+*.babelrc              00;37
+*.bash_profile         00;37
+*.bashrc               00;37
+*.conf                 00;37
+*.clang-format         00;37
+*.clang-tidy           00;37
+*.codespellrc          00;37
+*.condarc              00;37
+*.dockerignore         00;37
+*.ds_store             00;37
+*.editorconfig         00;37
+*.env                  00;37
+*.eslintignore         00;37
+*.eslintrc             00;37
+*.git-blame-ignore-revs 00;37
+*.gitattributes        00;37
+*.gitconfig            00;37
+*.gitignore            00;37
+*.gitlab-ci.yml        00;37
+*.gitmodules           00;37
+*.gtkrc-2.0            00;37
+*.gvimrc               00;37
+*.justfile             00;37
+*.luacheckrc           00;37
+*.luaurc               00;37
+*.mailmap              00;37
+*.nanorc               00;37
+*.npmignore            00;37
+*.npmrc                00;37
+*.nuxtrc               00;37
+*.nvmrc                00;37
+*.pre-commit-config.yaml 00;37
+*.prettierignore       00;37
+*.prettierrc           00;37
+*.prettierrc.cjs       00;37
+*.prettierrc.js        00;37
+*.prettierrc.json      00;37
+*.prettierrc.json5     00;37
+*.prettierrc.mjs       00;37
+*.prettierrc.toml      00;37
+*.prettierrc.yaml      00;37
+*.prettierrc.yml       00;37
+*.pylintrc             00;37
+*.settings.json        00;37
+*.SRCINFO             00;37
+*.vimrc                00;37
+*.Xauthority           00;37
+*.xinitrc              00;37
+*.Xresources           00;37
+*.xsession             00;37
+*.zprofile             00;37
+*.zshenv               00;37
+*.zshrc                00;37
+*._gvimrc              00;37
+*._vimrc               00;37
+*AUTHORS               00;37
+*AUTHORS.txt           00;37
+*brewfile              00;37
+*bspwmrc               00;37
+*build                 00;37
+*build.gradle         00;37
+*build.zig.zon         00;37
+*bun.lockb             00;37
+*cantorrc              00;37
+*checkhealth           00;37
+*cmakelists.txt        00;37
+*code_of_conduct       00;37
+*code_of_conduct.md    00;37
+*commit_editmsg        00;37
+*commitlint.config.js  00;37
+*commitlint.config.ts  00;37
+*compose.yaml          00;37
+*compose.yml           00;37
+*config                00;37
+*containerfile         00;37
+*copying               00;37
+*copying.lesser        00;37
+*Directory.Build.props 00;37
+*Directory.Build.targets 00;37
+*Directory.Packages.props 00;37
+*docker-compose.yaml   00;37
+*docker-compose.yml    00;37
+*dockerfile            00;37
+*eslint.config.cjs     00;37
+*eslint.config.js      00;37
+*eslint.config.mjs     00;37
+*eslint.config.ts      00;37
+*ext_typoscript_setup.txt 00;37
+*favicon.ico           00;37
+*fp-info-cache         00;37
+*fp-lib-table          00;37
+*FreeCAD.conf          00;37
+*Gemfile               00;37
+*gnumakefile           00;37
+*go.mod                00;37
+*go.sum                00;37
+*go.work               00;37
+*gradle-wrapper.properties 00;37
+*gradle.properties     00;37
+*gradlew               00;37
+*groovy                00;37
+*gruntfile.babel.js    00;37
+*gruntfile.coffee      00;37
+*gruntfile.js          00;37
+*gruntfile.ts          00;37
+*gtkrc                 00;37
+*gulpfile.babel.js     00;37
+*gulpfile.coffee       00;37
+*gulpfile.js           00;37
+*gulpfile.ts           00;37
+*hypridle.conf         300;37
+*hyprland.conf         300;37
+*hyprlock.conf         300;37
+*hyprpaper.conf        300;37
+*i18n.config.js        00;37
+*i18n.config.ts        00;37
+*i3blocks.conf         00;37
+*i3status.conf         00;37
+*index.theme           00;37
+*ionic.config.json     00;37
+*justfile              00;37
+*kalgebrarc            00;37
+*kdeglobals            00;37
+*kdenlive-layoutsrc    00;37
+*kdenliverc            00;37
+*kritadisplayrc        00;37
+*kritarc               00;37
+*license               00;37
+*license.md            00;37
+*lxde-rc.xml           00;37
+*lxqt.conf             00;37
+*makefile              00;37
+*mix.lock              00;37
+*mpv.conf              00;37
+*node_modules          00;37
+*nuxt.config.cjs       00;37
+*nuxt.config.js        00;37
+*nuxt.config.mjs       00;37
+*nuxt.config.ts        00;37
+*package-lock.json     00;37
+*package.json          00;37
+*PKGBUILD             00;37
+*platformio.ini        00;37
+*pom.xml               00;37
+*prettier.config.cjs   00;37
+*prettier.config.js    00;37
+*prettier.config.mjs   00;37
+*prettier.config.ts    00;37
+*procfile              00;37
+*PrusaSlicer.ini       00;37
+*PrusaSlicerGcodeViewer.ini 00;37
+*py.typed             00;37
+*QtProject.conf        00;37
+*rakefile              00;37
+*readme                00;37
+*readme.md             00;37
+*rmd                   00;37
+*robots.txt            00;37
+*security              00;37
+*security.md           00;37
+*settings.gradle       00;37
+*svelte.config.js      00;37
+*sxhkdrc               00;37
+*sym-lib-table         00;37
+*tailwind.config.js    00;37
+*tailwind.config.mjs   00;37
+*tailwind.config.ts    00;37
+*tmux.conf             00;37
+*tmux.conf.local       00;37
+*tsconfig.json         00;37
+*unlicense            00;37
+*vagrantfile           00;37
+*vercel.json           00;37
+*vlcrc                 00;37
+*webpack               00;37
+*weston.ini            00;37
+*workspace             00;37
+*xmobarrc              00;37
+*xmobarrc.hs           00;37
+*xmonad.hs             00;37
+*xorg.conf             00;37
+*xsettingsd.conf       00;37

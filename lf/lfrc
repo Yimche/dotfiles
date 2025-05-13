@@ -148,10 +148,10 @@ cmd sudomkfile ${{
 }}
 
 cmd setwallpaper ${{
-  #$HOME/code_Master/scripts/wall.sh "$f"
-	ln -snf "$f" ~/.config/wall.png && swww img "$f"
-	#betterlockscreen -u ~/.config/wall.png
+	#ln -snf "$f" ~/.config/wall.png && ~/code_Master/scripts/hyprpaper.sh "$f" && disown
 	#cp "$f" /usr/share/backgrounds/wall.png
+  ~/code_Master/scripts/hyprpaper.sh "$f"
+  redraw
 }}
 
 #: Archive bindings
@@ -164,7 +164,6 @@ cmd unarchive ${{
 		*) echo "Unsupported format" ;;
 	esac
 }}
-
 cmd zip %zip -r "$f" "$f"
 cmd tar %tar cvf "$f.tar" "$f"
 
@@ -191,6 +190,17 @@ cmd fzf_search ${{
         #--preview='~/.config/lf/cleaner; ~/.config/lf/previewer {1} "$FZF_PREVIEW_COLUMNS" "$FZF_PREVIEW_LINES" "$FZF_PREVIEW_LEFT" "$FZF_PREVIEW_TOP"')"
 }}
 
+#: zoxide
+cmd on-cd &{{
+  zoxide add "$PWD"
+}}
+
+cmd zi ${{
+  result=$(zoxide query -i)
+  lf -remote $"send $id cd $result"
+}}
+
+
 #: Custom Mappings {{{
 map md mkdir
 map mf mkfile
@@ -208,7 +218,7 @@ map gpw cd ~/Pictures/wallpapers
 map gT cd ~/.local/share/Trash/files
 map gm cd /run/media/julian
 map gv cd ~/Videos
-map gu cd ~/Documents/uni/Y2S2
+map gu cd ~/Documents/uni/Y3S1/
 
 map r rename
 map H top
@@ -231,6 +241,9 @@ map f
 
 # File Openers
 map e $$EDITOR "$f"
+
+# Zoxide
+map z zi
 
 #:}}}
 
