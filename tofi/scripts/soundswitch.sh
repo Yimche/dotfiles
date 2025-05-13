@@ -15,7 +15,7 @@ if [[ $chosen == "" ]]; then exit; fi
 # Figure out what the device name is based on the description passed
 device=$(pactl list sinks | grep -C2 -F "Description:" | grep -C2 -F "$chosen" | grep Name | cut -d: -f2 | xargs)
 # Try to set the default to the device chosen
-if pactl set-default-sink "$device"; then
+if $(pactl set-default-sink "$device"); then
   # if it worked, alert the user
   dunstify -t 2000 -r 2 -u low "Activated: $chosen"
 else

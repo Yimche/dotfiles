@@ -50,6 +50,6 @@ $suspend)
   systemctl suspend
   ;;
 $logout)
-  exit
+  hyprctl dispatch exit
   ;;
 esac
