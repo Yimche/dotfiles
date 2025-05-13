@@ -10,7 +10,8 @@
      "2": "33"
     },
     "padding": {
-      "left": 2
+      "left": 2,
+      "top": 1
     }
     //"type": "kitty",
     //"source": "~/.config/fastfetch/LClogo.png",
@@ -20,9 +21,9 @@
     {
       "type": "title",
       "color":{
-        "user":"red",
+        "user":"blue",
         "at":"white",
-        "host":"red",
+        "host":"blue",
       },
     },
     {
@@ -31,40 +32,40 @@
     },
     {
       "type": "os",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "host",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "display",
-      "keycolor": "red",
+      "keycolor": "blue",
       "key": "Display "
     },
     {
       "type": "disk",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "packages",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "uptime",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "gpu",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "memory",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
     {
       "type": "media",
-      "keycolor": "red",
+      "keycolor": "blue",
     },
   ]
 }
