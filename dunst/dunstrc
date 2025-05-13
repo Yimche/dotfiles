@@ -6,7 +6,7 @@
     width = 400
     height = (0,120)
     origin = top-right
-    offset = 15x15
+    offset = (14, 14)
     scale = 0
 
     notification_limit = 0
@@ -67,19 +67,19 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     background = "#24273add" #2e3440dd
     foreground = "#f5e0dc" #e5e9f0
-    frame_color = "#f0c6c6" #81a1c1
+    frame_color = "#8aadf4" #f0c6c6
     timeout = 10
 
 [urgency_normal]
     background = "#24273add"
     foreground = "#e5e9f0" #e5e9f0
-    frame_color = "#ee99a0" #5e81ac
+    frame_color = "#b7bdf8" #ee99a0
     timeout = 10
 
 [urgency_critical]
     background = "#24273add"
     foreground = "#e5e9f0"
-    frame_color = "#ed8796" #"#bf6161a" 
+    frame_color = "#ed8796" #ed8796
     timeout = 0
 
 [ignore_instagram_unseen]
