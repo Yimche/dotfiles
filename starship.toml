@@ -6,8 +6,8 @@
 #"""
 
 [username]
-style_user = "bright-red bold"
-style_root = "red bold"
+style_user = "bright-blue bold"
+style_root = "blue bold"
 format = '\[[$user]($style)'
 disabled = false
 show_always = true
