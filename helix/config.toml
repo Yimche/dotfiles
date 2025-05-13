@@ -1,0 +1,17 @@
+theme = "my_catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+rulers = [80, 120]
+bufferline = "multiple"
+
+[editor.auto-save]
+focus-lost = true
+
+[editor.lsp]
+enable = true
+
+[keys.normal]
+S-l = "goto_next_buffer"
+S-h = "goto_previous_buffer"
+b = "move_prev_word_start"
