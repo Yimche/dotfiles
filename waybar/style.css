@@ -1,11 +1,11 @@
-@import "./themes/macchiato.css";
+@import "./themes/mocha.css";
 
 /* Global */
 * {
-  /* font-family: "JetBrains Mono NL"; */
-  font-family: "JetBrains Mono NL";
+  /*font-family: "JetBrainsMono NL";*/
+  font-family: "JetBrainsMono Nerd Font";
   font-size: 0.9rem;
-  border-radius: 1rem;
+  border-radius: 14px;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -29,29 +29,43 @@
 #mpd, #media #idle_inhibitor #player, #backlight, #pulseaudio, #network, 
 #battery, #custom-powermenu, #custom-cava-internal, #cava, #window, #bluetooth,
 #custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator {
-  padding-left: .6rem;
-  padding-right: .6rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
 }
 
+#mode:hover, #clock:hover, #memory:hover, #temperature:hover, #cpu:hover, #custom-weather:hover,
+#mpd:hover, #media #idle_inhibitor #player:hover, #backlight:hover, #pulseaudio:hover, #network:hover, 
+#battery:hover, #custom-powermenu:hover, #custom-cava-internal:hover, #cava:hover, #bluetooth:hover,
+#custom-launcher:hover, #tray:hover, #disk:hover, #custom-pacman:hover, #custom-scratchpad-indicator:hover {
+  border: .7px solid @rosewater;
+}
+
+
 /* Bar */
-#left, #right{
+#left, #right {
   background-color: shade(@crust, 0.9);
-  border: 2px solid @red;
+  /* border: 2px solid @lavender; */
+  padding-left: 5px;
+  padding-right: 5px;
 }
-/*
-#left, #right, #center {
-  border: 2px solid @lavender;
+
+#center {
+  background-color: transparent;
+  /* background-color: shade(@crust, 0.9); */
 }
-*/
 
 window#waybar {
   background-color: transparent;
+  /*
+  background-color: shade(@crust, 0.9);
+  border: 2px solid @lavender;
+  */
 }
 
 window > box {
   background-color: transparent;
-  margin: .3rem;
-  margin-bottom: 0;
+  margin: .2rem;
+  /*margin-bottom: 0;*/
 }
 
 /* Workspaces */
@@ -80,7 +94,8 @@ window > box {
 }
 
 #window {
-  color: @mauve;
+  color: @lavender;
+
 }
 
 window#waybar.empty #window {
@@ -150,16 +165,17 @@ tooltip label {
 /* Extra */
 #custom-cava-internal, #cava{
   color: @peach;
-  padding-right: 1rem;
 }
 #custom-launcher {
   color: @yellow;
 }
 #memory {
   color: @peach;
+  min-width: 45px;
 }
 #cpu {
   color: @blue;
+  min-width: 45px;
 }
 #clock {
   color: @rosewater;
@@ -172,9 +188,11 @@ tooltip label {
 }
 #backlight {
   color: @green;
+  min-width: 55px;
 }
 #pulseaudio {
-  color: @mauve;  /* not active */
+  color: @mauve;
+  min-width:5px
 }
 #network { 
   color: @pink; /* not active */
