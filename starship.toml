@@ -4,6 +4,7 @@
 #[┣─project❯](bold red) $directory$rust$git_branch$git_state$git_status$package$golang$terraform$docker_context$python$docker_context$nodejs
 #[╰─cmd────❯](bold green)
 #"""
+add_newline = false
 
 [username]
 style_user = "bright-blue bold"
