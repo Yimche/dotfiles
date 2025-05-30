@@ -5,3 +5,8 @@
 -- Highlight the 80th and 100th columns
 vim.opt.colorcolumn = "80,100"
 vim.cmd([[highlight ColorColumn ctermbg=lightgrey guibg=lightgrey]])
+
+-- folds
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldmethod = "expr"
+vim.opt.foldnestmax = 1

@@ -4,13 +4,15 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
-      lspconfig.typst_lsp.setup({
-        setting = {
-          exportPdf = "onSave",
+      lspconfig.tinymist.setup({
+        settings = {
+          formatterMode = "typstfmt",
+          exportPdf = "onType",
         },
         filetypes = ({ "typst", "typ" }).filetypes,
       })
       lspconfig.clangd.setup({})
+      lspconfig.jdtls.setup({})
     end,
   },
 }
