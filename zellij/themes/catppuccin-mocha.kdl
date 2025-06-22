@@ -5,7 +5,7 @@ themes {
             background 24 24 37
             emphasis_0 203 166 247
             emphasis_1 137 220 235
-            emphasis_2 249 226 175 // keybinds
+            emphasis_2 137 180 250 // keybinds
             emphasis_3 245 194 231
         }
         text_selected {
@@ -18,10 +18,10 @@ themes {
         }
         ribbon_selected {
             base 24 24 37
-            background 245 194 231
+            background 116 199 236
             emphasis_0 243 139 168 // the 'p' of <p> PANE
             emphasis_1 250 179 135
-            emphasis_2 245 194 231
+            emphasis_2 116 199 236
             emphasis_3 137 180 250
         }
         ribbon_unselected {
