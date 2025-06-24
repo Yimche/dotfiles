@@ -82,8 +82,18 @@
     frame_color = "#ed8796" #ed8796
     timeout = 0
 
-[ignore_instagram_unseen]
+[firefox_ignore_instagram_unseen]
     appname = "Firefox"
     summary = "Instagram"
     body = "You have unseen notifications."
+    skip_display=true
+[zen_ignore_instagram_unseen]
+    appname = "Zen"
+    summary = "Instagram"
+    body = "You have unseen notifications."
+    skip_display=true
+[zen_ignore_instagram_no_longer_available]
+    appname = "Zen"
+    summary = "Instagram"
+    body = "This message is no longer available because it was unsent by the sender."
     skip_display=true
