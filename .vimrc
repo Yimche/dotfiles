@@ -21,6 +21,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'ptzz/lf.vim'
 Plugin 'neovimhaskell/haskell-vim'
 Plugin 'voldikss/vim-floaterm'
+Plugub 'catppuccin/vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -128,7 +129,8 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
-" colorscheme solarized
+set termiinalgui
+colorscheme catppuccin
 
 " Save folds
 augroup AutoSaveFolds
@@ -160,5 +162,5 @@ cmap w!! w !sudo tee > /dev/null %
 " map F2 to set pastetoggle
 set pastetoggle=<F2>
 
-set directory=~/.vim/view/
-set backupdir=~/.vim/backup/
+"set directory=~/.vim/view/
+"set backupdir=~/.vim/backup/
