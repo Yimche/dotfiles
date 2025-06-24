@@ -1,4 +1,4 @@
-[mgr]
+[manager]
 prepend_keymap = [
   #open
   { on = [ "l" ], run  = "plugin smart-enter", orphan = true, block = true, desc = "Enter the child directory, or open the file" },
