@@ -84,6 +84,10 @@ window > box {
   font-family: "JetBrains Mono NL";
 }
 
+#workspaces button.empty {
+  color: @red;
+}
+
 #workspaces button.active {
   color: @blue;
 }
