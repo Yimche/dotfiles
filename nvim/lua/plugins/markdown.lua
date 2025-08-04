@@ -15,23 +15,20 @@ return {
     checkbox = {
       enabled = false,
     },
+    bullet = {
+        enabled = true,
+        render_modes = false,
+        icons = { '●', '○', '◆', '◇' },
+        ordered_icons = function(ctx)
+            local value = vim.trim(ctx.value)
+            local index = tonumber(value:sub(1, #value - 1))
+            return ('%d.'):format(index > 1 and index or ctx.index)
+        end,
+        left_pad = 0,
+        right_pad = 1,
+        highlight = 'RenderMarkdownBullet',
+        scope_highlight = {},
+    }
   },
   ft = { "markdown", "norg", "rmd", "org", "codecompanion" },
-  -- config = function(_, opts)
-  --   require("render-markdown").setup(opts)
-  --   Snacks.toggle({
-  --     name = "Render Markdown",
-  --     get = function()
-  --       return require("render-markdown.state").enabled
-  --     end,
-  --     set = function(enabled)
-  --       local m = require("render-markdown")
-  --       if enabled then
-  --         m.enable()
-  --       else
-  --         m.disable()
-  --       end
-  --     end,
-  --   }):map("<leader>um")
-  -- end,
 }

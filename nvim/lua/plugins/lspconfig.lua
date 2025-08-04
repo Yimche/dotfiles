@@ -26,6 +26,7 @@ return {
       	  	},
       	  	filetypes = ({ "typst", "typ" }).filetypes,
       	})
+        lspconfig.qmlls.setup {}
     end,
     
     keys = {
