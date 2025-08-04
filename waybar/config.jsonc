@@ -72,9 +72,9 @@
       "9": "九",
       "10": "十",
     },
-    "persistent-workspaces": {
-      "*": [1,2,3,4,5],
-    }
+    // "persistent-workspaces": {
+    //   "*": [1,2,3,4,5],
+    // }
   },
   "hyprland/mode": {
     "format": " {}"
@@ -123,8 +123,8 @@
     /* }, */
     "scroll-step": 1,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-    /*"on-click-right": "sleep 0.1 && rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/scripts/soundswitch.sh' -theme '~/.config/rofi/themes/soundswitch.rasi'",*/
-    "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
+    "on-click-right": "sh ~/.config/rofi/scripts/soundswitch.sh",
+    // "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
     "tooltip": false,
     "ignored-sinks": ["Easy Effects Sink"],
   },
@@ -149,6 +149,7 @@
     ],
     "format-full": "{icon} {capacity}%",
     "format-charging": "󰂄 {capacity}%",
+    "on-click-right": "sh ~/.config/rofi/scripts/powerprofiles.sh",
     "tooltip": true,
   },
   "clock": {
@@ -208,7 +209,7 @@
   },
   "custom/powermenu": {
     "format": "󰐥",
-    "on-click": "sleep 0.1 && sh ~/.config/tofi/scripts/powermenu.sh",
+    "on-click": "sleep 0.1 && sh ~/.config/rofi/scripts/powermenu.sh",
     "tooltip": false
   },
   "tray": {
@@ -333,7 +334,7 @@
 },
   {
   "layer": "top",
-  "output": "HDMI-A-1",
+  "output": ["HDMI-A-1", "DP-1", "HEADLESS-2"],
   "modules-left": [
     "group/left"
   ],
@@ -453,8 +454,8 @@
     /* }, */
     "scroll-step": 1,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
-    /*"on-click-right": "sleep 0.1 && rofi -show rofi-sound -modi 'rofi-sound:~/.config/rofi/scripts/soundswitch.sh' -theme '~/.config/rofi/themes/soundswitch.rasi'",*/
-    "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
+    "on-click-right": "sh ~/.config/rofi/scripts/soundswitch.sh",
+    // "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
     "tooltip": false,
     "ignored-sinks": ["Easy Effects Sink"],
   },
@@ -538,7 +539,7 @@
   },
   "custom/powermenu": {
     "format": "󰐥",
-    "on-click": "sleep 0.1 && sh ~/.config/tofi/scripts/powermenu.sh",
+    "on-click": "sleep 0.1 && sh ~/.config/rofi/scripts/powermenu.sh",
     "tooltip": false
   },
   "tray": {
