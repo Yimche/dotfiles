@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-rofi_command="rofi -theme $HOME/.config/rofi/scripts/powermenu/powermenu.rasi"
+rofi_command="rofi -theme $HOME/.config/rofi/themes/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
 
@@ -16,7 +16,7 @@ else
   # For some reason the Icons are mess up I don't know why but to fix it uncomment section 2 and comment section 1 but if the section 1 icons are mess up uncomment section 2 and comment section 1
 
   # Buttons
-  layout=$(cat $HOME/.config/rofi/scripts/powermenu/powermenu.rasi | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/')
+  layout=$(cat $HOME/.config/rofi/scripts/powermenu.sh | grep BUTTON | cut -d'=' -f2 | tr -d '[:blank:],*/')
   if [[ "$layout" == "TRUE" ]]; then
     # Section 1
     #shutdown=""
@@ -50,8 +50,8 @@ fi
 # Variable passed to rofi
 options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
 
-#chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
-chosen="$(echo -e "$options" | tofi)"
+chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+#chosen="$(echo -e "$options" | tofi)"
 case $chosen in
 $shutdown)
   systemctl poweroff

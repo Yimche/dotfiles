@@ -1,0 +1,33 @@
+configuration {
+    show-icons:                   false;
+    display-drun: 		          "";
+    drun-display-format:          "{icon} {name}";
+    disable-history:              true;
+    click-to-exit: 		          true;
+    fixed-num-lines: false;
+}
+
+@import "/home/julian/.config/rofi/themes/catppuccin-default.rasi"
+
+/* Line Responsible For Button Layouts */
+/* BUTTON = FALSE */
+
+window {
+    location: north west;
+    anchor: north west;
+    x-offset: 15px;
+    height: 160px;
+    width: 140px;
+}
+
+entry {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+}
+
+mainbox {
+    children: [entry, listview];
+}
