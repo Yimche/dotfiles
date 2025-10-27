@@ -218,7 +218,7 @@ map gpw cd ~/Pictures/wallpapers
 map gT cd ~/.local/share/Trash/files
 map gm cd /run/media/julian
 map gv cd ~/Videos
-map gu cd ~/Documents/uni/Y3S1/
+map gu cd ~/Documents/uni/Y3S2/
 
 map r rename
 map H top
