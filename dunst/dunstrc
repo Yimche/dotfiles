@@ -1,4 +1,4 @@
-# See dunst(5) for all configuration options
+# See dunst(5) for all configuration option
 
 [global]
     monitor = 2
@@ -6,7 +6,7 @@
     width = 400
     height = (0,120)
     origin = top-right
-    offset = (14, 14)
+    offset = (14, 10)
     scale = 0
 
     notification_limit = 0
@@ -26,8 +26,9 @@
     gap_size = 0
     separator_color = frame
     sort = yes
-    font = FiraCode Nerd Font 10
-    #font = JetBrains Mono NL 10
+    #font = "FiraCode Nerd Font 10"
+    # font = JetBrains Mono NL 10
+    font = DepartureMono Nerd Font 10
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -87,6 +88,11 @@
     summary = "Instagram"
     body = "You have unseen notifications."
     skip_display=true
+[firefox_ignore_instagram_no_longer_available]
+    appname = "Firefox"
+    summary = "Instagram"
+    body = "This message is no longer available because it was unsent by the sender."
+    skip_display=true
 [zen_ignore_instagram_unseen]
     appname = "Zen"
     summary = "Instagram"
@@ -97,3 +103,7 @@
     summary = "Instagram"
     body = "This message is no longer available because it was unsent by the sender."
     skip_display=true
+[timr_pomodoro_done]
+    appname = "timr"
+    summary = "COUNTDOWN WORK DONE!"
+    script = /home/julian/.config/dunst/timr_sound.sh
