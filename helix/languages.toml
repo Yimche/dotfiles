@@ -13,6 +13,10 @@ roots = ["pom.xml", "build.gradle", ]
 indent = { tab-width = 4, unit = "    " }
 language-servers = [ "jdtls" ]
 
+[language-server.tinymist]
+command = "tinymist"
+config = { exportPdf = "onType", outputPath = "$root/$name" }
+
 [[language]]
 name = "typst"
 scope = "source.typst"
@@ -20,8 +24,10 @@ file-types = ["typst", "typ"]
 indent = { tab-width = 2, unit = "  " }
 comment-token = "//"
 injection-regex = "typ(st)?"
-roots = ["typst.toml"]
-language-servers = [ "typst-lsp" ]
+#roots = ["typst.toml"]
+formatter = { command = "typstfmt" }
+auto-format=true
+language-servers = [ "tinymist" ]
 
 [language.auto-pairs]
 '(' = ')'
@@ -34,3 +40,16 @@ language-servers = [ "typst-lsp" ]
 name = "typst"
 source.git = "https://github.com/uben0/tree-sitter-typst"
 source.rev = "master"
+
+[language-server.clangd]
+command = "clangd"
+
+[[language]]
+name = "c"
+scope = "source.c"
+file-types = ["c", "h"]
+language-servers = ["clangd"]
+auto-format = false
+indent = { tab-width = 4, unit = "    " }
+formatter = { command = "clang-format" }
+

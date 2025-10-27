@@ -8,6 +8,11 @@ bufferline = "multiple"
 [editor.auto-save]
 focus-lost = true
 
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
 [editor.lsp]
 enable = true
 
@@ -15,3 +20,21 @@ enable = true
 S-l = "goto_next_buffer"
 S-h = "goto_previous_buffer"
 b = "move_prev_word_start"
+
+p = "paste_clipboard_after"
+P = "paste_clipboard_before"
+y = "yank_to_clipboard"
+Y = "yank_joined_to_clipboard"
+R = "replace_selections_with_clipboard"
+d = ["yank_to_clipboard", "delete_selection_noyank"]
+
+space.space = "file_picker"
+space.f = "no_op"
+
+[keys.select]
+p = "paste_clipboard_after"
+P = "paste_clipboard_before"
+y = "yank_to_clipboard"
+Y = "yank_joined_to_clipboard"
+R = "replace_selections_with_clipboard"
+d = ["yank_to_clipboard", "delete_selection_noyank"]
