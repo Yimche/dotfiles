@@ -4,13 +4,18 @@ prepend_keymap = [
   { on = [ "l" ], run  = "plugin smart-enter", orphan = true, block = true, desc = "Enter the child directory, or open the file" },
 
   # Go to commands
-  { on = [ "g", "u" ], run = 'shell -- ya emit cd ~/Documents/uni/Y3S1/'},
   { on = [ "g", "." ], run = 'shell -- ya emit cd ~/'},
-  { on = [ "g", "T" ], run = 'shell -- ya emit cd ~/.local/share/Trash/files/'},
   { on = [ "g", "D" ], run = 'shell -- ya emit cd ~/Downloads/'},
+  { on = [ "g", "T" ], run = 'shell -- ya emit cd ~/.local/share/Trash/files/'},
   { on = [ "g", "d" ], run = 'shell -- ya emit cd ~/Documents/'},
   { on = [ "g", "m" ], run = 'shell -- ya emit cd /run/media/julian/'},
-  { on = [ "g", "p", "w" ], run = 'shell -- ya emit cd ~/Pictures/wallpapers/'},
+  { on = [ "g", "p" ], run = 'shell -- ya emit cd ~/Pictures/'},
+  { on = [ "g", "u" ], run = 'shell -- ya emit cd ~/Documents/uni/Y3S2/'},
+  { on = [ "g", "w" ], run = 'shell -- ya emit cd ~/Pictures/wallpapers/'},
+
+  # Switch zoxide buttons
+
+
 
   # Create
   { on = [ "m", "d" ], run = 'create --dir', desc = "Create new directory" },
@@ -23,6 +28,9 @@ prepend_keymap = [
   #Cut
   { on = [ "d", "d" ], run = 'yank --cut', desc = "Cut"},
   { on = [ "d", "D" ], run = 'remove', desc = "Delete"},
+
+  #restore
+  { on = "u", run = "shell --block -- clear && trash-restore --overwrite", desc = "Restore deleted file (Interactive)" },
 
   # Background
   { on = [ "b", "g" ], run = 'shell --orphan -- exec ~/code_Master/scripts/hyprpaper.sh "$1"', desc = "Change Wallpaper"},

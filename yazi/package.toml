@@ -8,5 +8,10 @@ use = "yazi-rs/plugins:smart-enter"
 rev = "b886025"
 hash = "56fdabc96fc1f4d53c96eb884b02a5be"
 
+[[plugin.deps]]
+use = "boydaihungst/restore"
+rev = "2a2ba2f"
+hash = "12d8576d0cb8355a7e15d622913eb250"
+
 [flavor]
 deps = []

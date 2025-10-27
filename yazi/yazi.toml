@@ -7,7 +7,7 @@ sort_dir_first = true
 
 [opener]
 edit = [
-	{ run = 'nvim "$@"', orphan = true, block = true, for = "unix" },
+	{ run = '$EDITOR "$@"', orphan = true, block = true, for = "unix" },
 ]
 open = [
 	{ run = '~/code_Master/scripts/launch.sh "$@"', orphan = true, desc = "Open" },
