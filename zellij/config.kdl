@@ -258,6 +258,7 @@ default_mode "normal"
 pane_frames false
 show_startup_tips false
 default_layout "compact"
+simplified_ui true
  
 ui {
     pane_frames {
