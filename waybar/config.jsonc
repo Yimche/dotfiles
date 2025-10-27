@@ -14,8 +14,7 @@
     "modules": [
       "custom/powermenu",
       "hyprland/workspaces",
-      "hyprland/window",
-      // "cava",
+      "custom/todo",
       "custom/cava-internal",
       "bluetooth",
     ]
@@ -29,6 +28,7 @@
   "group/right": {
     "orientation": "horizontal",
     "modules": [
+      "idle_inhibitor",
       "pulseaudio",
       "backlight",
       "disk",
@@ -41,8 +41,8 @@
     ]
   },
   //"width": 1900,
-  "margin-left": 12,
-  "margin-right": 12,
+  "margin-left": 15,
+  "margin-right": 15,
   "margin-top": 10,
   "reload_style_on_change": true,
   "custom/launcher": {
@@ -52,12 +52,13 @@
   }, 
   "custom/cava-internal": {
     "exec": "$HOME/.config/waybar/scripts/cava.sh",
+    "on-click-right": "$HOME/.config/waybar/scripts/cava.sh toggle",
     "format": "{}",
     "tooltip": false
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
-    // "all-outputs": true,
+    "all-outputs": false,
     "active-only": false,
     "format": "{icon}",
     "format-icons": {
@@ -73,24 +74,13 @@
       "10": "十",
     },
     // "persistent-workspaces": {
-    //   "*": [1,2,3,4,5],
+    //     "eDP-1": [1, 2, 3, 4, 5],
     // }
-  },
-  "hyprland/mode": {
-    "format": " {}"
-  },
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
-    },
-    "tooltip": false
   },
   "backlight": {
     "device": "intel_backlight",
-    "on-scroll-up": "brillo -q -U 5",
-    "on-scroll-down": "brillo -q -A 5",
+    "on-scroll-up": "brightnessctl -e4 s 5%-",
+    "on-scroll-down": "brightnessctl -e4 s 5%+",
     "format": "{icon} {percent}%",
     "format-icons": [
       "󰃞",
@@ -122,6 +112,7 @@
     /*   "warning": 100, */
     /* }, */
     "scroll-step": 1,
+    "reverse-scrolling": true,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "sh ~/.config/rofi/scripts/soundswitch.sh",
     // "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
@@ -166,7 +157,8 @@
   "memory": {
     "on-click": "sleep 0.1 && kitty btm",
     "interval": 1,
-    "format": "󰘚 {percentage}%",
+    "format": "{icon} {percentage}%",
+    "format-icons" : ["󰾆","󰾆", "󰾅", "󰓅"],
     "states": {
       "warning": 85,
     },
@@ -175,37 +167,18 @@
     "interval": 1,
     "format": " {usage}%"
   },
-  "mpd": {
-    "max-length": 25,
-    "format": "<span foreground='#bb9af7'></span> {title}",
-    "format-paused": " {title}",
-    "format-stopped": "<span foreground='#bb9af7'></span>",
-    "format-disconnected": "",
-    "on-click": "mpc --quiet toggle",
-    "on-click-right": "mpc ls | mpc add",
-    "on-click-middle": "kitty ncmpcpp",
-    "on-scroll-up": "mpc --quiet prev",
-    "on-scroll-down": "mpc --quiet next",
-    "smooth-scrolling-threshold": 5,
-    "tooltip-format": "{title} - {artist} ({elapsedTime:%M:%S}/{totalTime:%H:%M:%S})"
-  },
   "network": {
     "interval": 1,
-    //"format-wifi": "󰒢 {essid}",
-    "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    "format-wifi": "󰖩 {essid} ({signalStrength}%)",
+    // "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    // "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
     "format-ethernet": "󰒢 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
-    //"format-ethernet": "  {ifname} ({ipaddr})",
     "format-linked": "󰒢 {essid} (No IP)",
     "format-disconnected": "󰒢 Disconnected",
-    "on-click": "nm-connection-editor",
+    "on-click": "kitty nmtui &",
     "tooltip": true,
-    "tooltip-format": "{ifname} {essid}: {ipaddr}"
-  },
-  "temperature": {
-    "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
-    "critical-threshold": 80,
-    "tooltip": false,
-    "format": " {temperatureC}°C"
+    // "tooltip-format": "{ifname} {essid}: {ipaddr}"
+    "tooltip-format": "{ifname} {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
   },
   "custom/powermenu": {
     "format": "󰐥",
@@ -215,40 +188,6 @@
   "tray": {
     "icon-size": 15,
     "spacing": 5
-  },
-  "custom/pacman": {
-    "format": " {}",
-    "interval": 3600, // every hour
-    "exec": "checkupdates | wc -l", // # of updates
-    "exec-if": "exit 0", // always run; consider advanced run conditions
-    "exec-if": "checkupdates | wc -l > 0", // always run; consider advanced run conditions
-    /* "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system */
-    "on-click": "kitty yay",
-    "signal": 8
-  },
-  "custom/scratchpad-indicator": {
-    "interval": 3,
-    "return-type": "json",
-    "exec": "hyprlandmsg -t get_tree | jq --unbuffered --compact-output '(recurse(.nodes[]) | select(.name == \"__i3_scratch\") | .focus) as $scratch_ids | [..  | (.nodes? + .floating_nodes?) // empty | .[] | select(.id |IN($scratch_ids[]))] as $scratch_nodes | if ($scratch_nodes|length) > 0 then { text: \"\\($scratch_nodes | length)\", tooltip: $scratch_nodes | map(\"\\(.app_id // .window_properties.class) (\\(.id)): \\(.name)\") | join(\"\\n\") } else empty end'",
-    "format": " {}",
-    "on-click": "exec hyprlandmsg 'scratchpad show'",
-    "on-click-right": "exec hyprlandmsg 'move scratchpad'"
-  },
-  "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 3600,
-    "exec": "~/.config/waybar/wabar-wttr.py",
-    "return-type": "json"
-  },
-  "custom/recording": {
-    "exec": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh status",
-    "format": "{}",
-    "on-click": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh toggle fullscreen",
-    "on-click-right": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh toggle region",
-    "restart-interval": 1,
-    "return-type": "json",
-    "tooltip": true
   },
   "custom/media": {
         "format": "{icon} {}",
@@ -292,34 +231,9 @@
       "(.*)Obsidian(.*)": "obsidian",
       "(.*) - fish": "> [$1]",
       "(.*): (.*) - (.*)": "$3",
+      "• Discord |": "Discord | $1",
     },
     "separate-outputs": true,
-  },
-  "hyprland/language": {
-    "format": "{}",
-    "on-click": "hyprlandmsg input type:keyboard xkb_switch_layout next",
-  },
-  "cava": {
-    "cava_config": "$HOME/.config/cava/config1",
-    "framerate": 30,
-    "autosens": 1,
-    "sensitivity": 100,
-    "bars": 14,
-    "lower_cutoff_freq": 50,
-    "higher_cutoff_freq": 10000,
-    "method": "pulse",
-    "source": "auto",
-    "stereo": true,
-    "reverse": false,
-    "bar_delimiter": 0,
-    "monstercat": false,
-    "waves": false,
-    "noise_reduction": 0.77,
-    "input_delay": 2,
-    "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-    "actions": {
-      "on-click-right": "mode"
-    }
   },
   "bluetooth": {
     "format": "",
@@ -331,10 +245,27 @@
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
   },
+  "custom/todo": {
+    "format":"TODO: {}",
+    "return-type": "json",
+    "interval": 3600,
+    "max-length": 50,
+    "exec": "$HOME/.config/waybar/scripts/waybar-gcal/gcal.sh update",
+    "on-click": "$HOME/.config/waybar/scripts/waybar-gcal/gcal.sh update",
+    "tooltip": "bash -c 'cat $HOME/.config/waybar/scripts/waybar-gcal/events.txt'",
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "",
+        "deactivated": ""
+    }
+  },
 },
-  {
+{
+  // Second monitor 
   "layer": "top",
-  "output": ["HDMI-A-1", "DP-1", "HEADLESS-2"],
+  "output": "HDMI-A-1",
   "modules-left": [
     "group/left"
   ],
@@ -346,11 +277,7 @@
   ], "group/left": {
     "orientation": "horizontal",
     "modules": [
-      "custom/powermenu",
       "hyprland/workspaces",
-      "hyprland/window",
-      // "cava",
-      //"custom/cava-internal",
       "bluetooth",
     ]
   },
@@ -371,12 +298,11 @@
       "network",
       "battery",
       "clock",
-      "tray",
     ]
   },
   //"width": 1900,
-  "margin-left": 12,
-  "margin-right": 12,
+  "margin-left": 15,
+  "margin-right": 15,
   "margin-top": 10,
   "reload_style_on_change": true,
   "custom/launcher": {
@@ -386,12 +312,13 @@
   }, 
   "custom/cava-internal": {
     "exec": "$HOME/.config/waybar/scripts/cava.sh",
+    "on-click-right": "$HOME/.config/waybar/scripts/cava.sh toggle",
     "format": "{}",
     "tooltip": false
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
-    /*"all-outputs": true,*/
+    "all-outputs": false,
     "active-only": false,
     "format": "{icon}",
     "format-icons": {
@@ -405,23 +332,15 @@
       "8": "八",
       "9": "九",
       "10": "十",
-    }
-  },
-  "hyprland/mode": {
-    "format": " {}"
-  },
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
     },
-    "tooltip": false
+    // "persistent-workspaces": {
+    //     "eDP-1": [1, 2, 3, 4, 5],
+    // }
   },
   "backlight": {
     "device": "intel_backlight",
-    "on-scroll-up": "brillo -q -U 5",
-    "on-scroll-down": "brillo -q -A 5",
+    "on-scroll-up": "brightnessctl -e4 s 5%-",
+    "on-scroll-down": "brightnessctl -e4 s 5%+",
     "format": "{icon} {percent}%",
     "format-icons": [
       "󰃞",
@@ -453,6 +372,7 @@
     /*   "warning": 100, */
     /* }, */
     "scroll-step": 1,
+    "reverse-scrolling": true,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "sh ~/.config/rofi/scripts/soundswitch.sh",
     // "on-click-right": "sleep 0.1 && sh ~/.config/tofi/scripts/soundswitch.sh",
@@ -480,6 +400,7 @@
     ],
     "format-full": "{icon} {capacity}%",
     "format-charging": "󰂄 {capacity}%",
+    "on-click-right": "sh ~/.config/rofi/scripts/powerprofiles.sh",
     "tooltip": true,
   },
   "clock": {
@@ -496,7 +417,8 @@
   "memory": {
     "on-click": "sleep 0.1 && kitty btm",
     "interval": 1,
-    "format": "󰘚 {percentage}%",
+    "format": "{icon} {percentage}%",
+    "format-icons" : ["󰾆","󰾆", "󰾅", "󰓅"],
     "states": {
       "warning": 85,
     },
@@ -505,37 +427,18 @@
     "interval": 1,
     "format": " {usage}%"
   },
-  "mpd": {
-    "max-length": 25,
-    "format": "<span foreground='#bb9af7'></span> {title}",
-    "format-paused": " {title}",
-    "format-stopped": "<span foreground='#bb9af7'></span>",
-    "format-disconnected": "",
-    "on-click": "mpc --quiet toggle",
-    "on-click-right": "mpc ls | mpc add",
-    "on-click-middle": "kitty ncmpcpp",
-    "on-scroll-up": "mpc --quiet prev",
-    "on-scroll-down": "mpc --quiet next",
-    "smooth-scrolling-threshold": 5,
-    "tooltip-format": "{title} - {artist} ({elapsedTime:%M:%S}/{totalTime:%H:%M:%S})"
-  },
   "network": {
     "interval": 1,
-    //"format-wifi": "󰒢 {essid}",
-    "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    "format-wifi": "󰖩 {essid} ({signalStrength}%)",
+    // "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
+    // "format-wifi": "󰖩 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
     "format-ethernet": "󰒢 {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
-    //"format-ethernet": "  {ifname} ({ipaddr})",
     "format-linked": "󰒢 {essid} (No IP)",
     "format-disconnected": "󰒢 Disconnected",
-    "on-click": "nm-connection-editor",
+    "on-click": "kitty nmtui &",
     "tooltip": true,
-    "tooltip-format": "{ifname} {essid}: {ipaddr}"
-  },
-  "temperature": {
-    "hwmon-path": "/sys/class/hwmon/hwmon4/temp2_input",
-    "critical-threshold": 80,
-    "tooltip": false,
-    "format": " {temperatureC}°C"
+    // "tooltip-format": "{ifname} {essid}: {ipaddr}"
+    "tooltip-format": "{ifname} {bandwidthUpBytes} 󰓢 {bandwidthDownBytes}",
   },
   "custom/powermenu": {
     "format": "󰐥",
@@ -545,40 +448,6 @@
   "tray": {
     "icon-size": 15,
     "spacing": 5
-  },
-  "custom/pacman": {
-    "format": " {}",
-    "interval": 3600, // every hour
-    "exec": "checkupdates | wc -l", // # of updates
-    "exec-if": "exit 0", // always run; consider advanced run conditions
-    "exec-if": "checkupdates | wc -l > 0", // always run; consider advanced run conditions
-    /* "on-click": "termite -e 'sudo pacman -Syu'; pkill -SIGRTMIN+8 waybar", // update system */
-    "on-click": "kitty yay",
-    "signal": 8
-  },
-  "custom/scratchpad-indicator": {
-    "interval": 3,
-    "return-type": "json",
-    "exec": "hyprlandmsg -t get_tree | jq --unbuffered --compact-output '(recurse(.nodes[]) | select(.name == \"__i3_scratch\") | .focus) as $scratch_ids | [..  | (.nodes? + .floating_nodes?) // empty | .[] | select(.id |IN($scratch_ids[]))] as $scratch_nodes | if ($scratch_nodes|length) > 0 then { text: \"\\($scratch_nodes | length)\", tooltip: $scratch_nodes | map(\"\\(.app_id // .window_properties.class) (\\(.id)): \\(.name)\") | join(\"\\n\") } else empty end'",
-    "format": " {}",
-    "on-click": "exec hyprlandmsg 'scratchpad show'",
-    "on-click-right": "exec hyprlandmsg 'move scratchpad'"
-  },
-  "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 3600,
-    "exec": "~/.config/waybar/wabar-wttr.py",
-    "return-type": "json"
-  },
-  "custom/recording": {
-    "exec": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh status",
-    "format": "{}",
-    "on-click": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh toggle fullscreen",
-    "on-click-right": "$XDG_CONFIG_HOME/waybar/scripts/recording.sh toggle region",
-    "restart-interval": 1,
-    "return-type": "json",
-    "tooltip": true
   },
   "custom/media": {
         "format": "{icon} {}",
@@ -622,34 +491,9 @@
       "(.*)Obsidian(.*)": "obsidian",
       "(.*) - fish": "> [$1]",
       "(.*): (.*) - (.*)": "$3",
+      "• Discord |": "Discord | $1",
     },
     "separate-outputs": true,
-  },
-  "hyprland/language": {
-    "format": "{}",
-    "on-click": "hyprlandmsg input type:keyboard xkb_switch_layout next",
-  },
-  "cava": {
-    "cava_config": "$HOME/.config/cava/config1",
-    "framerate": 30,
-    "autosens": 1,
-    "sensitivity": 100,
-    "bars": 14,
-    "lower_cutoff_freq": 50,
-    "higher_cutoff_freq": 10000,
-    "method": "pulse",
-    "source": "auto",
-    "stereo": true,
-    "reverse": false,
-    "bar_delimiter": 0,
-    "monstercat": false,
-    "waves": false,
-    "noise_reduction": 0.77,
-    "input_delay": 2,
-    "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-    "actions": {
-      "on-click-right": "mode"
-    }
   },
   "bluetooth": {
     "format": "",
@@ -661,4 +505,21 @@
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
   },
-}]
+  "custom/todo": {
+    "format":"TODO: {}",
+    "return-type": "json",
+    "interval": 3600,
+    "max-length": 50,
+    "exec": "$HOME/.config/waybar/scripts/waybar-gcal/gcal.sh update",
+    "on-click": "$HOME/.config/waybar/scripts/waybar-gcal/gcal.sh update",
+    "tooltip": "bash -c 'cat $HOME/.config/waybar/scripts/waybar-gcal/events.txt'",
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "",
+        "deactivated": ""
+    }
+  }
+}
+]
