@@ -1,4 +1,7 @@
-cmus/cmusfm.conf
-hypr/hyprpaper.conf
-waybar/scripts/gcal/
-waybar/scripts/deadlines.sh
+./cmus/cmusfm.conf
+./hypr/hyprpaper.conf
+./waybar/scripts/gcal/
+./waybar/scripts/deadlines.sh
+./helix/grammars/
+./helix/queries/
+./helix/runtime/
