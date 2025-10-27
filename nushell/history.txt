@@ -8534,3 +8534,168 @@ dd bs=4M if=/home/julian/iso/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fs
 sudo dd bs=4M if=/home/julian/iso/archlinux-2023.11.01-x86_64.iso of=/dev/sda conv=fsync oflag=direct status=progress
 nmtui
 lf
+exit
+zoxide init nushell | save -f ~/.zoxide.nu
+exit
+zoxide init nushell | save -f zoxide.nu
+ls
+exit
+clear
+exit
+config nu
+$env.config.buffer_editor=nvim
+$env.EDITOR=nvim
+$env.EDITOR = nvim
+$env.EDITOR = "nvim"
+config nu
+clear
+vim env.nu
+nvim env.nu
+yy
+lf
+config nu
+exit
+yy
+clear
+yy
+clear
+exit
+nu
+clear
+vim config.nu
+vim
+vim config.nu
+nvim config.nu
+exit
+nu
+yy
+vim starship.nu
+clear
+vim config.nu
+nvim config.nu
+exit
+nu
+clear
+exit
+yy
+clear
+exit
+exit
+clear
+exit
+config nu
+yy
+exit
+yy
+config nu
+z nushell
+yy
+exit
+config nu
+exit
+nu
+yy
+exit
+ls
+ls -a
+clear
+config nu
+clear
+exit
+config nu
+z nushell
+yy
+exit
+nu
+yy
+z nushell
+yy
+exit
+nu
+yy
+clear
+exit
+nu
+ls
+ls -la
+ls -a
+ls -a | sort
+ls -a | sort-by modified
+ls -a | sort-by modified | reverse
+yy
+clear
+ls
+exit
+z nu
+exit
+clear
+ls
+clear
+exit
+clear
+exit
+clear
+exit
+z
+ls
+clear
+z nu
+yy
+exit
+ls
+config nu
+exit
+ls
+config nu
+ls
+exit
+ls
+config nu
+exit
+ls
+exit
+config nu
+exit
+ls
+yy
+exit
+config nu
+exit
+ls
+config nu
+exit
+ls
+clear
+yy
+clear
+ls
+ls -a | sort-by modified
+ls | sort-by modified
+ls | sort-by modified | reversed
+ls | sort-by modified | reverse
+$env.config | table -e | bat -p
+exit
+clear
+exit
+ls
+ls -u
+ls -du
+ls --u
+ls --du
+ls --du | sort-by size
+exit
+clear
+ls
+cd foobar2000/
+ls
+ls --list-directories
+ls --directory
+cd ..
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+exit
