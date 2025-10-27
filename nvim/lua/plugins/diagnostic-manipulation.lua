@@ -6,7 +6,7 @@ return {
             blacklist = {
                 function(diagnostic)
                     return string.find(diagnostic.message, "Undefined global `vim`")
-                end
+                end,
             },
             whitelist = {
             }

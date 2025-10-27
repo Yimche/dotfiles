@@ -17,3 +17,5 @@ map("n", "<leader>ca", "<cmd> lua vim.lsp.buf.code_action()<CR>", { desc = "Code
 map("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
 ---- Mason
 map("n", "<leader>cm", "<cmd>Mason<CR>", { desc = "Mason Menu" })
+
+map("n", "\\", "<cmd>noh<cr>", {desc = "clear search"})

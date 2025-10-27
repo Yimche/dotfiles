@@ -7,7 +7,10 @@ return {
 	    "jdtls",
 	    "lua_ls",
 	    "tinymist",
+            "pylsp",
+            "astro"
 	},
+        automatic_installation = true,
     },
     dependencies = {
     	{ "mason-org/mason.nvim", opts = {} },
