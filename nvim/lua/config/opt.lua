@@ -1,27 +1,39 @@
 -- Setting Status Column (Line Numbers)
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.signcolumn = "number"
+vim.opt.nu = true
+vim.opt.rnu = true
 
--- Highlight the 80th and 100th columns
-vim.opt.colorcolumn = "80,100"
+-- Tabs and indentation
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.smarttab = true
 
 -- Disable wrap
 vim.opt.wrap = false
 
--- Tabs and indentation
-vim.opt.shiftwidth = 4
-vim.opt.smarttab = true
-vim.opt.expandtab = true
+-- Undo
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undofile = true
+
+-- Search
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+vim.opt.termguicolors = true
 
 -- Scroll
-vim.opt.scrolloff = 5
-
--- Undo
-vim.opt.undofile = true
+vim.opt.scrolloff = 8
+vim.opt.signcolumn = "yes"
 
 -- Yank
 vim.opt.clipboard = "unnamedplus"
+
+vim.opt.colorcolumn = "80,100"
+
+vim.opt.updatetime = 50
 
 -- fold
 vim.opt.foldenable      = false

@@ -7,15 +7,27 @@ local function map(mode, lhs, rhs, opts)
 end
 
 vim.g.mapleader = " "
--- Lazy
+
 map("n", "<leader>L", "<cmd>Lazy<CR>", { desc = "Lazy Menu" })
 
--- Code
----- Code Action
-map("n", "<leader>ca", "<cmd> lua vim.lsp.buf.code_action()<CR>", { desc = "Code Actions"})
----- Line Diagnostics
-map("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
----- Mason
 map("n", "<leader>cm", "<cmd>Mason<CR>", { desc = "Mason Menu" })
 
-map("n", "\\", "<cmd>noh<cr>", {desc = "clear search"})
+map("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
+map("n", "<leader>ca", "<cmd> lua vim.lsp.buf.code_action()<CR>", { desc = "Code Actions"})
+
+map("v", "J", ":m '>+1<CR>gv=gv")
+map("v", "K", ":m '<-2<CR>gv=gv")
+
+map("n", "J", "mzJ`z")
+map("n", "<C-d>", "<C-d>zz")
+map("n", "<C-u>", "<C-u>zz")
+map("n", "n", "nzzzv")
+map("n", "N", "Nzzzv")
+
+map("x", "<leader>p", "\"_dP")
+
+map("n", "Q", "<nop>")
+
+map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+map("n", "\\", "<cmd>nohlsearch<CR>")
