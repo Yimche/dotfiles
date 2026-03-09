@@ -12,3 +12,6 @@ edit = [
 open = [
 	{ run = '~/code_Master/scripts/launch.sh "$@"', orphan = true, desc = "Open" },
 ]
+play = [
+	{ run = 'mpv "$@"', orphan = true, desc = "play media" },
+]
