@@ -54,6 +54,12 @@ return {
                 "tsconfig.json",
             },
         }
+        vim.lsp.config["verible"] = {
+            filetypes = { "verilog" },
+            root_markers = {
+                "xpr"
+            }
+        }
         -- Start them
         -- vim.lsp.start(vim.lsp.config["astro"])
         vim.lsp.start(vim.lsp.config["clangd"])
@@ -61,6 +67,7 @@ return {
         vim.lsp.start(vim.lsp.config["pylsp"])
         vim.lsp.start(vim.lsp.config["qmlls"])
         vim.lsp.start(vim.lsp.config["tinymist"])
+        vim.lsp.start(vim.lsp.config["verible"])
     end,
 
     keys = {

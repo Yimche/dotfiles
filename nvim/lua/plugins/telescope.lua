@@ -6,6 +6,7 @@ local function get_root()
     "config",
     "init.lua",
     ".conf",
+    "config.jsonc",
     ".git",
   })
 
