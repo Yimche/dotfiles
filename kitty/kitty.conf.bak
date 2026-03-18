@@ -5,7 +5,8 @@
 #: characters.
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrainsMonoNL Nerd Font Mono"
+# font_family      family="JetBrainsMonoNL Nerd Font Mono"
+font_family      family="DepartureMono Nerd Font"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -23,7 +24,7 @@ bold_italic_font auto
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 11
+font_size 12
 
 #: Font size (in pts)
 
@@ -160,11 +161,6 @@ url_style curly
 #: The color and style for highlighting URLs on mouse-over. url_style
 #: can be one of: none, single, double, curly
 
-open_url_modifiers kitty_mod
-
-#: The modifier keys to press when clicking with the mouse on URLs to
-#: open the URL
-
 open_url_with default
 
 #: The program with which to open URLs that are clicked on. The
@@ -192,16 +188,6 @@ strip_trailing_spaces never
 #: Remove spaces at the end of lines when copying to clipboard. A
 #: value of smart will do it when using normal selections, but not
 #: rectangle selections. always will always do it.
-
-rectangle_select_modifiers ctrl+alt
-
-#: The modifiers to use rectangular selection (i.e. to select text in
-#: a rectangular block with the mouse)
-
-terminal_select_modifiers shift
-
-#: The modifiers to override mouse selection even when a terminal
-#: application has grabbed the mouse
 
 select_by_word_characters :@-./_~?&=%+#
 
@@ -383,14 +369,6 @@ resize_debounce_time 0.1
 #: operating system sends events corresponding to the start and end of
 #: a resize, this number is ignored.
 
-resize_draw_strategy static
-
-#: Choose how kitty draws a window while a resize is in progress. A
-#: value of static means draw the current window contents, mostly
-#: unchanged. A value of scale means draw the current window contents
-#: scaled. A value of blank means draw a blank window. A value of size
-#: means show the window size in cells.
-
 #: }}}
 
 #: Tab bar {{{
@@ -469,7 +447,7 @@ inactive_tab_font_style normal
 
 #: The foreground and background colors
 
-background_opacity 1
+background_opacity 0.90
 
 #: The opacity of the background. A number between 0 and 1, where 1 is
 #: opaque and 0 is fully transparent.  This will only work if
