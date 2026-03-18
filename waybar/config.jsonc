@@ -40,7 +40,6 @@
       "tray",
     ]
   },
-  //"width": 1900,
   "margin-left": 15,
   "margin-right": 15,
   "margin-top": 10,
@@ -274,9 +273,11 @@
   ],
   "modules-right": [
     "group/right"
-  ], "group/left": {
+  ], 
+  "group/left": {
     "orientation": "horizontal",
     "modules": [
+      "custom/powermenu",
       "hyprland/workspaces",
       "bluetooth",
     ]
@@ -290,6 +291,7 @@
   "group/right": {
     "orientation": "horizontal",
     "modules": [
+      "idle_inhibitor",
       "pulseaudio",
       "backlight",
       "disk",

@@ -25,20 +25,20 @@
 /*   animation-direction: alternate; */
 /* } */
 
-#mode, #clock, #memory, #temperature, #cpu, #custom-weather, #workspaces,
+#mode, #clock, #memory, #temperature, #cpu, #custom-weather, #workspaces button,
 #mpd, #media, #idle_inhibitor, #player, #backlight, #pulseaudio, #network,
 #battery, #custom-powermenu, #custom-cava-internal, #cava, #window, #bluetooth,
 #custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator,
 #custom-todo {
-  padding-left: .3rem;
-  padding-right: .3rem;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: .3rem;
-  margin-bottom: .3rem;
-  margin-left: .1rem;
-  margin-right: .1rem;
-  border-radius: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 0px;
   color: @base;
 }
 
@@ -54,11 +54,11 @@
 
 /* Bar */
 #left, #right {
-  /* background-color: shade(@crust, 0.9); */
-  /* border-radius: 5px; */
-  /* border: 1.5px solid @lavender; */
-  padding-left: .25rem;
-  padding-right: .25rem;
+  background-color: shade(@crust, 0.9);
+  border-radius: 0px;
+  border: 2px solid @lavender;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 /* #center { */
@@ -67,15 +67,15 @@
 /* } */
 
 window#waybar {
-  /* background-color: transparent; */
-  background-color: shade(@mantle, 0.9);
-  border-radius: 5px;
-  border: 2px solid @lavender;
+  background-color: transparent;
+  /* background-color: shade(@mantle, 0.9); */
+  /* border-radius: 0px; */
+  /* border: 2px solid @lavender; */
 }
 
 window > box {
   background-color: transparent;
-  margin: .2rem;
+  margin: .1rem;
   /*margin-bottom: 0;*/
 }
 
@@ -86,13 +86,15 @@ window > box {
 }
 
 #workspaces button {
-  border-radius: 2px;
   color: @text;
   font-weight: bold;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: .3rem;
   padding-right: .3rem;
+  border: 1px solid transparent;
+  border-left: 0.5px solid transparent;
+  border-right: 0.5px solid transparent;
   border-bottom: 1px solid @rosewater;
 
 }
@@ -100,7 +102,8 @@ window > box {
 #workspaces button.active {
   background-color: @sapphire;
   color: @base;
-  border-bottom: none;
+  border-bottom: 1px solid @sapphire;
+  border-top: 1px solid @sapphire;
 
 }
 
@@ -164,6 +167,7 @@ tooltip label {
   color: @base;
 }
 #custom-powermenu {
+  padding: 0rem;
   padding-right: .6rem;
   padding-left: .6rem;
   color: @base;
