@@ -13,6 +13,13 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
   command = "HlsStart",
 })
 
+vim.cmd([[
+    augroup jdtls_lsp
+        autocmd!
+        autocmd FileType java lua require'config.jdtls'.setup_jdtls()
+    augroup end
+]])
+
 vim.cmd([[ autocmd FocusLost * nested silent! wa ]])
 
 -- Persistent Folds
