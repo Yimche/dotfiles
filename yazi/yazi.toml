@@ -7,10 +7,10 @@ sort_dir_first = true
 
 [opener]
 edit = [
-	{ run = '$EDITOR "$@"', orphan = true, block = true, for = "unix" },
+	{ run = '$EDITOR "$@"', orphan = true, block = true},
 ]
 open = [
-	{ run = '~/code_Master/scripts/launch.sh "$@"', orphan = true, desc = "Open" },
+	{ run = '~/code_Master/scripts/launch.sh "$@"', orphan = true, block = true, desc = "Open" },
 ]
 play = [
 	{ run = 'mpv "$@"', orphan = true, desc = "play media" },
