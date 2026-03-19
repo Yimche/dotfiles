@@ -6,7 +6,7 @@
     width = 400
     height = (0,120)
     origin = top-right
-    offset = (14, 10)
+    offset = (15, 10)
     scale = 0
 
     notification_limit = 0
@@ -21,7 +21,7 @@
     padding = 8
     horizontal_padding = 8
     text_icon_padding = 0
-    frame_width = 3
+    frame_width = 2
     frame_color = "#f5e0dc"
     gap_size = 0
     separator_color = frame
