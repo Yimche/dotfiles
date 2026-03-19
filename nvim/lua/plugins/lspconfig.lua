@@ -37,11 +37,11 @@ return {
         }
         vim.lsp.config["qmlls"] = {
             cmd = { "qmlls" },
-            filetypes = {".qt"},
+            filetypes = {"qml"},
         }
         vim.lsp.config["pylsp"] = {
             cmd = { "pylsp" },
-            filetypes = { ".py" }
+            filetypes = { "python" }
         }
         vim.lsp.config["astro"] = {
             cmd = { "astro-ls", "--stdio" },
@@ -57,19 +57,21 @@ return {
             },
         }
         vim.lsp.config["verible"] = {
+            cmd = { "verible-verilog-ls" },
             filetypes = { "verilog" },
             root_markers = {
                 "xpr"
             }
         }
         -- Start them
-        -- vim.lsp.start(vim.lsp.config["astro"])
-        vim.lsp.start(vim.lsp.config["clangd"])
-        vim.lsp.start(vim.lsp.config["lua_ls"])
-        vim.lsp.start(vim.lsp.config["pylsp"])
-        vim.lsp.start(vim.lsp.config["qmlls"])
-        vim.lsp.start(vim.lsp.config["tinymist"])
-        vim.lsp.start(vim.lsp.config["verible"])
+        local lspconfig = require("lspconfig")
+        vim.lsp.enable("clangd")
+        vim.lsp.enable("lua_ls")
+        vim.lsp.enable("pylsp")
+        vim.lsp.enable("qmlls")
+        vim.lsp.enable("tinymist")
+        vim.lsp.enable("astro")
+        vim.lsp.enable("verible")
 
         -- Set vim motion for <Space> + c + h to show code documentation about the code the cursor is currently over if available
         -- Set vim motion for <Space> + c + d to go where the code/variable under the cursor was defined
