@@ -230,7 +230,7 @@ tooltip label {
 }
 #network { 
   background-color: @pink; /* not active */
-  min-width: 170px;
+  min-width: 160px;
 }
 #bluetooth {
   padding-left: .6rem;
