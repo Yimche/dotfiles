@@ -203,8 +203,16 @@ function yy
     rm -f -- "$tmp"
 end
 
+function oo
+    yy ~/Documents/yesod/
+end
+
 function pyenv
     command pyenv init - | source
+end
+
+function ssh
+    kitty +kitten ssh $argv
 end
 
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
