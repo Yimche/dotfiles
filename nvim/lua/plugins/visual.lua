@@ -5,18 +5,18 @@ return {
 	lazy = false,
 	opts = {
 	    integrations = {
-		noice = true,
+		    noice = true,
 	    	which_key = true,
 	    	treesitter = true,
 	    },
-            transparent_background = true, -- disables setting the background color.
+        transparent_background = true, -- disables setting the background color.
 	},
 	config = function(_, opts)
 	    require("catppuccin").setup(opts)
 	    vim.cmd.colorscheme("catppuccin")
 	end,
     },
-    {	
+    {
 	"folke/noice.nvim",
 	event = "VeryLazy",
 	opts = {
