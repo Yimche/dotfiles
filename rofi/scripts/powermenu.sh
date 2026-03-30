@@ -64,7 +64,7 @@ $lock)
   ;;
 $suspend)
   sh "$HOME/code_Master/scripts/fb2k.sh pp"
-  swaylock -f
+  hyprlock &
   systemctl suspend
   ;;
 $logout)
