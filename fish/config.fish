@@ -211,9 +211,9 @@ function pyenv
     command pyenv init - | source
 end
 
-function ssh
-    kitty +kitten ssh $argv
-end
+#function ssh
+#    kitty +kitten ssh $argv
+#end
 
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
 function __history_previous_command
