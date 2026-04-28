@@ -80,7 +80,9 @@ return {
         -- Set vim motion for <Space> + c + i to display implementations to the code under the cursor
         -- Set a vim motion for <Space> + c + <Shift>R to smartly rename the code under the cursor
         -- Set a vim motion for <Space> + c + <Shift>D to go to where the code/object was declared in the project (class file)
-        vim.keymap.set("n", "<leader>ch", vim.lsp.buf.hover, { desc = "[C]ode [H]over Documentation" })
+        vim.keymap.set("n", "<leader>ch", function()
+            vim.lsp.buf.hover({ max_width = 60, max_height = 12 })
+        end, { desc = "[C]ode [H]over Documentation" })
         vim.keymap.set("n", "<leader>cd", vim.lsp.buf.definition, { desc = "[C]ode Goto [D]efinition" })
         vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "[C]ode [A]ctions" })
         vim.keymap.set("n", "<leader>cr", require("telescope.builtin").lsp_references, { desc = "[C]ode Goto [R]eferences" })
