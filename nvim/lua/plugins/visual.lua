@@ -25,6 +25,17 @@ return {
 	    	command_palette = false,
 	    	lsp_doc_border = true,
 	    },
+        lsp = {
+            signature = {
+                enabled = true,
+                opts = {
+                    size = {
+                        max_height = 10,
+                        max_width = 60,
+                    },
+                },
+            },
+        },
 	    -- add any options here
         views = {
             cmdline_popup = {
