@@ -24,6 +24,9 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
+vim.opt.title = true
+vim.opt.titlestring = "%t"
+
 -- Scroll
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -44,3 +47,4 @@ vim.opt.foldtext        = ""
 vim.opt.foldlevel       = 99
 vim.opt.foldlevelstart  = -1
 vim.opt.foldnestmax     = 4
+

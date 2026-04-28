@@ -28,6 +28,23 @@ map("x", "<leader>p", "\"_dP")
 
 map("n", "Q", "<nop>")
 
-map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+-- map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 map("n", "\\", "<cmd>nohlsearch<CR>")
+
+map("n", ">", function()
+    local count = vim.v.count1 -- Gets the count (default 1)
+    for _ = 1, count do
+        vim.cmd('normal! >>')
+    end
+end)
+
+map("n", "<", function()
+    local count = vim.v.count1
+    for _ = 1, count do
+        vim.cmd('normal! <<')
+    end
+end)
+
+map({ "n", "v", "x" }, "gh", "0")
+map({ "n", "v", "x" }, "gl", "$")
