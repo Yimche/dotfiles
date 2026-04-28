@@ -273,3 +273,7 @@ set -gx PATH /home/julian/.jdks/openjdk-23.0.2/bin/ $PATH
 set -gx PATH /home/julian/.spicetify $PATH
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 set -gx PATH $HOME/.cabal/bin /home/julian/.ghcup/bin $PATH # ghcup-env
+
+if command -v tmux > /dev/null; and status is-interactive; and not string match -q "screen*" $TERM; and not string match -q "tmux*" $TERM; and not set -q TMUX
+    tmux attach -t meta; or exec tmux new-session -s meta 
+end
