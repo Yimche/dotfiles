@@ -7,3 +7,4 @@ helix/queries/
 helix/runtime/
 mpd/
 !mpd/mpd.conf
+tmux/plugins
