@@ -5,3 +5,5 @@ waybar/scripts/deadlines.sh
 helix/grammars/
 helix/queries/
 helix/runtime/
+mpd/
+!mpd/mpd.conf
