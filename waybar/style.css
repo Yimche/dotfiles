@@ -39,6 +39,7 @@
   margin-left: 1px;
   margin-right: 1px;
   border-radius: 0px;
+  min-height: 24px;
   color: @base;
 }
 
@@ -93,8 +94,8 @@ window > box {
   padding-left: .3rem;
   padding-right: .3rem;
   border: 1px solid transparent;
-  border-left: 0.5px solid transparent;
-  border-right: 0.5px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   border-bottom: 1px solid @rosewater;
 
 }
@@ -102,6 +103,8 @@ window > box {
 #workspaces button.active {
   background-color: @sapphire;
   color: @base;
+  border-left: 1px solid @lavender;
+  border-right: 1px solid @lavender;
   border-bottom: 1px solid @sapphire;
   border-top: 1px solid @sapphire;
 
@@ -215,6 +218,7 @@ tooltip label {
   background-color: @yellow;
   padding-left: .6rem;
   padding-right: .6rem;
+  margin-left: 1.5px;
   min-width: 15px;
 }
 #temperature {
@@ -233,8 +237,10 @@ tooltip label {
   min-width: 160px;
 }
 #bluetooth {
-  padding-left: .6rem;
+  padding: 0rem;
   padding-right: .6rem;
+  padding-left: .6rem;
+  color: @base;
   background-color: @sky;
 }
 #bluetooth.connected {

@@ -53,7 +53,8 @@
     "exec": "$HOME/.config/waybar/scripts/cava.sh",
     "on-click-right": "$HOME/.config/waybar/scripts/cava.sh toggle",
     "format": "{}",
-    "tooltip": false
+    "return-type": "json",
+    "tooltip": true, 
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
