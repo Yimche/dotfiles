@@ -189,9 +189,16 @@ function clear
 end
 
 function vm
-    qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -nic user,hostfwd=tcp::5555-:22 ~/.local/share/libvirt/images/vrex.qcow2 &
+    set -l started_here 0
+    if not pgrep -f "vrex.qcow2" > /dev/null
+        qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -nic user,hostfwd=tcp::5555-:22 ~/.local/share/libvirt/images/vrex.qcow2 &
+        set started_here 1
+    end
+    tmux rename-window vrex
     kitty +kitten ssh vrex
-    kill %1
+    if test $started_here -eq 1
+        kill %1
+    end
 end
 
 function yy
