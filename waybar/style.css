@@ -93,7 +93,7 @@ window > box {
   padding-bottom: 0px;
   padding-left: .3rem;
   padding-right: .3rem;
-  border: 1px solid transparent;
+  border-top: 1px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-bottom: 1px solid @rosewater;
@@ -103,11 +103,7 @@ window > box {
 #workspaces button.active {
   background-color: @sapphire;
   color: @base;
-  border-left: 1px solid @lavender;
-  border-right: 1px solid @lavender;
-  border-bottom: 1px solid @sapphire;
-  border-top: 1px solid @sapphire;
-
+  border: 1px solid @sapphire;
 }
 
 #workspaces button:hover {
