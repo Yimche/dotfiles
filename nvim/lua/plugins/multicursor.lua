@@ -12,8 +12,9 @@ return {
         -- Helix-style: C = copy selection to next line, Alt-C = previous line
         set({ "n", "v", "x" }, "C", function() mc.lineAddCursor(1) end, { desc = "[MULTC] Add Cursor Down" })
         set({ "n", "v", "x" }, "<A-C>", function() mc.lineAddCursor(-1) end, { desc = "[MULTC] Add Cursor Up" })
-        set({ "n", "x" }, "<leader>/", mc.searchAllAddCursors, { desc = "[MULTC] All Search Matches" })
-        set({ "v", "x" }, "s", mc.matchCursors, { desc = "[MULTC] All Search Matches" })
+        set("n", "<leader>/", mc.searchAllAddCursors, { desc = "[MULTC] All Search Matches" })
+        -- Helix-style s: prompts for regex, creates a selection on each match within the visual selection
+        set("v", "s", mc.matchCursors, { desc = "[MULTC] Select Matches in Selection" })
         set({ "n"}, "gV", mc.restoreCursors, { desc = "[MULTC] Restore Cursors" })
         set({ "n", "x" }, "<c-q>", mc.toggleCursor, { desc = "[MULTC] Manual" })
 
