@@ -188,14 +188,32 @@ function clear
     commandline -f clear-screen
 end
 
+# function vm
+#     set -l started_here 0
+#     if not pgrep -f "vrex.qcow2" > /dev/null
+#         qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -nic user,hostfwd=tcp::5555-:22 ~/.local/share/libvirt/images/vrex.qcow2 &
+#         set started_here 1
+#     end
+#     tmux rename-window vrex
+#     ssh vrex
+#     if test $started_here -eq 1
+#         kill %1
+#     end
+# end
 function vm
+    set -l win (tmux display-message -p '#I')
     set -l started_here 0
     if not pgrep -f "vrex.qcow2" > /dev/null
         qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -nic user,hostfwd=tcp::5555-:22 ~/.local/share/libvirt/images/vrex.qcow2 &
         set started_here 1
+        echo "Waiting for VM to boot..."
+        while not ssh -q -o ConnectTimeout=2 -o StrictHostKeyChecking=no -p 5555 vrex true 2>/dev/null
+            sleep 2
+        end
+        echo "VM is up!"
     end
-    tmux rename-window vrex
-    kitty +kitten ssh vrex
+    tmux rename-window -t $win vrex
+    ssh vrex
     if test $started_here -eq 1
         kill %1
     end
