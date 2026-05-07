@@ -35,83 +35,84 @@
     keybinds: (
         clear: true,
         global: {
-            "q":          Quit,
-            "?":          ShowHelp,
-            ":":          CommandMode,
-            "oI":         ShowCurrentSongInfo,
-            "oo":         ShowOutputs,
-            "op":         ShowDecoders,
-            "od":         ShowDownloads,
-            "oP":         Partition(),
-            "-":          VolumeDown,
-            "=":          VolumeUp,
-            "<":          PreviousTrack,
-            ">":          NextTrack,
-            "C":          ToggleSingle,
-            "b":          NextTrack,
-            "z":          PreviousTrack,
-            "c":          TogglePause,
-            "x":          TogglePause,
-            ".":          SeekForward,
             ",":          SeekBack,
-            "v":          Stop,
-            "s":          ToggleRandom,
-            "r":          ToggleRepeat,
-            "L":          NextTab,
-            "H":          PreviousTab,
+            "-":          VolumeDown,
+            ".":          SeekForward,
             "1":          SwitchToTab("Queue"),
             "2":          SwitchToTab("Artists"),
             "3":          SwitchToTab("Albums"),
             "4":          SwitchToTab("Playlists"),
             "5":          SwitchToTab("Search"),
-            "u":          Update,
-            "U":          Rescan,
+            ":":          CommandMode,
+            "<":          PreviousTrack,
+            "=":          VolumeUp,
+            ">":          NextTrack,
+            "?":          ShowHelp,
+            "C":          ToggleSingle,
+            "H":          PreviousTab,
+            "L":          NextTab,
             "R":          AddRandom,
+            "U":          Rescan,
+            "b":          NextTrack,
+            "c":          TogglePause,
+            "oI":         ShowCurrentSongInfo,
+            "oP":         Partition(),
+            "od":         ShowDownloads,
+            "oo":         ShowOutputs,
+            "op":         ShowDecoders,
+            "q":          Quit,
+            "r":          ToggleRepeat,
+            "s":          ToggleRandom,
+            "u":          Update,
+            "v":          Stop,
+            "x":          TogglePause,
+            "X":          ToggleConsume,
+            "z":          PreviousTrack,
         },
         navigation: {
-            "<C-c>":      Close,
-            "<Esc>":      Close,
-            "<CR>":       Confirm,
-            "k":          Up,
-            "<Up>":       Up,
-            "j":          Down,
-            "<Down>":     Down,
-            "h":          Left,
-            "<Left>":     Left,
-            "l":          Right,
-            "<Right>":    Right,
-            "<C-w>k":     PaneUp,
-            "<C-Up>":     PaneUp,
-            "<C-w>j":     PaneDown,
-            "<C-Down>":   PaneDown,
-            "<C-w>h":     PaneLeft,
-            "<C-Left>":   PaneLeft,
-            "<C-w>l":     PaneRight,
-            "<C-Right>":  PaneRight,
-            "K":          MoveUp,
-            "J":          MoveDown,
-            "<C-u>":      UpHalf,
-            "<C-d>":      DownHalf,
-            "<C-b>":      PageUp,
-            "<PageUp>":   PageUp,
-            "<C-f>":      PageDown,
-            "<PageDown>": PageDown,
-            "gg":         Top,
-            "G":          Bottom,
-            "<Space>":    Select,
-            "<C-Space>":  InvertSelection,
             "/":          EnterSearch,
-            "n":          NextResult,
-            "N":          PreviousResult,
-            "a":          Add,
+            "<C-Down>":   PaneDown,
+            "<C-Left>":   PaneLeft,
+            "<C-Right>":  PaneRight,
+            "<C-Space>":  InvertSelection,
+            "<C-Up>":     PaneUp,
+            "<C-b>":      PageUp,
+            "<C-c>":      Close,
+            "<C-d>":      DownHalf,
+            "<C-f>":      PageDown,
+            "<C-r>":      Rename,
+            "<C-u>":      UpHalf,
+            "<C-w>h":     PaneLeft,
+            "<C-w>j":     PaneDown,
+            "<C-w>k":     PaneUp,
+            "<C-w>l":     PaneRight,
+            "<C-z>":      ContextMenu(),
+            "<CR>":       Confirm,
+            "<Down>":     Down,
+            "<Esc>":      Close,
+            "<Left>":     Left,
+            "<PageDown>": PageDown,
+            "<PageUp>":   PageUp,
+            "<Right>":    Right,
+            "<Space>":    Select,
+            "<Up>":       Up,
             "A":          AddAll,
             "D":          Delete,
-            "<C-r>":      Rename,
+            "G":          Bottom,
+            "J":          MoveDown,
+            "K":          MoveUp,
+            "N":          PreviousResult,
+            "a":          Add,
+            "gg":         Top,
+            "h":          Left,
             "i":          FocusInput,
+            "j":          Down,
+            "k":          Up,
+            "l":          Right,
+            "n":          NextResult,
             "oi":         ShowInfo,
-            "<C-z>":      ContextMenu(),
-            "<C-s>s":     Save(kind: Modal(all: false, duplicates_strategy: Ask)),
-            "<C-s>a":     Save(kind: Modal(all: true, duplicates_strategy: Ask)),
+            "Y":          Save(kind: Modal(all: true, duplicates_strategy: Ask)),
+            "y":          Save(kind: Modal(all: false, duplicates_strategy: Ask)),
             //"r":          Rate(),
         },
         queue: {
@@ -172,23 +173,50 @@
                 direction: Horizontal,
                 panes: [
                     (
-                        size: "30%",
+                        size: "31%",
+                        borders: "RIGHT",
                         pane: Split(
                             direction: Vertical,
                             panes: [
                                 (
                                     size: "100%",
-                                    borders: "LEFT | RIGHT | TOP",
+                                    borders: "NONE",
                                     border_symbols: Plain,
-                                    pane: Pane(AlbumArt)
+                                    pane: Split(
+                                        direction: Horizontal,
+                                        panes: [
+                                            (
+                                                size: "100%",
+                                                borders: "NONE",
+                                                border_symbols: Plain,
+                                                pane: Pane(AlbumArt)
+                                            ),
+                                            (
+                                                size: "1",
+                                                pane: Pane(Empty())
+                                            ),
+                                        ],
+                                    ),
                                 ),
                                 (
-                                    size: "10",
-                                    borders: "ALL",
-                                    border_symbols: Inherited(parent: Plain, top_left: "├", top_right: "┤",),
+                                    size: "12",
+                                    borders: "TOP",
+                                    border_symbols: Inherited(parent: Plain, top_right: "┬", bottom_right: "┴"),
                                     border_title: [(kind: Text(" Lyrics "))],
                                     border_title_alignment: Right,
-                                    pane: Pane(Lyrics)
+                                    pane: Split(
+                                        direction: Horizontal,
+                                        panes: [
+                                            (
+                                                size: "100%",
+                                                pane: Pane(Lyrics)
+                                            ),
+                                            //(
+                                            //    size: "1",
+                                            //    pane: Pane(Empty())
+                                            //),
+                                        ],
+                                    ),
                                 ),
                             ],
                         ),
@@ -199,8 +227,8 @@
                             direction: Vertical,
                             panes: [
                                 (
-                                    size: "3",
-                                    borders: "ALL",
+                                    size: "2",
+                                    borders: "BOTTOM",
                                     border_symbols: Inherited(parent: Plain, bottom_left: "├", bottom_right: "┤",),
                                     pane: Split(
                                         direction: Horizontal,
@@ -218,9 +246,9 @@
                                 ),
                                 (
                                     size: "100%",
-                                    borders: "LEFT | RIGHT | BOTTOM",
-                                    border_symbols: Plain,
-                                    //border_symbols: Inherited(parent: Plain, bottom_left: "├", bottom_right: "┤",),
+                                    borders: "BOTTOM",
+                                    //border_symbols: Plain,
+                                    border_symbols: Inherited(parent: Plain, bottom_left: "├", bottom_right: "┤",),
                                     pane: Split(
                                         direction: Horizontal,
                                         panes: [
@@ -235,87 +263,75 @@
                                         ]
                                     )
                                 ),
-                                //(
-                                //    size: "25%",
-                                //    borders: " LEFT | RIGHT | BOTTOM",
-                                //    pane: Split(
-                                //        direction: Horizontal,
-                                //        panes: [
-                                //            (
-                                //                size: "1%",
-                                //                pane: Pane(Empty())
-                                //            ),
-                                //            (
-                                //                size: "99%",
-                                //                pane: Pane(Cava)
-                                //            ),
-                                //        ]
-                                //    ),
-                                //),
+                                (
+                                    size: "1",
+                                    pane: Pane(Empty()),
+                                ),
+                                (
+                                    size: "9",
+                                    borders: "NONE",
+                                    pane: Split(
+                                        direction: Horizontal,
+                                        panes: [
+                                            (
+                                                size: "1%",
+                                                pane: Pane(Empty())
+                                            ),
+                                            (
+                                                size: "99%",
+                                                pane: Pane(Cava)
+                                            ),
+                                        ]
+                                    ),
+                                ),
+                                (
+                                    size: "1",
+                                    pane: Pane(Empty()),
+                                ),
                             ],
                         )
                     ),
                 ],
             ),
         ),
-        //(
-        //    name: "Directories",
-        //    borders: "ALL",
-        //    border_symbols: Plain,
-        //    pane: Split(
-        //        size: "100%",
-        //        direction: Vertical,
-        //        panes: [(pane: Pane(Directories), size: "100%", borders: "ALL", border_symbols: Plain)],
-        //    )
-        //),
-        //(
-        //    name: "Artists",
-        //    borders: "ALL",
-        //    border_symbols: Plain,
-        //    pane: Split(
-        //        size: "100%",
-        //        direction: Vertical,
-        //        panes: [(pane: Pane(Artists), size: "100%", borders: "ALL", border_symbols: Plain)],
-        //    )
-        //),
         (
             name: "Artists",
-            borders: "ALL",
+            borders: "BOTTOM",
             border_symbols: Plain,
             pane: Split(
                 size: "100%",
                 direction: Vertical,
-                panes: [(pane: Pane(AlbumArtists), size: "100%", borders: "ALL", border_symbols: Plain)],
+                panes: [(pane: Pane(AlbumArtists), size: "100%", borders: "BOTTOM", border_symbols: Plain)],
             )
         ),
         (
             name: "Albums",
-            borders: "ALL",
+            borders: "BOTTOM",
             border_symbols: Plain,
             pane: Split(
                 size: "100%",
                 direction: Vertical,
-                panes: [(pane: Pane(Albums), size: "100%", borders: "ALL", border_symbols: Plain)],
+                panes: [(pane: Pane(Albums), size: "100%", borders: "BOTTOM", border_symbols: Plain)],
             )
         ),
         (
             name: "Playlists",
-            borders: "ALL",
+            borders: "BOTTOM",
             border_symbols: Plain,
             pane: Split(
                 size: "100%",
                 direction: Vertical,
-                panes: [(pane: Pane(Playlists), size: "100%", borders: "ALL", border_symbols: Plain)],
+                panes: [(pane: Pane(Playlists), size: "100%", borders: "BOTTOM", border_symbols: Plain)],
             )
         ),
         (
             name: "Search",
-            borders: "ALL",
+            borders: "BOTTOM",
             border_symbols: Plain,
             pane: Split(
                 size: "100%",
                 direction: Vertical,
-                panes: [(pane: Pane(Search), size: "100%", borders: "ALL", border_symbols: Plain)],
+                panes: [(pane: Pane(Search), size: "100%", borders: "BOTTOM", border_symbols: Plain)],
             )
         ),
     ],
