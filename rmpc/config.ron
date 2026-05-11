@@ -191,10 +191,10 @@
                                                 border_symbols: Plain,
                                                 pane: Pane(AlbumArt)
                                             ),
-                                            (
-                                                size: "1",
-                                                pane: Pane(Empty())
-                                            ),
+                                            //(
+                                            //    size: "1",
+                                            //    pane: Pane(Empty())
+                                            //),
                                         ],
                                     ),
                                 ),
@@ -202,7 +202,7 @@
                                     size: "12",
                                     borders: "TOP",
                                     border_symbols: Inherited(parent: Plain, top_right: "┬", bottom_right: "┴"),
-                                    border_title: [(kind: Text(" Lyrics "))],
+                                    border_title: [(kind: Text(" Lyrics ─"))],
                                     border_title_alignment: Right,
                                     pane: Split(
                                         direction: Horizontal,
