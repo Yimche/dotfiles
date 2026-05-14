@@ -99,14 +99,14 @@ return {
 
 
         -- Java keybinds
-        {
-            "crm",
-            function()
-                require("jdtls").extract_method(true)
-            end,
-            mode = "v",
-            desc = "Extract method (java)",
-        },
+        --{
+        --    "crm",
+        --    function()
+        --        require("jdtls").extract_method(true)
+        --    end,
+        --    mode = "v",
+        --    desc = "Extract method (java)",
+        --},
     },
 }
 
