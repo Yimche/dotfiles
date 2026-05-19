@@ -3,6 +3,8 @@ local function path()
     return pathstr
 end
 
+local progress = vim.ui.progress_status()
+
 return {
     'nvim-lualine/lualine.nvim',
     config = function()
@@ -30,11 +32,8 @@ return {
             lualine_a = {'mode'},
             lualine_b = {'branch', 'diff'},
             lualine_c = {path},
-            -- lualine_x = {'encoding', 'fileformat', 'filetype'},
             lualine_x = {{'filetype', colored = true, icon_only = false, icon = { align = 'left' }},},
-            -- lualine_y = {'progress'},
-            lualine_y = {'diagnostics','lsp_status',},
-            -- lualine_y = {},
+            lualine_y = {'diagnostics', 'lsp_status',},
             lualine_z = {'location'}
           },
           inactive_sections = {

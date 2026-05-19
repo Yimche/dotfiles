@@ -38,6 +38,11 @@ vim.opt.colorcolumn = "80,100"
 
 vim.opt.updatetime = 50
 
+vim.opt.winborder = "single"
+vim.opt.pumborder = "single"
+
+vim.opt.completeopt:append("popup")
+
 -- fold
 vim.opt.foldenable      = false
 vim.opt.foldcolumn      = "0"

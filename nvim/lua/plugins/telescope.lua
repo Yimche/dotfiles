@@ -14,9 +14,18 @@ local function get_root()
 end
 
 return {
-	'nvim-telescope/telescope.nvim', tag = '0.1.8',
-	-- or                              , branch = '0.1.x',
+	'nvim-telescope/telescope.nvim',
 	dependencies = { 'nvim-lua/plenary.nvim' },
+    opts = {
+        defaults = {
+            border = true,
+            borderchars = {
+                prompt  = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+                results = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+                preview = { "─", "│", "─", "│", "┌", "┐", "┘", "└" },
+            },
+        }
+    },
 	keys = {
         {
             "<leader><space>", function()

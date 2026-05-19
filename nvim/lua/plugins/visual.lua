@@ -1,84 +1,19 @@
 return {
     {
-	"catppuccin/nvim",
-	name = "catppuccin",
-	lazy = false,
-	opts = {
-	    integrations = {
-		    noice = true,
-	    	which_key = true,
-	    	treesitter = true,
-	    },
-        transparent_background = true, -- disables setting the background color.
-	},
-	config = function(_, opts)
-	    require("catppuccin").setup(opts)
-	    vim.cmd.colorscheme("catppuccin")
-	end,
-    },
-    {
-	"folke/noice.nvim",
-	event = "VeryLazy",
-	opts = {
-	    presets = {
-	    	inc_rename = true,
-	    	command_palette = false,
-	    	lsp_doc_border = true,
-	    },
-        lsp = {
-            signature = {
-                enabled = true,
-                opts = {
-                    size = {
-                        max_height = 10,
-                        max_width = 60,
-                    },
-                },
+        "catppuccin/nvim",
+        name = "catppuccin",
+        lazy = false,
+        opts = {
+            integrations = {
+                noice = true,
+                which_key = true,
+                treesitter = true,
             },
+            transparent_background = true, -- disables setting the background color.
         },
-	    -- add any options here
-        views = {
-            cmdline_popup = {
-              position = {
-                row = 5,
-                col = "50%",
-              },
-              size = {
-                width = 60,
-                height = "auto",
-                max_height = 10,
-              },
-            },
-            popupmenu = {
-              relative = "editor",
-              position = {
-                row = 8,
-                col = "50%",
-              },
-              size = {
-                width = 60,
-                height = 10,
-                max_height = 10,
-              },
-              border = {
-                style = "rounded",
-                padding = { 0, 1 },
-              },
-              win_options = {
-                winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
-              },
-            },
-        },
-        routes = {
-            {
-                view = "notify",
-                filter = { event = "msg_showmode" },
-            },
-        }
-	},
-	dependencies = {
-	    -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
-	    "MunifTanjim/nui.nvim",
-	}
+        config = function(_, opts)
+            require("catppuccin").setup(opts)
+            vim.cmd.colorscheme("catppuccin")
+        end,
     },
 }
