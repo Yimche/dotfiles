@@ -188,18 +188,6 @@ function clear
     commandline -f clear-screen
 end
 
-# function vm
-#     set -l started_here 0
-#     if not pgrep -f "vrex.qcow2" > /dev/null
-#         qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -nic user,hostfwd=tcp::5555-:22 ~/.local/share/libvirt/images/vrex.qcow2 &
-#         set started_here 1
-#     end
-#     tmux rename-window vrex
-#     ssh vrex
-#     if test $started_here -eq 1
-#         kill %1
-#     end
-# end
 function vm
     set -l win (tmux display-message -p '#I')
     set -l started_here 0
@@ -299,6 +287,6 @@ set -gx PATH /home/julian/.spicetify $PATH
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 set -gx PATH $HOME/.cabal/bin /home/julian/.ghcup/bin $PATH # ghcup-env
 
-if command -v tmux > /dev/null; and status is-interactive; and not string match -q "screen*" $TERM; and not string match -q "tmux*" $TERM; and not set -q TMUX
-    tmux attach -t meta; or exec tmux new-session -s meta 
-end
+#if command -v tmux > /dev/null; and status is-interactive; and not string match -q "screen*" $TERM; and not string match -q "tmux*" $TERM; and not set -q TMUX
+#    tmux attach -t meta; or exec tmux new-session -s meta 
+#end
