@@ -1,7 +1,0 @@
-#!/usr/bin/bash
-
-unhide_node() {
-  for hidden_node in $(bspc query -N -n .hidden.local.window); do
-    bspc node "$hidden_node" --flag hidden=off
-  done
-}
